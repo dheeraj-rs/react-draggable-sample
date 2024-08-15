@@ -1,0 +1,9 @@
+.disabled-style {
+    opacity:0.6;
+    pointer-events: none;
+}
+
+.selectbox-option-wrap li.active {
+    color: #645df6!important;
+    background-color: #ebefff!important;
+}

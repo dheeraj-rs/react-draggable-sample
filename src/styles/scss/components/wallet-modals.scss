@@ -1,0 +1,41 @@
+.reciept-modal {
+    .modal-dialog {
+        max-width:778px;
+    }
+    .modal-close {
+        position:relative;
+        button {
+            position:absolute;
+            right:-29px;
+            top:-9px;
+        }
+    }
+}
+
+.payment-success-modal {
+    .modal-dialog {
+        max-width:477px;
+    }
+    .modal-close {
+        position:relative;
+        button {
+            position:absolute;
+            right:-29px;
+            top:-9px;
+        }
+    }
+    .payment-btn {
+        background-color: #000;
+        height:38px;
+        width:100%;
+        color: #fff;
+        transition: all ease 0.5s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &:hover {
+            background-color: #645df6;
+            transition: all ease 0.5s;
+        }
+    }
+}

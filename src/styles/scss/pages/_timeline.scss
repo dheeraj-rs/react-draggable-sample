@@ -1,0 +1,116 @@
+// user timeline
+.sidebar-timeline{
+    & .user-history {
+         min-height: 2.5rem;
+         position: relative;
+     }
+   &  .user-history::before {
+         content: "";
+         position: absolute;
+         left: -32px;
+         top: 8px;
+         color: #ffffff;
+         background-color: #4b7efe;
+         width: 10px;
+         height: 10px;
+         text-align: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         border-radius: 50%;
+     }
+     
+     
+     
+    & .user-history::after {
+         content: "";
+         position: absolute;
+         left: -2.125rem;
+         top: 1.375rem;
+         background-color: #C3CEE9;;
+         width: 0.0625rem;
+         height: calc(100% + 0.3rem);
+     }
+     
+    & .user-date::before{
+         content: "Jan, 21, 2022";
+         position: absolute;
+         left: -40px;
+         top: -9px;
+         background: #DCE4FF;
+     border-radius: 20px;
+     font-weight: 500;
+     color:#333;
+     padding: 4px 10px;
+         text-align: center;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         
+     }
+    & .user-date::after {
+         content: "";
+         position: absolute;
+         left: -2.125rem;
+         top: 1.375rem;
+         background-color: #C3CEE9;;
+         width: 0.0625rem;
+         height: calc(100% + 0.3rem);
+     }
+     
+    & .user-history-end::after{
+         content: none;
+     
+     }
+    & .user-timeline {
+         margin-left: 2.8125rem;
+         position: relative;
+     }
+    & .user-action {
+         display: flex;
+         flex-direction: row;
+         gap: 1rem;
+         align-items: baseline;
+         padding: 1.25rem;
+         margin-top: 0.9375rem;
+     }
+     //call timeline
+     & .user-call-timeline {
+        min-height: 2.5rem;
+        position: relative;
+    }
+  &  .user-call-timeline::before {
+        content: "";
+        position: absolute;
+        left: -32px;
+        top: 8px;
+        color: #ffffff;
+        background-color: #1E1E38;
+        width: 10px;
+        height: 10px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    
+    
+    
+   & .user-call-timeline:after {
+        content: "";
+        position: absolute;
+        left: -2.125rem;
+        top: 1.375rem;
+        background-color: #C3CEE9;;
+        width: 0.0625rem;
+        height: calc(100% + 0.3rem);
+    }
+    & .user-call-timeline-end::after{
+        content: none;
+    
+    }
+  }
+  .role:focus-visible{
+    outline:none;
+  }

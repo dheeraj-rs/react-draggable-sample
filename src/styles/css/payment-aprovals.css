@@ -1,0 +1,100 @@
+.search_outer {
+  width: 287px;
+}
+
+.date-wrap {
+  width: 150px;
+}
+
+.date-wrap::after {
+  position: absolute;
+  width: calc(100% - 30px);
+  height: calc(100% - 6px);
+  left: 2px;
+  top: 50%;
+  background-color: #fff;
+  transform: translateY(-50%);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.date-wrap1::after {
+  content: "From";
+}
+
+.date-wrap2::after {
+  content: "To";
+}
+
+.selectbox_outer {
+  width: 150px;
+}
+
+.apply-btn {
+  width: 75px;
+  border: 1px solid #645DF6;
+  color: #645DF6;
+  height: 38px;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+.apply-btn:hover {
+  background-color: #645DF6;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+
+.addEntry-btn {
+  width: 100px;
+  border: 1px solid #000;
+  color: #fff;
+  height: 38px;
+  background-color: #000;
+  transition: all ease 0.5s;
+}
+.addEntry-btn:hover {
+  background-color: #645DF6;
+  color: #fff;
+  border: 1px solid #645DF6;
+  transition: all ease 0.5s;
+}
+
+@media (max-width: 1199px) {
+  .search_outer {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .date_form_outer {
+    width: 100%;
+  }
+  .date-form-inner {
+    width: calc(100% - 88px);
+  }
+  .input-wrap {
+    flex-basis: 33.333%;
+  }
+  .payment-aproval-table {
+    width: 1000px;
+  }
+  .payment-aproval-table-outer {
+    overflow: scroll;
+  }
+}
+@media (max-width: 575px) {
+  .date-form-inner {
+    width: 100%;
+  }
+  .button-outer {
+    width: 100%;
+  }
+  .apply-btn {
+    width: 100%;
+  }
+  .input-wrap {
+    flex-basis: 100%;
+  }
+  .date-form-inner {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=payment-aprovals.css.map */

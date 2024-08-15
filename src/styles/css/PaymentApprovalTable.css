@@ -1,0 +1,44 @@
+.approval-button {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #0FA779;
+  color: #0FA779;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+.approval-button:hover {
+  color: #fff;
+  background-color: #0FA779;
+  transition: all ease 0.5s;
+}
+
+.reject-button {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #D21E1E;
+  color: #D21E1E;
+  background-color: #fff;
+  transition: all ease 0.5s;
+}
+.reject-button:hover {
+  color: #fff;
+  background-color: #D21E1E;
+  transition: all ease 0.5s;
+}
+
+.check-outer {
+  display: inline-block;
+  background-color: #EBEAFF;
+  height: 30px;
+  width: 30px;
+}
+
+.text-orange {
+  color: #FF7E36;
+}
+.text-green {
+  color: #0FA779;
+}
+.text-red {
+  color: "#D21E1E";
+}/*# sourceMappingURL=PaymentApprovalTable.css.map */

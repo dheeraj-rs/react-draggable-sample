@@ -1,0 +1,44 @@
+.wallet-table-outer {
+  margin-top: 20px;
+  overflow-x: scroll;
+}
+@media (max-width: 1199px) {
+  .wallet-table-outer table {
+    width: 1000px;
+  }
+}
+.wallet-table-outer td {
+  border-bottom: 1px solid #C3CEE9;
+  padding: 15px 0;
+}
+.wallet-table-outer .failed-tooltip-btn:hover .failed-tooltip {
+  opacity: 1;
+  pointer-events: all;
+}
+.wallet-table-outer .failed-tooltip-btn .failed-tooltip {
+  background-color: #FFDADA;
+  padding: 15px;
+  border-radius: 5px;
+  width: 247px;
+  border: 1px solid #FFC3C3;
+  position: absolute;
+  top: -96px;
+  left: -11px;
+  opacity: 0;
+  pointer-events: none;
+}
+.wallet-table-outer .failed-tooltip-btn .failed-tooltip::after {
+  background-color: #ffdada;
+  border: 1px solid #ffc3c3;
+  border-right: 0;
+  border-top: 0;
+  bottom: -6px;
+  content: "";
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  transform: rotate(-45deg);
+  left: 13px;
+  pointer-events: none;
+  transition: all ease 0.5s;
+}/*# sourceMappingURL=wallet-table-outer.css.map */

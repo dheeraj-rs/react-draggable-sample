@@ -1,0 +1,36 @@
+.chat-bot-template-row:hover {
+    border:1px solid #645DF6;
+    transition: all ease 0.5s;
+}
+
+.chat-bot-template-row {
+    border:1px solid #fff;
+    transition: all ease 0.5s;
+}
+
+.chat-bot-template-row-play-icon-wrap:hover img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(15%) hue-rotate(303deg) brightness(106%) contrast(105%);
+}
+
+
+@media(max-width:1200px){
+    .flex-100-1200px {
+        flex-basis: 100%;
+    }
+    .chat-widgets p {
+        width:auto !important;
+    }
+    .bot-name {
+        width: auto !important;
+    }
+}
+
+@media(max-width:575px) {
+    .flex-50-575px {
+        flex-basis:47% !important;
+    }
+    .custom-overflow {
+        overflow: hidden;
+        height: 24px;
+    }
+}

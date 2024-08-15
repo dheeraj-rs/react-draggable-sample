@@ -1,0 +1,28 @@
+//
+// This file contains CSS helper classes.
+//
+@use "sass:math";
+
+@function size($num) {
+    @return  #{ ( math.div($num,2)) }rem;
+}
+
+
+
+@for $i from 1 through 99 {
+    .h-#{$i} {
+       height: size($i);
+    }
+}
+
+@for $i from 1 through 99 {
+    .w-#{$i} {
+       width: size($i);
+    }
+}
+// @for $i from 1 through 99 {
+//     .w-min-#{$i} {
+//        min-width: size($i) !important;
+//     }
+// }
+

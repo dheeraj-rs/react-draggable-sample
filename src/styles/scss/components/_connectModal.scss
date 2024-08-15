@@ -1,0 +1,146 @@
+.connect-modal {
+    padding: 30px;
+}
+
+.connect-modal-outer {
+    max-width: 950px;
+    top:80px;
+ 
+}
+
+.connect-modal-outer .modal-content {
+    border:none;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.20);
+}
+
+.connect-modal-main-tab-header li {
+   background-color: #EBEFFF;
+   padding: 8px 15px;
+   text-align: center;
+   cursor:pointer;
+}
+
+.connect-modal-main-tab-header {
+  border-radius: 6px;
+  overflow: hidden;
+  font-size: 13px;
+}
+
+.connect-modal-main-tab-header li.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.connect-component-flew-main-form {
+    display:flex;
+    gap:60px;
+    background-color: #EBF0F4;
+    padding: 15px 25px;
+    border-radius: 6px;
+}
+
+
+
+.connect-component-flew-main-form-inner {
+    flex-basis:33.333%;
+}
+
+
+.connect-component-flew-main-form-inner button,
+.call-recording-dropdown button {
+    width:100%;
+    height:38px;
+    background-color: #fff;
+    border:1px solid #AFB5BF;
+    border-radius: 5px;
+    font-size: 13px;
+    text-align: left;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.connect-component-flew-main-form-inner .dropdown-menu,
+.call-recording-dropdown .dropdown-menu {
+    width:100%;
+    padding: 10px;
+}
+
+
+.connect-component-flew-main-form-inner .dropdown-menu li.active,
+.connect-component-flew-main-form-inner .dropdown-menu li:hover,
+.call-recording-dropdown .dropdown-menu li.active,
+.call-recording-dropdown .dropdown-menu li:hover {
+    background-color: #EBF0F4;
+    color: #645DF6;
+}
+
+.connect-component-flew-main-form-inner .dropdown-menu li,
+.call-recording-dropdown .dropdown-menu li {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.call-recording-dropdown {
+    width:80%;
+}
+
+.lock-agent,
+.call-recording {
+    padding: 15px;
+    background-color: #EBF0F4;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.call-duration {
+    padding: 15px;
+    border-radius: 6px;
+    height: 100%; 
+    box-shadow: 0px 3px 3px 0px rgba(64, 78, 94, 0.10), 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.call-duration input[type='text']{
+    width:100%;
+    height:38px;
+    border-radius: 5px;
+    border:1px solid #AFB5BF;
+    padding: 0 15px;
+}
+
+.call-recording-agent-dropdown{
+    width:300px;
+}
+
+.number-url input {
+   border:1px solid #afb5bf;
+   height:38px;
+   border-radius: 5px;
+   width:100%;
+   padding: 0 15px;
+}
+
+.number-url label {
+   width:130px;
+}
+
+.connect-dropdown-caret {
+    position: absolute;
+    top:50%;
+    transform:translateY(-50%);
+    right:15px;
+}
+
+.modal-main-content-two .row {
+    box-shadow: 0px 3px 3px 0px rgba(64, 78, 94, 0.10), 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 6px;
+}
+
+.modal-main-content-two input {
+    border: 1px solid #afb5bf;
+    border-radius: 5px;
+    height: 38px;
+    padding: 0 15px;
+    width: 100%;
+}

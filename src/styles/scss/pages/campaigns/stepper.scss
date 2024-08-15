@@ -1,0 +1,29 @@
+
+@media(max-width:991px){
+    .widget-search-select:first-child {
+        width: calc(100% - 177px)!important;
+    }
+    .widget-search-select-outer {
+        width:100% !important;
+    }
+}
+
+@media(max-width:767px){
+    .stepper-scroll-padding {
+        padding-right: 10px !important;
+        padding-left: 10px !important;
+    }
+}
+
+@media(max-width:575px){
+    .campaign-list-character-limit {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 136px;
+        white-space: nowrap;
+    }
+    .widget-search-select:nth-child(1),
+    .widget-search-select:nth-child(2) {
+        width:100% !important;
+    }
+}

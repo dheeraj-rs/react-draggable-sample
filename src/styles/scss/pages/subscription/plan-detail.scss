@@ -1,0 +1,42 @@
+.plan__detail__outer {
+   .subscription__icon__wrap {
+       height:65px;
+       width:65px;
+   }
+   .unpublish__btn {
+    height:30px;
+    border:1px solid #8190B7;
+    color: #000;
+    background-color: #fff;
+    transition: all ease 0.5s;
+    &:hover {
+        background-color:#8190B7;
+        color: #fff;
+        transition: all ease 0.5s;
+        }
+    }
+    .plan__features {
+        ul {
+            padding-left: 15px;
+            li {
+                list-style: disc;
+            }
+        }
+    }
+    .plan__detail__table__header__search__wrap {
+        width:259px;
+        @media(max-width:700px){
+            width: calc(100% - 58px);
+        }
+    }
+    .plan__detail__table__header {
+        @media(max-width:700px){
+            flex-direction:column;
+        }
+    }
+    .plan__detail__table__header__right {
+        @media(max-width:700px){
+            margin-top: 15px;
+        }
+    }
+}

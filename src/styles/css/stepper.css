@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .stepper-scroll-padding {
+    padding-left: calc(1rem - 3px) !important;
+  }
+}/*# sourceMappingURL=stepper.css.map */

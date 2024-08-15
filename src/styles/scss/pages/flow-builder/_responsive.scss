@@ -1,0 +1,629 @@
+// large mobile screens
+
+
+
+@media (max-width: 567px) {
+  .flow-pad {
+    padding: 20px 10px 10px 15px !important;
+  }
+  .flow-wrapper {
+    max-height: 100%!important;
+    overflow: scroll!important;
+  }
+  .messaging-channel {
+    margin-left: 0px;
+}
+  .video-btn {
+
+    width: 50%;
+    justify-content: center;
+} 
+.flow-builder-sidebar-wrapper {
+  height: unset!important;
+  overflow-y: scroll;
+}
+.h-fit {
+  overflow-y: auto;
+  // height: calc(100vh - 11.07692rem) !important;
+}
+.sms-settings{
+  padding-left: 15px!important;
+    padding-right: 11px!important;
+}
+.sms-padding{
+ padding-left: 0 !important;
+ padding-right: 0 !important;
+}
+.review-list{
+  flex-direction: column;
+}
+.scroll-chat-area {
+  max-height: calc(100vh - 280px);
+}
+.custom-toast-outer {
+  
+  width:95%!important;
+}
+#customThemeBox {
+  min-height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.outbound-connection {
+  width: 100%;
+}
+.article-right{
+  overflow: auto!important;
+
+}
+.scroll-chat-widget{
+  max-height: none!important;
+    overflow: auto!important;
+    padding-right: 5px!important;
+}
+.widget-scroll-chat{
+  overflow: auto;
+}
+.send-icon-black {
+  
+  right: 4%;
+}
+#chat-expand{
+  overflow: auto;
+}
+.mobile-overflow{
+  overflow: auto;
+}
+.bot-settings-scroll {
+  height: auto!important;
+  overflow: auto;
+}
+.get-bot button{
+  width: 100%!important;
+}
+  // .flow-builder-right {
+  //   height: auto;
+  // }
+  .dropdown-action {
+    width: 260px;
+    left: 20px !important;
+  }
+  .social-share-flow {
+    flex-wrap: wrap;
+  }
+  .col-width {
+    width: 100% !important;
+  }
+  .bot-behavior-scroll {
+    padding: 15px 10px !important;
+    height: calc(100vh - 266px);
+  }
+
+  #flow-builder-main {
+    height: 100%;
+    background: #fff;
+}
+
+  .dropdown-trigger {
+    min-width: 275px;
+    right: 0px !important;
+   
+  }
+  .dropdown-button-add {
+    min-width: 275px!important;
+    right: 0!important;
+    left: -30px!important;
+}
+.call-by{
+  
+    gap: 6px;
+
+}
+  .btn-close-icon {
+    left: 0;
+    position: relative;
+  }
+  .flows-pad-mob {
+    padding: 15px 10px !important;
+  }
+  .add-property {
+    width: 100%;
+    a {
+      width: 100%;
+    }
+  }
+  .nav-setting .nav-setting-link {
+    padding: 15px 10;
+  }
+}
+
+
+@media (max-width: 376px) {
+  // .dropdown-button-add{
+  //   min-width: 240px !important;
+  //   right: 0px !important;
+  // }
+}
+@media (max-width: 767px) {
+  .col-width {
+    width: 100% !important;
+  }
+  .new-input-top {
+    margin-top: -15px;
+}
+  .nav-link-template {
+    min-width: max-content;
+  }
+
+  .bot-template-tab {
+    flex-direction: row !important;
+  }
+  .bot-hgt {
+    padding-bottom: 20px !important;
+    min-height: auto;
+    text-align: center;
+  }
+.link-image{
+    display: none;
+  }
+
+}
+@media (max-width: 1024px) {
+  .dropdown-widget {
+    min-width: auto;
+}
+
+}
+@media (max-width: 991px) {
+  .col-width {
+    width: 33%;
+  }
+  .sms-settings{
+    padding-left: 15px!important;
+      padding-right: 11px!important;
+  }
+  .sms-padding{
+    padding-left: 14px;
+      padding-right: 10px;
+  }
+  .outbound-connection {
+    width: 100%;
+  }
+  #chat-expand, .mobile-overflow, .widget-scroll-chat {
+    overflow: auto;
+}
+.bot-settings-scroll {
+  height: auto!important;
+  overflow: auto;
+}
+  .nav-link-template {
+    position: relative;
+  }
+  .bot-template-tab {
+    flex-direction: row !important;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 1024px) {
+  .col-width {
+    width: 33%;
+  }
+}
+
+/*         desktop 1080x1920 */
+
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+  .text-area-wrap {
+    padding: 5px 8px !important;
+  }
+  .new-ticket-mb {
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .resolve-modal .nav-resolve-tab {
+  //  border: 1px solid #c3cee9 !important;
+   // border-radius: 5px !important;
+  }
+  .dropdown-action {
+    width: 250px;
+  }
+  .dropdown-trigger {
+    min-width: 340px!important;
+}
+.dropdown-button-add{
+  min-width: 370px !important;
+}
+.behaviour-status{
+  min-height: 113px;
+}
+.hi-title{
+  font-size: 14px!important;
+}
+}
+
+// 768*1024
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+// 1280*960
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .text-area-wrap {
+    padding: 5px 8px !important;
+  }
+  .date-form-flows label {
+    margin-top: 20px !important;
+  }
+
+  .date-form-flows .form-group,
+  .date-form-flows .date-form-flows-inner {
+    margin-top: 0px !important;
+    width: 100%;
+  }
+
+
+
+
+  .new-ticket-mb {
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .resolve-modal .nav-resolve-tab {
+   // border: 1px solid #c3cee9 !important;
+   // border-radius: 5px !important;
+  }
+  .editor-icons-wrap img {
+    width: 85%;
+  }
+  .dropdown-action {
+    width: 240px;
+  }
+  .hi-title{
+    font-size: 14px!important;
+  }
+}
+
+// 1280x720
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+  // .text-area-wrap {
+  //   padding: 5px 8px !important;
+  // }
+  // .feedback-ul{
+  //   flex-direction: column;
+  // }
+
+  
+//   .resolve-modal .nav-resolve-tab.active {
+   
+//     border-radius: 5px!important;
+// }
+  .chat-topics-right{
+
+    padding-left:1rem!important;
+  }
+  .date-form-flows label {
+    margin-top: 20px !important;
+  }
+  .hi-title{
+    font-size: 14px!important;
+  }
+  .date-form-flows .form-group {
+    margin-top: 0px !important;
+    width: 100%;
+  }
+  .new-ticket-mb {
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .resolve-modal .nav-resolve-tab {
+    //border: 1px solid #c3cee9 !important;
+    //border-radius: 5px !important;
+  }
+  .editor-icons-wrap img {
+    width: 85%;
+  }
+  .dropdown-action {
+    width: 240px;
+  }
+  .dropdown-trigger {
+    min-width: 320px;
+}
+.dropdown-button-add{
+  min-width: 340px;
+}
+
+}
+@media screen and (min-width: 1024px) and (max-width: 1270px) {
+  .behaviour-status{
+    min-height: 113px;
+  }
+  .col-width {
+    width: 25%;
+}
+}
+/* ipad landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .date-form-flows label {
+    margin-top: 20px !important;
+  }
+  
+
+  .chat-topics-right{
+
+    padding-left:1rem!important;
+  }
+  .date-form-flows .form-group {
+    margin-top: 0px !important;
+    width: 100%;
+  }
+  .new-ticket-mb {
+    margin-top: 10px;
+    width: 100% !important;
+  }
+  .editor-icons-wrap {
+    gap: 5px !important;
+  }
+  .editor-icons-wrap img {
+    width: 85%;
+  }
+  .resolve-modal .nav-resolve-tab {
+   // border: 1px solid #c3cee9 !important;
+   // border-radius: 5px !important;
+  }
+  .behaviour-status{
+    min-height: 113px;
+  }
+}
+
+/*         desktop 1366x768 */
+
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+  .dropdown-action {
+    width: 240px;
+  }
+  .dropdown-trigger {
+    min-width: 372px;
+  }
+  .dropdown-button-add{
+    min-width: 480px !important;
+  }
+}
+
+
+// 992-1290
+
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+ .feedback-ul{
+    flex-direction: column;
+  }
+  .feedback-ul li{
+    border: 1px solid #c3cee9;
+    border-radius: 5px;
+  }
+  .feedback-ul li button{
+    border: none!important;
+  }
+  .resolve-modal .nav-resolve-tab.active {
+     border-radius: 5px!important; 
+}
+.new-ticket-mb {
+  margin-top: 10px;
+  width: 100%!important;
+}
+.simple-form-height {
+  align-items: center!important;
+  min-height: 145px;
+}
+}
+
+/* Portrait mode for iPad Mini 6 */
+@media (max-width: 834px) and (max-height: 1112px) {
+  /* Your CSS rules for portrait orientation go here */
+
+}
+
+/* Landscape mode for iPad Mini 6 */
+@media (min-width: 835px) and (min-height: 1113px) {
+  /* Your CSS rules for landscape orientation go here */
+
+  .chat-topics-right{
+
+    padding-left:1rem!important;
+  }
+}
+
+
+@media(min-width:992px){
+  .appent-content-canvas-body {
+    min-height:calc(100vh - 157px);
+  }
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 100px);
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+    .flow-wrapper {
+      max-height: calc(100vh - 188px);
+  }
+}
+
+@media(max-width:575px){
+  .condition-input-mobile {
+    width:100% !important;
+  }
+}
+
+// @media(min-width:1200px){
+//   body .min-width-150 {
+//     width:156px !important;
+//     max-width: auto !important;
+//   }
+//   .button-component-condition {
+//     min-width: 164px !important;
+// }
+// }
+
+@media(min-width:1200px){
+  body .min-width-150 {
+    width:161px !important;
+    max-width: auto !important;
+  }
+  .button-component-condition {
+    min-width:161px !important;
+}
+
+body .condition_input_grouped .min-width-150 {
+  width:152px !important;
+  max-width: auto !important;
+}
+.condition_input_grouped .button-component-condition {
+  min-width:147px !important;
+}
+}
+
+
+@media(max-width:767px) {
+  .flow-builder-search-edit-input-outer {
+    width:calc(100% - 45px) !important;
+  }
+
+  .flow-builder-search-edit-input,
+  .flow-builder-search-edit-input-wrap-outer {
+    width:100% !important;
+  }
+  .title-edit-button-wrap {
+    margin-top: 10px;
+    justify-content: space-between;
+    width:100%;
+  }
+  .title-edit-button-wrap button {
+    flex-basis: 48% !important;
+  }
+  .flow-builder-search-edit-input-wrap {
+    width:100%;
+  }
+}
+
+
+@media screen and (min-width: 1380px) and (max-width: 1500px) {
+  .select-width {
+    min-width: 34%;
+}
+}
+@media screen and (min-width: 1280px) and (max-width: 1379px) {
+  .campaign-new-contact {
+    margin: 0 8em;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1024px) {
+  .campaign-new-contact {
+    margin: 0 0em;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .select-width {
+    min-width: 36%;
+  }
+}

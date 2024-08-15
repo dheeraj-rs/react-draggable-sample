@@ -1,0 +1,59 @@
+.dial-agent-outer .dial-pad-icon {
+  right: 10px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.dial-agent-outer .agent-list-wrap .active .dp-text {
+  background-color: #D9BAFF;
+}
+.dial-agent-outer .dp-text {
+  background-color: #E4CFFF;
+  width: 30.5px;
+  height: 30.5px;
+  color: #471389;
+}
+.dial-agent-outer .dp-text-2 {
+  background-color: #C1E0F2;
+  width: 30.5px;
+  height: 30.5px;
+  color: #000000;
+}
+.dial-agent-outer .agent-list.active {
+  background-color: #E9EAFF;
+}
+.dial-agent-outer .agent-list:hover {
+  background-color: #E9EAFF;
+}
+.dial-agent-outer .agent-list-wrap {
+  max-height: calc(100vh - 470px);
+}
+.dial-agent-outer .call-connected-actions {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #376384;
+  border: 0;
+}
+.dial-agent-outer .call-connected-actions:hover {
+  background-color: #0C2F4A;
+}
+.dial-agent-outer .call-list-input {
+  border: 1px solid #ebecf1;
+}
+.dial-agent-outer .call-list-input:focus {
+  background: #fff !important;
+  border: 1px solid #8abffd !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dial-agent-outer .call-list-input:active {
+  background: #fff;
+  border: 1px solid #8abffd !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+.dial-agent-outer .call-list-input:focus-visible {
+  border: 1px solid #8abffd !important;
+  outline: none !important;
+  box-shadow: none !important;
+}/*# sourceMappingURL=dial-agent.css.map */

@@ -1,0 +1,156 @@
+.scrollbox {
+    overflow-y: scroll;
+    visibility: hidden;
+    @media(max-width:991px){
+        visibility: visible;
+        overflow-y: visible;
+       }
+}
+
+.scrollbox-content,
+.scrollbox:hover,
+.scrollbox:focus {
+    visibility: visible;
+    -webkit-overflow-scrolling: touch
+    // -webkit-transition: alFl .5s;
+  }
+  .scrollbox::-webkit-scrollbar {
+    background-color: transparent; 
+    width: 4px;  
+   
+  }
+  .scrollbox::-webkit-scrollbar-track {
+    background-color: transparent;
+    width: 4px;
+}
+.scrollbox::-webkit-scrollbar-track {
+    background-color: transparent;
+    margin-bottom: 20px;
+    margin-top:10px;
+    height: 5px !important;
+   
+}
+.scrollbox::-webkit-scrollbar-thumb {
+  height: 5px !important;
+  border-radius: 10px;
+  background: #b7bdcb;
+  box-shadow: none !important;
+}
+
+.scroll {
+  // visibility: hidden;
+  &:hover,
+  &:focus {
+      visibility: visible;
+      &::-webkit-scrollbar {
+          background-color: transparent;
+          width: 4px;
+      }
+      &::-webkit-scrollbar-track {
+          background-color: transparent;
+      }
+      &::-webkit-scrollbar-thumb {
+          height: 5px !important;
+          border-radius: 10px;
+          background: #b7bdcb;
+          box-shadow: none !important;
+      }
+  }
+  &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+      outline: transparent;
+      height: 5px !important;
+      border-radius: 10px;
+      border-color: transparent;
+      background: transparent;
+      box-shadow: none !important;
+  }
+}
+
+
+//scroll custom
+.scroll-custom {
+  // visibility: hidden;
+  overflow-y: auto;
+  &:hover,
+  &:focus {
+      visibility: visible;
+      &::-webkit-scrollbar {
+          background-color: transparent;
+          width: 4px;
+      }
+      &::-webkit-scrollbar-track {
+          background-color: transparent;
+      }
+      &::-webkit-scrollbar-thumb {
+          height: 5px !important;
+          border-radius: 10px;
+          background: #b7bdcb;
+          box-shadow: none !important;
+      }
+  }
+  &::-webkit-scrollbar {
+      background-color: transparent;
+      width: 4px;
+  }
+  &::-webkit-scrollbar-track {
+      background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+      outline: transparent;
+      height: 5px !important;
+      border-radius: 10px;
+      border-color: transparent;
+      background: transparent;
+      box-shadow: none !important;
+  }
+}
+
+
+//scroll custom
+.scroll-custom {
+    // visibility: hidden;
+    overflow-y:scroll;
+    &:hover,
+    &:focus {
+        visibility: visible;
+        &::-webkit-scrollbar {
+            background-color: transparent;
+            width: 4px;
+        }
+        &::-webkit-scrollbar-track {
+            background-color: transparent;
+        }
+        &::-webkit-scrollbar-thumb {
+            height: 5px !important;
+            border-radius: 10px;
+            background: #b7bdcb;
+            box-shadow: none !important;
+        }
+    }
+    &::-webkit-scrollbar {
+        background-color: transparent;
+        width: 4px;
+        -webkit-overflow-scrolling: touch
+    }
+    &::-webkit-scrollbar-track {
+        background-color: transparent;
+        margin-bottom: 20px;
+        margin-top:10px;
+    }
+    &::-webkit-scrollbar-thumb {
+        outline: transparent;
+        height: 5px !important;
+        border-radius: 10px;
+        border-color: transparent;
+        background: transparent;
+        box-shadow: none !important;
+       
+    }
+}

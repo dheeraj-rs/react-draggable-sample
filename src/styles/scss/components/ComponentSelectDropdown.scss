@@ -1,0 +1,119 @@
+.component-select-dropdown {
+    width:364px;
+    box-shadow: 0px 5px 14px 0px rgba(64, 78, 93, 0.28);
+    border-radius: 6px;
+    // max-height: 300px;
+}
+
+.component-select-dropdown ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.component-select-dropdown li {
+    flex-basis: 50%;
+    padding: 10px 15px;
+    font-size: 12px;
+    border-radius: 5px;
+    transition: all ease 0.5s;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background: #fff;
+}
+
+.component-select-dropdown li:hover {
+   background-color: #EBEFFF;
+   transition: all ease 0.5s;
+// transition: all .5s ease;
+//     box-shadow: 0px 1px 5px #33333357;
+//     border: 1px solid #9ea7ff;
+//     background: #fff !important;
+}
+
+.custom-checkbox-outer,
+.custom-checkbox-outer2 {
+    height:16px;
+    width:28px;
+    background-color: #645DF6;
+    border-radius: 50px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.custom-checkbox-inner,
+.custom-checkbox-inner2 {
+    width:12.923px;
+    height:12.923px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:50%;
+    left:1px;
+    transform:translateY(-50%);
+    background-color: #fff;
+    transition: all ease 0.5s;
+}
+
+.condition-checkbox-wrapper.checked .custom-checkbox-inner,
+.condition-checkbox-wrapper2.checked .custom-checkbox-inner2 {
+    left:calc(100% - 13.923px);
+    transition: all ease 0.5s;
+}
+
+.condition-checkbox-wrapper.checked .custom-checkbox-inner img,
+.condition-checkbox-wrapper2.checked .custom-checkbox-inner2 img {
+    transform:rotate(180deg);
+    transition: all ease 0.5s;
+}
+
+.condition-checkbox-wrapper .and {
+    color: #645DF6;
+}
+
+.condition-checkbox-wrapper .or {
+    color: #333;
+}
+
+.condition-checkbox-wrapper.checked .and {
+    color: #333;
+}
+
+.condition-checkbox-wrapper.checked .or {
+    color: #645DF6;
+}
+
+.condition-checkbox-wrapper2 .and {
+    color: #645DF6;
+}
+
+.condition-checkbox-wrapper2 .or {
+    color: #333;
+}
+
+.condition-checkbox-wrapper2.checked .and {
+    color: #333;
+}
+
+.condition-checkbox-wrapper2.checked .or {
+    color: #645DF6;
+}
+
+.input-group.condition-input-group {
+    width: calc(100% - 217px);
+}
+
+.component-select-dropdown ul li img {
+    width: 25px !important;
+    height: auto;
+    transform: scale(1.0);
+}
+
+@media(max-width:575px){
+    // .component-select-dropdown {
+    //     width:300px;
+    // }
+}

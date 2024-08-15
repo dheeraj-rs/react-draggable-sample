@@ -1,0 +1,31 @@
+
+.subscription-left-item {
+    &:hover {
+        transition: all ease 0.2s;
+        img {
+          filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(341deg) brightness(107%) contrast(104%);
+        }
+        .icon-wrap{
+            background-color: #645DF6 !important;
+        }
+        .text {
+            color: #645DF6 !important;
+        }
+    }
+    img {
+        filter: brightness(0) saturate(100%) invert(16%) sepia(96%) saturate(2640%) hue-rotate(190deg) brightness(95%) contrast(103%);
+        &.active {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%) hue-rotate(341deg) brightness(107%) contrast(104%);
+        }
+    }
+    .icon-wrap {
+        width:30px;
+        height:30px;
+    }
+    .action-pending {
+        height: 7px;
+        width: 7px;
+        top: 3px;
+        right: 4px;
+    }
+}

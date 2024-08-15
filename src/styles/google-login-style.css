@@ -1,0 +1,10 @@
+.google-wrap {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 40%;
+    z-index: 999999;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+}

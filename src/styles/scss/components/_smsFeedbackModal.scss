@@ -1,0 +1,55 @@
+.sms-feedback-modal {
+    padding: 30px;
+}
+
+.sms-feedback-modal-outer {
+    max-width: 620px;
+    top:80px;
+}
+
+.sms-feedback-modal-outer .modal-content {
+    border:none;
+    box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.20);
+}
+
+.sms-sender-id-dropdown button {
+    background-color: #fff;
+    border:1px solid #AFB5BF;
+    border-radius: 6px;
+    height: 38px;
+    width:100%;
+    text-align: left;
+    padding: 10px;
+}
+
+
+
+.sms-sender-id-dropdown .dropdown-menu,
+.sms-sender-id-dropdown .dropdown-menu {
+    width:100%;
+    padding: 10px;
+}
+
+
+.sms-sender-id-dropdown .dropdown-menu li.active,
+.sms-sender-id-dropdown .dropdown-menu li:hover,
+.sms-sender-id-dropdown .dropdown-menu li.active,
+.sms-sender-id-dropdown .dropdown-menu li:hover {
+    background-color: #EBF0F4;
+    color: #645DF6;
+}
+
+.sms-sender-id-dropdown .dropdown-menu li,
+.sms-sender-id-dropdown .dropdown-menu li {
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.white-btn-blue-border {
+    color: $blue-active;
+    border:1px solid $blue-active;
+    border-radius: 6px;
+    padding: 8px 12px;
+}

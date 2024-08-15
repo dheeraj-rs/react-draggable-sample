@@ -1,0 +1,66 @@
+@media (max-width: 740px) {
+  .wallet-table-header-outer {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .input-wrap-outer {
+    flex-basis: 48%;
+  }
+}
+.wallet-table-header-outer .input-wrap {
+  width: 145px;
+  position: relative;
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .input-wrap {
+    width: 100%;
+  }
+}
+.wallet-table-header-outer .input-wrap img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.wallet-table-header-outer .status-select-outer {
+  width: 130px;
+  padding-left: 15px;
+  position: relative;
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .status-select-outer {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 15px;
+  }
+}
+.wallet-table-header-outer .status-select-outer::after {
+  width: 1px;
+  height: 22px;
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #C3CEE9;
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .status-select-outer::after {
+    width: 100%;
+    height: 1px;
+    transform: translateY(0);
+    top: 0;
+  }
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .form-outer {
+    flex-basis: 100%;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 740px) {
+  .wallet-table-header-outer .form-input-outer {
+    flex-basis: 100%;
+  }
+}/*# sourceMappingURL=WalletTableHeader.css.map */

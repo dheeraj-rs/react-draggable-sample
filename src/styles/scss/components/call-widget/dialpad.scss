@@ -1,0 +1,59 @@
+.dialpad-outer {
+    position:fixed;
+    max-width:332px;
+    width:100%;
+    right:20px;
+    bottom:20px;
+    z-index: 2;
+    .number-input {
+        height:40px;
+        width:100%;
+        border-radius: 6px;
+        border:0;
+    }
+    .dailpad-button {
+        width:32px;
+        height:32px;
+        border-radius: 5px;
+        position:absolute;
+        right:5px;
+        top:50%;
+        transform:translateY(-50%);
+        transition:all ease 0.5s;
+        background-color: #645DF6;
+            img {
+                filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(162%) hue-rotate(8deg) brightness(115%) contrast(100%);
+                transition:all ease 0.5s;
+            }
+    }
+    .call-option {
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color: #376384;
+        &:hover {
+            opacity:1;
+        }
+    }
+    .call-option {
+        &:hover {
+            background-color: #0C2F4A;
+            transition:all ease 0.5s;
+        }
+    }
+}
+
+
+
+.call-list-input:focus {
+    background: #fff !important;
+    border:1px solid #8abffd !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+@media(max-width:575px){
+    .call-option.call-option-2 {
+        margin-bottom: 10px !important;
+    }
+}

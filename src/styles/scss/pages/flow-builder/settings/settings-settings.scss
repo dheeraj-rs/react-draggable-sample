@@ -1,0 +1,37 @@
+.settings-sidemenu li.active,
+.settings-sidemenu li:hover {
+    background-color: $soft-peach-light !important;
+}
+.settings-sidemenu li.active span:last-child{
+    font-weight: 500;
+}
+.settings-sidemenu li.active span:last-child,
+.settings-sidemenu li:hover span:last-child {
+    color:$blue-active !important;
+}
+
+.settings-sidemenu li.active img,
+.settings-sidemenu li:hover img {
+    filter: invert(62%) sepia(96%) saturate(6506%) hue-rotate(233deg) brightness(104%) contrast(93%);
+}
+
+
+#enableInactivityDiv,
+#startBotFlow {
+    display:none;
+}
+#enableInactivityDiv1,
+#startBotFlow2 {
+   display: none;
+}
+
+
+
+.bg-cs-grey {
+    background-color:#F3F4F9 ;
+  }
+  .add-url-btn {
+    color: $blue-active;
+  }
+
+

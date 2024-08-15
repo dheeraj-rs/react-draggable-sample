@@ -1,0 +1,55 @@
+.call-merged-outer {
+  position: fixed;
+  max-width: 332px;
+  width: 100%;
+  right: 20px;
+  bottom: 20px;
+}
+.call-merged-outer .dailing-info-wrap {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 50px;
+}
+.call-merged-outer .dailing-info-hold-wrap {
+  border-radius: 50px;
+  border: 1px solid #376384;
+}
+.call-merged-outer .dailing-badge {
+  color: #45FFDE;
+  border: 1px solid #45FFDE;
+  border-radius: 50px;
+}
+.call-merged-outer .call-drop-outer {
+  background-color: #FF1B1B;
+  width: 45px;
+  height: 45px;
+}
+.call-merged-outer .call-connected-btn-wrap {
+  width: 240px;
+  margin: 0 auto;
+  gap: 20px;
+}
+.call-merged-outer .call-connected-actions {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #376384;
+  border: 0;
+}
+.call-merged-outer .call-connected-actions:hover {
+  background-color: #0C2F4A;
+}
+.call-merged-outer .caller-id-hangup-button {
+  width: 26px;
+  height: 26px;
+  background-color: #FF1B1B;
+  border-radius: 50%;
+}
+.call-merged-outer .caller-id-hangup-button img {
+  width: 15px;
+}
+.call-merged-outer .dp-text {
+  background-color: #00C0DA;
+  width: 30.5px;
+  height: 30.5px;
+  color: #004A54;
+}/*# sourceMappingURL=call-merged.css.map */

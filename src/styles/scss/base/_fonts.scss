@@ -1,0 +1,18 @@
+//
+// This file contains all @font-face declarations, if any.
+//
+
+@import '@fontsource/poppins/300.css';
+@import '@fontsource/poppins/400.css';
+@import '@fontsource/poppins/500.css';
+@import '@fontsource/poppins/600.css';
+@font-face {
+  font-family: 'Twemoji Mozilla';
+  src: url('../../../../public/fonts/twemoji-mozilla.ttf') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.flag {
+  font-family: Poppins, 'Twemoji Mozilla';
+}

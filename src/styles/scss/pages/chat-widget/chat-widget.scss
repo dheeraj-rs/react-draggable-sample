@@ -1,0 +1,217 @@
+.chat-list-channel.active p {
+  color: $blue-active !important;
+}
+
+#connectTelegramModal .modal-dialog {
+  max-width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.custom-modal-close {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 99999;
+  /* border: 0px solid #fff; */
+  cursor: pointer;
+}
+
+.widget-video-image-wrap::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(255, 255, 255, 0) 35%
+  );
+  top: 0;
+  left: 0;
+}
+
+.widget-video-image-wrap {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-nav-channel .nav-link.active:after {
+  background-color: #645df6;
+  content: "";
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  width: calc(100% - 2rem);
+  bottom: -13px;
+}
+
+@media (max-width: 991px) {
+  .channelbox-button-wrap a {
+    flex-basis: 32.333%;
+  }
+  .whats-app-profile-sub-head-mobile-top {
+    width: 100%;
+  }
+  .whats-app-profile-sub-head-mobile-bottom {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .widget-width {
+    padding: 0 0;
+  }
+.scroll-widget,
+.scroll-channel-social {
+  padding: 0 2px!important;
+}
+}
+
+@media (max-width: 767px) {
+  .widget-width {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .widget-video-image {
+    height: auto;
+  }
+  .connect-disconnet-wrap {
+    width: 100%;
+  }
+  .virtual-Selection.connect-disconnet {
+    width: calc(100% - 55px);
+  }
+  .virtual-Selection.connect-disconnet button {
+    width: 100%;
+  }
+  .whatsapp-virtual-selection-wrap {
+    width: 100%;
+  }
+  .whatsapp-virtual-selection {
+    width: calc(100% - 100px);
+  }
+  .whatsapp-virtual-selection button {
+    width: 100%;
+  }
+
+
+}
+
+@media (max-width: 575px) {
+  .channelbox-button-wrap a {
+    flex-basis: 48.5%;
+    margin-bottom: 0;
+  }
+  .widget-btn-wrap {
+    width: 100%;
+  }
+  .widget-btn-wrap a {
+    width: 100%;
+  }
+  .channelbox-button-wrap {
+    margin-bottom: 15px;
+  }
+  .widget-width .custom-nav-channel button {
+    padding: 5px;
+    font-size: 11px;
+  }
+  .widget-width .custom-nav-channel .nav-link.active:after {
+    bottom: -10px;
+    width: calc(100% - 0rem);
+  }
+  .whats-app-profile-sub-head-mobile-bottom a,
+  .whats-app-profile-sub-head-mobile-bottom button {
+    flex-basis: 48%;
+  }
+  .whats-app-profile-sub-head-mobile-bottom {
+    justify-content: center;
+  }
+  .manage-whats-app-topic {
+    flex-basis: 100%;
+    justify-content: flex-end;
+    display: flex;
+  }
+  .whats-app-topic-search {
+    flex-basis: 100%;
+  }
+  .whats-app-topic-search {
+    flex-wrap: wrap;
+  }
+  .whats-app-topic-search div {
+    flex-basis: 100%;
+  }
+  #connectTelegramModal .modal-dialog {
+    max-width: 98%;
+  }
+  .channelbox-button-wrap a {
+    min-height: 65px;
+  }
+}
+
+@media (min-width: 768px) {
+  .widget-header-content-wrap {
+    flex-basis: calc(100% - 140px);
+  }
+}
+
+
+@media(max-width:991px){
+  .widget-video-image {
+    width:100%;
+    max-width: auto;
+  }
+}
+@media (min-width: 1281px) {
+  #connectTelegramModal .modal-dialog {
+    max-width: 1000px;
+    width: 100%;
+    max-height: 540px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  .scroll-widget {
+    max-height: calc(100vh - 305px);
+  }
+  .scroll-channel-social {
+    max-height: calc(100vh - 292px);
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) {
+  .scroll-widget {
+    max-height: calc(100vh - 305px);
+  }
+  .scroll-channel-social {
+    max-height: calc(100vh - 292px);
+  }
+}
+
+/* iphone 12, 12 Pro */
+@media only screen and (min-device-width: 390px) and (max-device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .scroll-widget {
+    max-height: calc(100vh - 305px);
+  }
+  .scroll-channel-social {
+    max-height: calc(100vh - 292px);
+  }
+}
+
+.offset-right {
+  width: 35px;
+}
+.offset-bottom {
+  width: 35px;
+}
+
+.chat-area-config{
+  border-radius: 5px;
+}

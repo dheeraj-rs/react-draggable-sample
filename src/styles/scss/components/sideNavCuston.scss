@@ -1,0 +1,162 @@
+.custom-sidebar-backdrop {
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index: 90;
+    background-color: rgba(97,116,164,.3);
+    opacity: 0;
+    pointer-events: none;
+}
+
+.custom-sidebar-backdrop.show {
+   opacity: 1;
+   pointer-events: all;
+}
+
+.custom-sidebar {
+    max-width: 435px;
+    width:100%;
+    height:100vh;
+    position:fixed;
+    top:0;
+    right:-570px;
+    z-index: 1000;
+    transition: all ease 0.5s;
+}
+
+.custom-sidebar.show {
+    right:0;
+    transition: all ease 0.5s;
+}
+
+.sidebar-profile-image-wrap {
+    display: inline-block;
+    position:relative;
+}
+
+.sidebar-profile-image-wrap::after {
+    background-color: #00ac33;
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    height: 12px;
+    position: absolute;
+    right: 0px;
+    width: 12px;
+    border: 2px solid #fff;
+}
+
+.color-orange {
+    color:#FF4D00;
+}
+
+.edit-profile-link {
+    position: relative;
+}
+
+.edit-profile-link::after {
+    content:"";
+    width:1px;
+    height:15px;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: #645DF6;
+}
+
+
+
+.custom_sidebar_close {
+    position: absolute;
+    left: -25px;
+    top: 9px;
+    cursor: pointer;
+}
+
+.sideNav-account-item input[type="radio"] {
+    height:20px;
+}
+
+.migrate {
+    color: #645DF6;
+}
+
+.product-item p {
+    margin: 0;
+    line-height:normal;
+}
+
+.product-item img {
+    margin-bottom: 15px;
+}
+
+.sidebar-products {
+    background-color: #F2F3F6;
+}
+
+.product-item:hover {
+    box-shadow: 0 2px 4px rgba(0,0,0,.12)!important;
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.top-bottom-section {
+    border-top:1px solid #cfcfcf;
+}
+
+
+.bullet {
+    width:10px;
+    height:10px;
+    border:1px solid #5F6381;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: -2px;
+}
+
+#switcher:hover img {
+    pointer-events: none;
+    filter: brightness(0) invert(1);
+}
+
+.sidebar-top-section {
+    box-shadow: 0px 15px 16px #00000045;
+    overflow: hidden;
+}
+
+.sidebar-bottom-section {
+    box-shadow: 0px 15px 16px #00000045;
+}
+
+.apps-item {
+    line-height: 14px;
+}
+
+.color-black {
+    color: #000;
+}
+
+.chat-img {
+  box-shadow:  0px 0px 4px rgba(0,0,0,0);
+  transition: all ease 0.3s;
+}
+
+.chat-img:hover {
+    box-shadow:  0px 0px 4px #3333334f;
+    transition: all ease 0.3s;
+  }
+
+  .chat-img img:hover {
+    transform: none;
+}
+
+
+
+@media(max-width:575px) {
+    .custom-sidebar {
+        max-width: calc(100% - 30px);
+    }
+}

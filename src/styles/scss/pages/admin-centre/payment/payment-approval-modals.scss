@@ -1,0 +1,7 @@
+#ConfirmApprovalModal {
+    .modal-content {
+        @media(min-width:767px){
+            max-width: 462px;
+        }
+    }
+}

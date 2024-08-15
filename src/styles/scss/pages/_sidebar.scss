@@ -1,0 +1,49 @@
+
+.left-nav{
+z-index: 99;
+.nav-link-side {
+  &:hover {
+    background-color: $blue-active !important;
+  }
+  &.active {
+    // width: toRem(40px);
+    // height: toRem(40px);
+    background-color: $blue-active !important;
+  }
+}
+}
+.nav-mob .nav-link.active  {
+  background-color: $blue-active !important;
+}
+.all-accounts{
+  max-height: calc(100vh - 400px);
+  overflow: auto;
+  @media(max-width:575.98px){
+    max-height:unset;
+    overflow: unset;
+  }
+}
+.account-box:hover{
+  border: 1px solid #8b87ed !important;
+  transition: 1s;
+  cursor:pointer;
+}
+.all-apps{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  @media(max-width:575.98px){
+    position: unset;
+  bottom: unset;
+  }
+}    
+.offcanvas-switcher{
+  @media(max-width:575.98px){
+    max-width:100% !important;
+  }
+ 
+}
+.switcher-close-web{
+  right: -40px;
+  position: absolute;
+}

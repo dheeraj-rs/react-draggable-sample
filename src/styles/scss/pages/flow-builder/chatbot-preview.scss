@@ -1,0 +1,118 @@
+.answer-btn {
+    height:36px;
+    border-radius:5px;
+    border:1px solid #C3CEE9;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.answer-btn.active {
+    background-color: #B3AFFF;
+    color:#fff;
+}
+
+.answer-btn:hover {
+    background-color: #B3AFFF;
+    transition:all ease 0.5s;
+    color:#fff;
+}
+
+.textarea-actions {
+    align-items: center;
+    background: #f2f6ff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.22);
+    display: flex;
+    gap: 10px;
+    padding: 5px 7px;
+    width: 56px;
+    position: absolute;
+    bottom: 15px;
+    left: 8px;
+}
+
+.answer-options-outer textarea,
+.star-rating-textarea textarea {
+    height:110px;
+    border:1px solid #A6AEBB;
+    border-radius: 6px;
+    width:100%;
+    padding: 10px;
+}
+
+.textarea-submit {
+    position: absolute;
+    right: 13px;
+    bottom: 16px;
+    cursor: pointer;
+}
+
+
+.send-text {
+    padding: 10px;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    max-width:75%;
+}
+
+.time-select-button {
+    font-size: 13px;
+    font-weight: 400;
+    height:38px;
+    border-radius: 6px;
+    width:100%;
+    border:1px solid #AFB5BF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.carousal-buttons button {
+    height:38px;
+    border-radius:6px;
+    background-color: #EBF0F4;
+    border:1px solid #EBF0F4;
+    width: 100%;
+}
+
+.carousal-buttons button.active {
+    background-color: #fff;
+    border:1px solid #645DF6;
+}
+
+.carousal-buttons {
+    display: flex;
+    gap:10px;
+}
+
+.carousal-buttons-inner {
+    flex-grow: 1;
+}
+
+.time-select-button:hover {
+    border:1px solid #645df6 !important;
+}
+
+@media(max-width:1649px){
+    .carousal-buttons {
+       flex-direction: column;
+       margin-bottom: 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

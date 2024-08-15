@@ -1,0 +1,169 @@
+@import url('call-flows-custom.css');
+
+@import url('agent-merge.css');
+/* @import url('agent-merge.css.map'); */
+
+@import url('animate.css');
+/* @import url('animate.css.map'); */
+
+@import url('ask-agent-to\ connect.css');
+/* @import url('ask-agent-to\ connect.css.map'); */
+
+@import url('ask-agent-to-merge.css');
+/* @import url('ask-agent-to-merge.css.map'); */
+
+@import url('bill-and-sub.css');
+/* @import url('bill-and-sub.css.map'); */
+
+@import url('botActivityLog.css');
+/* @import url('botActivityLog.css.map'); */
+
+@import url('call-connected-screen.css');
+/* @import url('call-connected-screen.css.map'); */
+
+@import url('call-flow-hours.css');
+/* @import url('call-flow-hours.css.map'); */
+
+@import url('call-flows-custom.css');
+/* @import url('call-flows-custom.css.map'); */
+
+@import url('call-merged.css');
+/* @import url('call-merged.css.map'); */
+
+@import url('call-notes.css');
+/* @import url('call-notes.css.map'); */
+
+@import url('call-wait-dialpad.css');
+/* @import url('call-wait-dialpad.css.map'); */
+
+@import url('call-waiting-list.css');
+/* @import url('call-waiting-list.css.map'); */
+
+@import url('call-widget.css');
+/* @import url('call-widget.css.map'); */
+
+@import url('Chat-bot-industry-offcanvas.css');
+/* @import url('Chat-bot-industry-offcanvas.css.map'); */
+
+@import url('chat-bot-template-row.css');
+/* @import url('chat-bot-template-row.css.map'); */
+
+@import url('chat-bot-template.css');
+/* @import url('chat-bot-template.css.map'); */
+
+@import url('chatbot-preview.css');
+/* @import url('chatbot-preview.css.map'); */
+
+@import url('circleProgress.css');
+/* @import url('circleProgress.css.map'); */
+
+@import url('component-properties-old.css');
+/* @import url('component-properties-old.css.map'); */
+
+@import url('component-properties.css');
+/* @import url('component-properties.css.map'); */
+
+@import url('ComponentSelectDropdown.css');
+/* @import url('ComponentSelectDropdown.css.map'); */
+
+@import url('ComponentSelectPopup.css');
+/* @import url('ComponentSelectPopup.css.map'); */
+
+@import url('custom-toast.css');
+/* @import url('custom-toast.css.map'); */
+
+@import url('customIvr.css');
+/* @import url('customIvr.css.map'); */
+
+@import url('dailing-screen.css');
+/* @import url('dailing-screen.css.map'); */
+
+@import url('dial-agent.css');
+/* @import url('dial-agent.css.map'); */
+
+@import url('dialpad.css');
+/* @import url('dialpad.css.map'); */
+
+@import url('feature-list.css');
+/* @import url('feature-list.css.map'); */
+
+@import url('FlowBuilderSidebar.css');
+/* @import url('FlowBuilderSidebar.css.map'); */
+
+@import url('free-trial.css');
+/* @import url('free-trial.css.map'); */
+
+@import url('hangupModal.css');
+/* @import url('hangupModal.css.map'); */
+
+@import url('header-dropdown.css');
+/* @import url('header-dropdown.css.map'); */
+
+@import url('ivrModal.css');
+/* @import url('ivrModal.css.map'); */
+
+@import url('merge-list.css');
+/* @import url('merge-list.css.map'); */
+
+@import url('payment-approval-modals.css');
+/* @import url('payment-approval-modals.css.map'); */
+
+@import url('payment-aproval-detail.css');
+/* @import url('payment-aproval-detail.css.map'); */
+
+@import url('payment-aprovals.css');
+/* @import url('payment-aprovals.css.map'); */
+
+@import url('PaymentApprovalTable.css');
+/* @import url('PaymentApprovalTable.css.map'); */
+
+@import url('plan-creation.css');
+/* @import url('plan-creation.css.map'); */
+
+@import url('PlanItem.css');
+/* @import url('PlanItem.css.map'); */
+
+@import url('SearchSection.css');
+/* @import url('SearchSection.css.map'); */
+
+@import url('selectbox.css');
+/* @import url('selectbox.css.map'); */
+
+@import url('settings-bot-activity-updated.css');
+/* @import url('settings-bot-activity-updated.css.map'); */
+
+@import url('sidenav-admin.css');
+/* @import url('sidenav-admin.css.map'); */
+
+@import url('sideNavCuston.css');
+/* @import url('sideNavCuston.css.map'); */
+
+@import url('start-call.css');
+/* @import url('start-call.css.map'); */
+
+@import url('stepper.css');
+/* @import url('stepper.css.map'); */
+
+@import url('subhead.css');
+/* @import url('subhead.css.map'); */
+
+@import url('toastSuccess.css');
+/* @import url('toastSuccess.css.map'); */
+
+@import url('transfer-call-list.css');
+/* @import url('transfer-call-list.css.map'); */
+
+@import url('voice-blaster-stepper.css');
+/* @import url('voice-blaster-stepper.css.map'); */
+
+@import url('wallet-modals.css');
+/* @import url('wallet-modals.css.map'); */
+
+@import url('wallet-summary.css');
+/* @import url('wallet-summary.css.map'); */
+
+@import url('wallet-table-outer.css');
+/* @import url('wallet-table-outer.css.map'); */
+
+@import url('WalletTableHeader.css');
+/* @import url('WalletTableHeader.css.map'); */

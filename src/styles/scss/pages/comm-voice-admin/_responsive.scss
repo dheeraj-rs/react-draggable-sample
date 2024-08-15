@@ -1,0 +1,68 @@
+@media (max-width: 1014px) {
+
+}
+
+
+@media (max-width: 991px) {
+}
+
+
+@media (max-width: 767px) {
+}
+
+
+@media (max-width: 567px) {
+    .btn-account, .btn-edit {
+        flex: 1 1 auto!important;
+    }
+    .calender-icon-input{
+        padding-right: 9px!important;
+        padding-left: 10px!important;
+    }
+    .custom-margin{
+        margin-left: 33px;
+    }
+    .copy-code-integration{
+        height: auto;
+    }
+    .about-me{
+        min-height: 200px!important;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .btn-upgrade-plan{
+width: 100%;
+    }
+    .btn-payment-history{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 576px) and (max-width: 670px){
+    .account-my-profile{
+        flex-wrap: wrap;
+    gap: 20px
+    }
+    .btn-account, .btn-edit {
+         width: 50%; 
+    }
+    .account-btns{
+        width: 100%;
+    }
+}
+@media screen and (min-width: 760px) and (max-width: 1025px) {
+.campaign-right-outer {
+    padding: 25px 20px 15px 20px;
+}
+}
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+    .campaign-right-outer {
+        padding: 25px 20px 15px 20px;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 800px) {
+    .campaign-right-outer {
+        padding: 25px 20px 15px 20px;
+    }
+    }
+
+

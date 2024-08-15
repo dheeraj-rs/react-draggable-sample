@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/scss/components/call-widget/call-notes.scss","call-notes.css"],"names":[],"mappings":"AAAA;EACI,gBAAA;EACA,WAAA;EACA,oDAAA;EACA,eAAA;EACA,YAAA;EACA,YAAA;ACCJ;ADAI;EACI,yBAAA;EACA,mBAAA;ACER;;ADEA;EACI;IACI,YAAA;IACA,UAAA;IACA,SAAA;IACA,2BAAA;ECCN;AACF","file":"call-notes.css"}

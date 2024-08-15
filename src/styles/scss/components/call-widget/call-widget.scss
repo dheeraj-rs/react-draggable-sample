@@ -1,0 +1,115 @@
+.bg-darkblue {
+    background: #2B495F;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.call-merge-toast {
+    bottom:397px !important;
+}
+
+
+
+.button-animation {
+    transition: all ease 0.5s;
+      img {
+        transition: all ease 0.5s;
+      }
+    &:hover {
+        scale: 1.1;
+        transition: all ease 0.5s;
+        img {
+            scale: 1.1;
+            transition: all ease 0.5s;
+        }
+    }
+}
+
+.call-drop-outer img,
+.caller-id-hangup-button img {
+    margin-right: -1px;
+}
+
+
+
+@keyframes quiet {
+    25%{
+      transform: scaleY(.6);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.8);
+    }
+  }
+  
+  @keyframes normal {
+    25%{
+      transform: scaleY(1);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(.6);
+    }
+  }
+  @keyframes loud {
+    25%{
+      transform: scaleY(1);
+    }
+    50%{
+      transform: scaleY(.4);
+    }
+    75%{
+      transform: scaleY(1.2);
+    }
+  }
+
+  
+  .boxContainer{
+    display: flex;
+    justify-content: space-between;
+    height: 13px;
+    --boxSize: 2px;
+    --gutter: 1px;
+    width: calc((var(--boxSize) + var(--gutter)) * 5);
+  }
+  
+  .box{
+    transform: scaleY(.4);
+    height: 100%;
+    width: var(--boxSize);
+    background: #fff;
+    animation-duration: 1.2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    border-radius: 8px;
+  }
+  
+  .box1{
+    animation-name: quiet;
+  }
+  
+  .box2{
+    animation-name: normal;
+  }
+  
+  .box3{
+    animation-name: quiet;
+  }
+  
+  .box4{
+    animation-name: loud;
+  }
+  
+  .box5{
+    animation-name: quiet;
+  }
+
+@media(max-width:575px){
+    .mobile-center {
+        right: inherit;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

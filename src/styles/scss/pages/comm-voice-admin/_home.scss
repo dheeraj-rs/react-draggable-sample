@@ -1,0 +1,117 @@
+.verify-btn{
+    height: 38px;
+    min-width: max-content!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.password-cryteria li{
+    line-height: 40px;
+}
+.phone-icon-black{
+    padding-right: 2px;
+}
+.about-me{
+    border: 1px solid #AFB5BF;
+}
+
+// copied
+.copy-code-integration{
+    height: 38px;
+}
+
+.account-info-left.active p {
+    color: #333!important;
+    
+}
+.eye-hover:hover{
+    background: #000!important;
+}
+.file-icon{
+    width: 20px;
+}
+.btn-payment-history{
+    border: 1px solid $blue-active;
+    border-radius: 6px;
+    color: $blue-active;
+}
+
+.btn-upgrade-plan{
+    border-radius: 6px;
+    border: 1px solid #555;
+    background: #FFF;
+}
+.btn-upgrade-plan:hover {
+    background: #645df6;
+    color: #fff;
+    transition: .3s;
+}
+.btn-payment-history:hover {
+    background: #645df6;
+    color: #fff;
+    transition: .3s;
+}
+.download-bg:hover{
+    background: #000!important;
+}
+.download-bg:hover img{
+    filter: invert(1) sepia(0) saturate(1) hue-rotate(0deg) brightness(100);
+}
+// #invoiceModal.{
+//     margin-top: auto!important;
+// }
+// #paymentSucessfullModal.{
+//     margin-top: auto!important;
+// }
+#invoiceModal .modal-content{
+   
+}
+.apply-btns a{
+    height: 38px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.select-start-padding{
+    padding-left: 10px!important;
+}
+.btn-add-entry:hover{
+background: #000!important;
+}
+.select-dropdown-top{
+    margin-top: 1px;
+}
+
+
+.btn-payment-history:active{
+    background: $blue-active!important;
+}
+.payment-textarea{
+    padding: 10px;
+}
+
+  .dropdown-profile::after {
+    border: 10px solid #fff7f700;
+    border-top-color: #ffffff;
+    bottom: -9%;
+    content: "";
+    left: 10%;
+    margin-left: -5px;
+    position: absolute;
+  }
+  .status-select{
+    min-width: 22%;
+  }
+  #download-receipt:hover img{
+    fill: #1165c9;
+  }
+//   #addEntry.{
+//     margin-top: auto!important;
+//   } 
+
+#callBackModal .modal-content {
+    max-width:486px;
+}

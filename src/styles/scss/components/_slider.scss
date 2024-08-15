@@ -1,0 +1,103 @@
+
+.sliders {
+    position: relative;
+  }
+  
+  .sliders-container {
+    cursor: grab;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  .sliders-container.dragging {
+    scroll-behavior: auto;
+    cursor: grabbing;
+  }
+  
+  .sliders-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .sliders-item {
+    padding: 8px 8px;
+    flex: 0 0 auto;
+    width: calc(100% / 2);
+  }
+  
+  .sliders-container[data-step="4"] .sliders-item {
+    width: calc(100% / 2);
+  }
+  
+  .sliders-container[data-step="3"] .sliders-item {
+    width: calc(100% / 2);
+  }
+  
+  .sliders-container[data-step="2"] .sliders-item {
+    width: calc(100% / 2);
+  }
+  
+  .sliders-container[data-step="1"] .sliders-item {
+    width: calc(100% / 2);
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .sliders-item,
+    .sliders-container[data-step="4"] .sliders-item {
+      width: calc(100% / 2);
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sliders-item,
+    .sliders-container[data-step="4"] .sliders-item,
+    .sliders-container[data-step="3"] .sliders-item {
+      width: calc(100%);
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .sliders-item,
+    .sliders-container[data-step="4"] .sliders-item,
+    .sliders-container[data-step="3"] .sliders-item,
+    .sliders-container[data-step="2"] .sliders-item {
+      width: calc(100%);
+    }
+  }
+  
+  .sliders-control {
+    font-size: 16px;
+    border: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 32px;
+    height: 32px;
+    color: #000;
+    cursor: pointer;
+    opacity: .5;
+    transition: all .3s;
+    background: transparent;
+  }
+  
+  .sliders-control.prev {
+    left: 16px;
+  }
+  
+  .sliders-control.next {
+    right: 16px;
+  }
+  
+  // .sliders-control:hover {
+  //   opacity: 1;
+  //   transform: translateY(-50%) scale(1.2);
+  // }
+  
+  .sliders-item img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-select: none;
+  }
+  

@@ -1,0 +1,58 @@
+@media (max-width: 991px) {
+
+    .offcanvas-time {
+        width: auto!important;
+    }
+  
+      
+  #adminMainSec .chat-settings-box{
+    min-height: 125px;
+    align-items: center;
+  }
+  .language-accent{
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+
+    #newCallFlow {
+        width: 100%!important;
+    }
+    .new-call-flow{
+        width: 100%;
+    }
+    .row-action {
+        padding: 5px 0px;
+    }
+}
+
+@media(max-width:1285px){
+    .scroll-carrier {
+      max-height: calc(100vh - 211px);
+      min-height: 500px;
+  }
+  }
+
+
+@media screen and (min-width: 991px) and (max-width: 1280px) {
+    .offcanvas-time {
+        width: 55%!important;
+    }  
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .flow-rename input {
+      
+        width: 200px!important;
+    }
+    
+}
+@media screen and (min-width: 660px) and (max-width: 767px) {
+    .flow-rename button {
+        flex-basis: 15%!important;
+    }
+    .flow-rename input {
+        flex-basis: 43%;
+    }
+}
+

@@ -1,0 +1,31 @@
+.custom-radio-wrap-outer .custom-radio-wrap {
+    width:16px;
+    height:16px;
+    border-radius: 50%;
+    border:1px solid $blue-active;
+    position: relative;
+    cursor: pointer;
+  }
+
+  .custom-radio-wrap-outer .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 11px;
+    width: 11px;
+    background-color: $white;
+    transform:translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+   }
+
+   .custom-radio-wrap-outer .custom-radio-wrap input:checked ~ .checkmark {
+    background-color: $blue-active;
+    }
+
+  .custom-radio-wrap-outer .custom-radio-wrap input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}

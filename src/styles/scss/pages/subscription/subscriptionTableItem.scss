@@ -1,0 +1,70 @@
+.subscriptionTableItem {
+    border-bottom: 1px solid #C3CEE9;
+    .drag_icon {
+        flex-basis: 35px;
+    }
+    .table__items {
+        flex-basis: calc(100% - 35px);
+        @media(max-width:1199px){
+            gap:15px !important;
+        }
+        @media(max-width:700px){
+            flex-direction: column;
+        }
+    }
+    .table__items_left {
+        flex-basis: 40%;
+        @media(max-width:700px){
+            width: 100%;
+        }
+    }
+    .table__items_right {
+        flex-basis: 60%;
+        padding-left: 100px;
+        @media(max-width:1199px){
+            padding-left: 0;
+        }
+        @media(max-width:700px){
+            width: 100%;
+        }
+    }
+    .publish__btn {
+        height:30px;
+        border:1px solid #645DF6;
+        color: #645DF6;
+        background-color: #fff;
+        transition: all ease 0.5s;
+        &:hover {
+            background-color:#645DF6;
+            color: #fff;
+            transition: all ease 0.5s;
+        }
+    }
+    .unpublish__btn {
+        height:30px;
+        border:1px solid #8190B7;
+        color: #000;
+        background-color: #fff;
+        transition: all ease 0.5s;
+        &:hover {
+            background-color:#8190B7;
+            color: #fff;
+            transition: all ease 0.5s;
+        }
+    }
+    .publish__btn__wrap {
+        width:89px;
+        text-align: right;
+    }
+    .status__wrap {
+        flex-basis: 95px;
+        text-align: left;
+    }
+    .price__wrap {
+        flex-basis: 101px;
+        text-align: left;
+        @media(max-width:700px){
+            display: none;
+        }
+    }
+}

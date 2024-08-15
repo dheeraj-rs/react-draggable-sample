@@ -1,0 +1,1374 @@
+// for dropdown floating issue on the laptop screens
+
+@media screen and (min-width: 992px) and (max-width: 1280px) {
+  #basic-addon2 .dropdown-menu {
+    height: 267px;
+    overflow-y: scroll;
+    transform: translate3d(0px, -22px, 0px);
+  }
+}
+
+/*navbar for ipad screen*/
+
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .min-check-lh {
+    min-height: 256px !important;
+  }
+  .scroll-widget {
+    max-height: calc(100vh - 238px);
+  }
+  .h-fit {
+    overflow-y: auto;
+  }
+  .equal-pad {
+    padding: 0 15px 20px 15px !important;
+  }
+
+  .equal-pad-campaign {
+    padding: 0 6px 3px !important;
+  }
+  .purchase-summury {
+    height: auto !important;
+  }
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 235px);
+  }
+  .create-channel {
+    padding: 10px !important;
+  }
+  .header .global-search:focus {
+    width: 20.923077rem !important;
+  }
+  .contact-table-row {
+    flex-wrap: wrap !important;
+  }
+  .article-chat {
+    flex-wrap: wrap !important;
+  }
+  .chat-type-box {
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+  }
+  .chat-h-ad {
+    height: auto !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .scroll-roles {
+    max-height: calc(100vh - 240px);
+  }
+  .scroll-roles-virtual {
+    max-height: calc(100vh - 240px);
+  }
+}
+
+/* ipad landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .article-right {
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+  }
+  .filter-btn {
+    padding: 10px 5px !important;
+  }
+
+  .dropdown-roles {
+    min-width: 520px;
+    right: -15px !important;
+  }
+  .simple-form-height {
+    min-height: 150px !important;
+  }
+  .chat-type-box {
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+  }
+  .chat-h-ad {
+    height: auto !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .article-chat {
+    flex-wrap: wrap;
+  }
+  .scrollbox {
+    visibility: visible;
+  }
+  // .input-box-height {
+  //   min-height: 165px !important;
+  // }
+  .min-check-h {
+    min-height: 170px !important;
+  }
+  .min-check-lh {
+    min-height: 276px !important;
+  }
+  .support-h {
+    min-height: 163px !important;
+  }
+  .adjsut-widget {
+    padding: 0px !important;
+  }
+  .me-30px {
+    margin-right: 25px !important;
+  }
+  .setting-buttons {
+    margin-bottom: 20px;
+  }
+  .filter-wrap .setting-buttons {
+    margin-top: 0.5rem !important;
+    margin-bottom: 5px !important;
+  }
+}
+// Portrait iPad mini 1, iPad 1 and iPad 2
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+}
+/* ipad portrait */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .min-check-lh {
+    min-height: auto;
+  }
+  .tab-content-payment {
+    padding: 10px 15px;
+    margin: 10px 10px;
+  }
+  .credit-pack{
+    padding: 0 3em;
+  }
+  .nav-link-payment {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .nav-link-wallet {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .payment-active-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .payment-active-btn-wallet {
+    top: 19px !important;
+  }
+  .payment-wrap {
+    flex-direction: row !important;
+    padding: 0px 5px;
+    box-shadow: none !important;
+  }
+  .agent-profile-height {
+    height: auto;
+  }
+  .scroll-purchase {
+    padding-left: 15px !important;
+  }
+
+  .equal-pad-top {
+    padding: 0 0em;
+  }
+  .roles-step .progressbarrole {
+    margin: 20px 0;
+  }
+  .scroll-custome-role {
+    max-height: calc(100vh - 370px);
+  }
+  .btn-call-web {
+    justify-content: center;
+  }
+  .department-btns a {
+    padding: 10px 5px !important;
+    min-width: 140px;
+  }
+  .company-profile {
+    align-items: normal;
+  }
+  .agent-edit-btns {
+    padding: 10px 7px !important;
+
+    justify-content: center;
+  }
+  .btn-call-mob {
+    justify-content: center;
+  }
+  .plus-btns {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .start-call {
+    width: 100%;
+    right: 29%;
+  }
+  .equal-pad {
+    padding: 0 0px 20px 0px !important;
+  }
+
+  .scroll-roles {
+    max-height: calc(100vh - 240px);
+  }
+  .scroll-roles-virtual {
+    max-height: calc(100vh - 240px);
+  }
+  .scroll-wrap {
+    max-height: calc(100vh - 300px);
+  }
+  .scroll-wrap-general {
+    max-height: calc(100vh - 300px);
+  }
+
+  .h-fit {
+    height: calc(100vh - 110px) !important;
+    overflow: auto;
+  }
+  .gradient-section {
+    min-width: 150px;
+    min-height: 105px;
+  }
+  .simple-form-height {
+    min-height: 145px !important;
+  }
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 215px) !important;
+  }
+  .header .global-search:focus {
+    width: 45.384615rem !important;
+  }
+  .header .global-search-mob {
+    width: 45.384615rem !important;
+  }
+  .admin-top-roles {
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .read-word {
+    margin-top: 20px;
+  }
+  .second-sec-role {
+    height: calc(100vh - 265px) !important;
+  }
+
+  .scroll-wrap-role {
+    max-height: calc(100vh - 318px);
+  }
+  .custome-role-top {
+    padding: 20px 10px 10px 12px !important;
+  }
+  .scroll-wrap-role {
+    padding: 0px 10px !important;
+    padding-bottom: 15px !important;
+  }
+  .dropdown-roles {
+    left: -100px !important;
+    min-width: 330px !important;
+  }
+
+  .carrier-pad {
+    padding: 0 5px !important;
+  }
+  .vendor-left-mob {
+    justify-content: left !important;
+  }
+  .custom-policy-icons {
+    margin-top: 20px;
+  }
+  .scroll-roles {
+    padding: 0px 5px 5px 5px !important;
+  }
+}
+
+// small screens
+
+@media (max-width: 991px) {
+  .payment-wallet {
+    margin-left: 10px;
+  }
+  .scroll-wrap {
+    max-height: calc(100vh - 220px);
+  }
+  .table-width-mobile {
+    min-width: max-content;
+  }
+  .global-search-header {
+    width: 95%;
+  }
+  .carrier-pad {
+    padding: 0 0px;
+  }
+  .second-sec-role {
+    padding-top: 0px !important;
+  }
+  .admin-top-roles {
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .read-word {
+    margin-top: 20px;
+  }
+  .scroll-wrap-general {
+    max-height: calc(100vh - 190px);
+  }
+  .company-profile {
+    align-items: normal;
+  }
+  .credit-pack {
+    padding: 0px 10px;
+  }
+
+  .start-call {
+    width: 100%;
+  }
+
+  .scroll-chat-area {
+    max-height: calc(100vh - 450px);
+  }
+  .left-mob {
+    justify-content: space-between;
+  }
+  .widget-pattern-box {
+    flex-wrap: wrap;
+  }
+  .inbox-voice-wrapper {
+    height: auto;
+  }
+}
+@media (max-width: 567px) {
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 210px);
+  }
+  .plus-btns {
+    margin-top: 10px;
+  }
+  .scroll-wrap-general {
+    max-height: calc(100vh - 295px);
+  }
+}
+@media (max-width: 767px) {
+  .scroll-wrap {
+    max-height: calc(100vh - 200px);
+  }
+  .equal-pad-top {
+    padding: 0 0em;
+  }
+  .scroll-wrap-general {
+    max-height: calc(100vh - 190px);
+  }
+  .global-search-header {
+    width: 90% !important;
+  }
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 200px);
+  }
+  .agent-padding {
+    padding: 0px 10px;
+  }
+  .equal-pad {
+    padding: 0 5px 15px 20px !important;
+  }
+  .equal-pad-campaign {
+    padding: 0 5px 15px 20px !important;
+  }
+  .version-pad {
+    padding: 0px 0px 5px 5px !important;
+  }
+  .book-sample {
+    margin-left: 30px;
+  }
+  .word-mob {
+    word-break: break-word;
+  }
+  .modal {
+    padding: 10px;
+  }
+
+  .copy-widget {
+    right: 8px;
+    padding: 2px 4px !important;
+  }
+  .embedd-code {
+    word-break: break-word;
+  }
+  .offset-form {
+    flex-wrap: wrap;
+    gap: 0.2rem !important;
+  }
+  .widget-p-mob {
+    padding: 0px 15px !important;
+    padding-top: 20px !important;
+  }
+  #addContactToast {
+    min-width: 100px !important;
+  }
+  .chat-wrapper {
+    height: calc(100vh - 218px) !important;
+  }
+  .chat-section {
+    height: calc(100vh - 365px) !important;
+  }
+  .widget-embed {
+    word-wrap: break-word;
+  }
+  .stepper-wrapper:before {
+    min-width: 610px;
+  }
+  #offcanvasCondition {
+    width: 100% !important;
+  }
+  .inbox-voice-wrapper {
+    height: auto;
+  }
+  .sms-scroll-touch {
+    max-height: calc(100vh - 100px);
+  }
+}
+@media (max-width: 1200px) {
+  .stepper-wrapper {
+    flex-wrap: nowrap;
+  }
+
+  .new-ticket-mb {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .resolve-modal .nav-resolve-tab {
+    //border: 1px solid #c3cee9 !important;
+    //border-radius: 5px !important;
+  }
+}
+
+// For Iphone 14 Pro
+@media only screen and (device-width: 390px) and (device-height: 844px) and (-webkit-device-pixel-ratio: 3) {
+  .dropdown-guide {
+    left: 100% !important;
+  }
+}
+
+//  Iphone Pro 14 MAX: 428 pixels width 926 pixels height
+
+@media only screen and (device-width: 428px) and (device-height: 926px) and (-webkit-device-pixel-ratio: 3) {
+  .dropdown-guide {
+    left: 100% !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .start-call {
+    max-width: 340px;
+    right: 18px;
+  }
+  // .modal. {
+  //   padding-left: 10px !important;
+  // }
+}
+/* iphone 6, 6s, 7, 8 */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2) {
+  button {
+    color: #333333;
+  }
+}
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+  button {
+    color: #333333;
+  }
+}
+
+@media (max-width: 567px) {
+  .widget-width {
+    padding: 0px 0px;
+  }
+  .search-channel-widget {
+    width: 100% !important;
+  }
+  .widget-need-help {
+  }
+  .scroll-custome-role {
+    max-height: calc(100vh - 380px);
+  }
+  .scroll-widget {
+    padding: 0px 0px 5px 2px !important;
+  }
+  .widget-btn-wrap {
+    width: 100% !important;
+  }
+  .scroll-wrap-role {
+    max-height: calc(100vh - 336px);
+  }
+  .widget-btn-wrap {
+    width: 100%;
+  }
+  .widget-btn-wrap a {
+    width: 100%;
+  }
+  .new-wid-btn {
+    width: 100% !important;
+  }
+  .carrier-pad {
+    padding: 0 10px;
+  }
+  .bot-selected-name-width {
+    min-width: 180px;
+  }
+
+  .table-width-mobile {
+    min-width: max-content;
+  }
+  .table-width-mobile th {
+    padding: 15px 5px;
+  }
+  .table-width-mobile td {
+    padding: 15px 5px;
+  }
+  .carrier-table td {
+    padding: 15px 10px;
+    min-width: max-content;
+  }
+  #newCarrierGroup {
+    width: 100% !important;
+  }
+  .newCarrier {
+    width: 100% !important;
+  }
+  .lot-table td {
+    padding: 15px 5px;
+  }
+  .mrc-table td {
+    padding: 15px 5px;
+    min-width: 180px;
+  }
+  .billing-table td {
+    min-width: 120px;
+  }
+  #sendPrivateNoteBtn {
+    min-width: 100% !important;
+    border-radius: 50% !important;
+    padding: 6px !important;
+  }
+
+  .tab-content-payment {
+    padding: 5px 5px;
+  }
+  .nav-link-payment {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .nav-link-wallet {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  // .payment-active-btn-wallet {
+  //   position: absolute;
+  //   top: 19px;
+  //   right: 5px;
+  // }
+  .payment-wrap {
+    flex-direction: row !important;
+    padding: 0 5px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    background: none;
+    box-shadow: none !important;
+  }
+  .payment-wallet {
+    margin-left: 10px;
+  }
+  .scroll-purchase {
+    padding-left: 15px !important;
+  }
+  .cost {
+    text-align: end;
+  }
+  .filter-btn {
+    width: 100%;
+  }
+  .drop-department {
+    width: 87%;
+  }
+  .filter-text {
+    display: none;
+  }
+  .number-table-top {
+    display: none;
+  }
+  .voice-mob {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .abc-sample {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px !important;
+  }
+  .user-table-wrap {
+    min-width: 720px;
+  }
+  #generalaccountSubmitToast {
+    padding: 5px 12px !important;
+    font-size: 13px !important;
+  }
+  .scroll-wrap-role {
+    // max-height: none;
+    padding-top: 15px;
+  }
+  .step-padding {
+    padding: 0px 0px;
+  }
+  .role-step-padding {
+    padding: 10px !important;
+    padding-top: 15px !important;
+  }
+  .template-sms-wrapper {
+    margin-top: 20px;
+    //max-height: none;
+    //overflow-y: hidden;
+  }
+  .scroll-wrap-doc {
+    // max-height: none;
+    padding-top: 10px !important;
+  }
+  .scroll-roles {
+    // max-height: none;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    // overflow-y: hidden;
+  }
+  .scroll-roles-virtual {
+    // max-height: none;
+    padding-right: 5px !important;
+    padding-top: 5px !important;
+    padding-left: 5px !important;
+    // overflow-y: hidden;
+  }
+  .top-wrap-common-mob {
+    padding: 15px 10px 10px;
+  }
+  .sms-tab {
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  .commmon-mob-padding {
+    padding: 5px !important;
+  }
+  .product-admin {
+    padding: 20px 10px !important;
+  }
+  .roles-mobile-padding {
+    padding: 5px !important;
+  }
+  .roles-top {
+    padding: 15px 6px 10px;
+  }
+  .list-unstyled li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .equal-pad-top {
+    padding: 0 0em;
+  }
+  .second-sec-role {
+    padding-top: 0px !important;
+  }
+  .scroll-custome-role {
+    //max-height: none;
+  }
+  #newCustomRole {
+    width: 100%;
+  }
+  .dropdown-roles {
+    min-width: 230px;
+    right: -130px !important;
+  }
+  .product-box {
+    padding: 15px 18px !important;
+  }
+  // .progress-agent-add .progress-card{
+  //   flex-direction: row!important;
+  // }
+  .complete-kyc-btn {
+    width: 100%;
+  }
+  .agent-profile-height {
+    height: auto;
+  }
+  .call-detail-pop {
+    align-items: center;
+  }
+  .complete-kyc {
+    width: 100%;
+  }
+  .doc-details {
+    width: 100%;
+  }
+  .upload-btn {
+    width: 100%;
+  }
+  .upload-btn .btn {
+    width: 100% !important;
+  }
+  .read-write {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .roles-step .progressbarrole {
+    margin-top: 0px !important;
+  }
+  .contact-btns {
+    float: unset !important;
+    justify-content: space-between;
+  }
+  .contact-btns a {
+    padding: 10px 12px !important;
+  }
+  .scroll-wrap-doc {
+    padding-right: 10px;
+  }
+  .pop-phone-numbers {
+    left: unset;
+    right: 0;
+    top: 30px;
+  }
+  .startCalling .card {
+    padding-right: 10px !important;
+  }
+  .pop-phone-numbers:before {
+    right: calc(50% - 122px);
+  }
+  .dropdown-guide {
+    left: 50% !important;
+  }
+  .tooltip-content .tooltiptext-content {
+    bottom: 140%;
+    margin-left: -90px;
+    width: 270px;
+  }
+  .tooltip-content .tooltiptext-content:after {
+    left: 35%;
+    margin-left: 0px;
+  }
+  .acc-card {
+    margin: 0px 5px;
+  }
+  .admin-top-roles {
+    flex-wrap: wrap;
+    margin-left: 50px;
+  }
+  .read-word {
+    margin-top: 20px;
+  }
+  .search-temp {
+    width: 100%;
+  }
+  .faq-save {
+    width: 100%;
+  }
+  .scroll-chat-topic {
+    max-height: calc(100vh - 250px);
+  }
+  .scroll-canvas {
+    max-height: calc(100vh - 250px);
+  }
+  .font-m {
+    font-size: 12px !important;
+  }
+  // .h-fit {
+  //   height: auto!important;
+  // }
+  .scroll-wrap-general {
+    padding-right: 10px;
+
+    max-height: calc(100vh - 290px);
+  }
+  .check-title {
+    width: 75%;
+  }
+  .header .global-search-mob {
+    width: 20rem !important;
+  }
+  .team-h {
+    height: calc(100vh - 9.07692rem) !important;
+  }
+  .gradient-section {
+    min-width: 135px;
+    min-height: 110px;
+  }
+  #widgetmodalmob .modal-dialog-scrollable .modal-content {
+    // max-height: calc(100vh - 238px);
+    overflow-x: hidden;
+    overflow-y: scroll !important;
+  }
+  .main-head {
+    margin-bottom: 10px;
+  }
+  .icons-mob {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .scrollbox-content {
+    overflow-x: hidden;
+  }
+  .bottom-30 {
+    margin-right: 15px !important;
+  }
+  .search-navbar .nav-link.active:after {
+    display: none;
+  }
+  .ham-menu {
+    width: 30px;
+  }
+  .search-navbar.nav-tabs {
+    flex-direction: row !important;
+  }
+  div#experienceTabContent {
+    max-height: calc(100vh - 300px) !important;
+    overflow: auto;
+  }
+  .search-suggestion {
+    top: 80% !important;
+  }
+  details summary::-webkit-details-marker {
+    display: none;
+  }
+  .sms-scroll-touch {
+    max-height: calc(100vh - 100px);
+  }
+
+  .user-list-voice {
+    max-height: none;
+  }
+  .channel-header {
+    height: 160px;
+  }
+  .fund-header {
+    height: 160px;
+  }
+  .modal {
+    padding-left: 10px !important;
+  }
+  .campaign-first-header .campaign-header {
+    height: 160px;
+  }
+}
+
+@media (max-width: 376px) {
+  #stored-response-float {
+    min-width: 315px;
+  }
+  .floating-box {
+    left: 6% !important;
+    min-width: 335px !important;
+  }
+  ::-webkit-search-cancel-button {
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+  }
+  .scroll-widget {
+    max-height: calc(100vh - 215px);
+  }
+}
+
+@media (max-width: 321px) {
+  .floating-box {
+    left: 6% !important;
+    min-width: 282px !important;
+  }
+}
+
+/*         desktop 1080x1920 */
+
+@media screen and (min-width: 1200px) and (max-width: 1330px) {
+  #contact-checked .g-recaptcha {
+    transform: scale(0.67);
+    -webkit-transform: scale(0.67);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+  .related-article {
+    padding: 10px !important;
+  }
+  .filter-btn {
+    padding: 10px 5px !important;
+  }
+}
+@media screen and (min-width: 1277px) and (max-width: 1314px) {
+  .input-box-height {
+    min-height: 140px !important;
+    align-items: center;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1050px) and (max-width: 1199px) {
+  .widget-sec {
+    width: 100%;
+  }
+  .input-box-height {
+    min-height: 140px !important;
+    align-items: center;
+    display: flex;
+  }
+  #contact-checked .g-recaptcha {
+    transform: scale(0.7);
+    transform-origin: 0 0;
+  }
+  .widget-angle-1 {
+    padding: 10px !important;
+  }
+  .widget-angle-2 {
+    padding: 10px !important;
+  }
+  .widget-angle-1,
+  .widget-angle-2 {
+    padding: 10px !important;
+    min-height: 105px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .bottom-30 {
+    margin-right: 54px !important;
+  }
+  #contact-checked .g-recaptcha {
+    transform: scale(0.5);
+    transform-origin: 0 0;
+  }
+  .min-check-lh {
+    min-height: 256px !important;
+  }
+}
+
+// 1280*960
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .bottom-30 {
+    margin-right: 5px !important;
+  }
+  .filter-btn {
+    padding: 10px 5px !important;
+  }
+
+  .related-article {
+    padding: 10px !important;
+  }
+  .widget-angle-1,
+  .widget-angle-1 {
+    padding: 10px !important;
+  }
+  .dropdown-reject {
+    transform: translate3d(-180.5px, -2px, 0px) !important;
+  }
+  .dropdown-guide {
+    transform: translate3d(-73px, -2px, 0px) !important;
+  }
+
+  #adminMainSec .chat-settings-box {
+    min-height: 120px;
+    align-items: center;
+  }
+  .filter-btn {
+    padding: 10px 5px !important;
+  }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1049px) {
+  .widget-sec {
+    width: 100%;
+  }
+  #contact-checked .g-recaptcha {
+    transform: scale(0.57);
+    -webkit-transform: scale(0.57);
+    transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+  }
+  //   .input-box-height {
+  //     min-height: 165px!important;
+  // }
+  .simple-form-height {
+    min-height: 145px;
+  }
+  .widget-angle-1,
+  .widget-angle-2 {
+    padding: 10px !important;
+  }
+  .bottom-30 {
+    margin-right: 25px !important;
+  }
+  .adjsut-widget {
+    padding: 0px !important;
+  }
+}
+
+// 1280x720
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+  .btn-call-mob {
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .agent-table td {
+    gap: 25px !important;
+  }
+  .virtual-checkbox .check-box input + label {
+    padding: 7px !important;
+  }
+  .create-wid {
+    min-width: 30%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  .btn-virtual-sel {
+    padding: 10px 8px !important;
+  }
+  .virtual-checkbox .check-box input:checked + label {
+    padding: 7px !important;
+  }
+  .filter-wrap .setting-buttons {
+    margin-top: 0.5rem !important;
+    margin-bottom: 5px !important;
+  }
+  .scroll-chat-topic {
+    padding-bottom: 10px;
+  }
+  .scroll-canvas {
+    padding-bottom: 10px;
+  }
+  // .chat-settings-box {
+  //   min-height: 150px;
+  // }
+
+  // #adminMainSec .chat-settings-box {
+  //   min-height: 150px;
+  //   align-items: center;
+  // }
+  .related-article {
+    padding: 10px !important;
+  }
+  .offset-form .form-group {
+    margin-top: 0px !important;
+  }
+  .bottom-height {
+    min-height: 95px;
+  }
+  .setting-buttons {
+    margin-bottom: 20px !important;
+  }
+  .chat-area-config {
+    padding: 0px 20px !important;
+  }
+  .btn-call-web {
+    padding: 10px !important;
+    display: flex;
+    justify-content: center;
+  }
+  .widget-angle-1,
+  .widget-angle-2 {
+    padding: 10px !important;
+  }
+
+  .bottom-30 {
+    margin-right: 5px !important;
+  }
+  .simple-form-height {
+    min-height: 125px;
+    align-items: center !important;
+  }
+  .save-new-theme {
+    margin-top: 30px !important;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 899px) {
+  .department-btns a {
+    min-width: 140px;
+    padding: 10px 5px !important;
+  }
+  .custom-policy-icons {
+    margin-top: 20px;
+  }
+  .vendor-left-mob {
+    justify-content: left !important;
+  }
+  .purchase-summury {
+    height: auto !important;
+  }
+
+  .scroll-purchase {
+    padding-left: 15px !important;
+  }
+  .agent-edit-btns {
+    padding: 10px 7px !important;
+  }
+  .equal-pad-top {
+    padding: 0 0em;
+  }
+  .equal-pad {
+    padding: 0 0px 20px 0px;
+  }
+  .equal-pad-campaign {
+    padding: 0 0px 20px 0px;
+  }
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 215px);
+  }
+  .start-call {
+    right: 29%;
+  }
+  .agent-profile-height {
+    height: auto;
+  }
+  .tab-content-payment {
+    padding: 10px 15px;
+    margin: 10px 10px;
+  }
+  .nav-link-payment {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .nav-link-wallet {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .payment-active-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  .payment-active-btn-wallet {
+    top: 19px !important;
+  }
+  .payment-wrap {
+    flex-direction: row !important;
+    padding: 0px 5px;
+    box-shadow: none !important;
+  }
+  .scroll-roles {
+    padding: 0px 5px 5px 5px !important;
+  }
+  .sms-scroll-touch {
+    max-height: calc(100vh - 100px);
+  }
+}
+
+// ipad 6 mini
+@media screen and (min-width: 648px) and (max-width: 760px) {
+  .simple-form-height {
+    min-height: 145px !important;
+  }
+  .tab-content-payment {
+    padding: 10px 15px;
+    
+  }
+  .nav-link-payment {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+  .nav-link-wallet {
+    align-items: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    min-height: auto !important;
+    position: relative;
+    text-align: left;
+    margin-right: 5px;
+    min-width: 70px;
+    padding: 15px 12px;
+  }
+
+  .payment-active-btn {
+    position: absolute;
+    top: 32px;
+    right: 20px;
+  }
+  .payment-wrap {
+    flex-direction: row !important;
+    padding: 0px 5px;
+    box-shadow: none !important;
+  }
+  .purchase-summury {
+    height: auto !important;
+  }
+  .scroll-purchase {
+    padding-left: 15px !important;
+  }
+  .agent-profile-height {
+    height: auto;
+  }
+
+  .department-btns a {
+    min-width: 140px;
+    padding: 10px 5px !important;
+  }
+  .agent-edit-btns {
+    padding: 10px 7px !important;
+  }
+  .scroll-wrap-doc {
+    max-height: calc(100vh - 210px);
+  }
+  .equal-pad-top {
+    padding: 0 0em;
+  }
+  .start-call {
+    right: 29%;
+  }
+  .equal-pad {
+    padding: 0 0px 20px 0px;
+  }
+  .sms-scroll-touch {
+    max-height: calc(100vh - 100px);
+  }
+}
+@media screen and (min-width: 630px) and (max-width: 768px) {
+  .message-box-comp {
+    width: 80%;
+  }
+}
+@media screen and (min-width: 1314px) and (max-width: 1457px) {
+  .widget-angle-1,
+  .widget-angle-2 {
+    padding: 10px !important;
+    min-height: 105px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .input-box-height {
+    height: 125px;
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (min-width: 1020px) and (max-width: 1457px) {
+  .support-settings-box {
+    min-height: 147px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 647px) {
+  .simple-form-height {
+    min-height: 180px !important;
+  }
+  .agent-profile-height {
+    height: auto;
+  }
+  .purchase-summury {
+    height: auto !important;
+  }
+  .department-btns a {
+    min-width: 140px;
+    padding: 10px 5px !important;
+  }
+  .agent-edit-btns {
+    padding: 10px 7px !important;
+  }
+  .start-call {
+    right: 29%;
+  }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .drag-item {
+    width: 50%;
+  }
+  .credit-pack{
+    padding: 0 5em;
+  }
+}
+
+@media (max-width: 1330px) {
+  .new-ticket-border {
+    border: 1px solid #c3cee9 !important;
+    border-radius: 5px !important;
+  }
+}
+
+/* Landscape*/
+
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 940px) and (orientation: landscape) {
+  .wallet-profile-height {
+    height: auto;
+  }
+  .wallet-mob-back{
+    padding: 12px !important;
+  }
+  .credit-pack{
+    padding: 0 5em;
+  }
+}
+
+@media only screen and (min-device-width: 820px) and (max-device-width: 1180px) and (orientation: landscape) {
+  
+  .credit-pack{
+    padding: 0 5em;
+  }
+}
+
+

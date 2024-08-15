@@ -1,0 +1,258 @@
+.bg-comm-chat {
+  background-image: url('../../../../../public//assets/login-bg.jpg');
+  background-size: cover;
+}
+.bg-comm-admin {
+  background-image: url('../../../../../public//assets/login-bg.jpg');
+  background-size: cover;
+}
+.bg-comm-support {
+  background-image: url('../../../../../public//assets/login-support-bg.jpg');
+  background-size: cover;
+}
+.bg-comm-voice {
+  background-image: url('../../../../../public//assets/login-voice-bg.jpg');
+  background-size: cover;
+}
+
+.learn-more {
+  color: #fff;
+  border: 1px solid #fff;
+  &:hover {
+    background: #fff;
+    border: 1px solid #fff;
+    color: black;
+    transition: all 0.4s ease;
+  }
+  &:active {
+    background: #fff !important;
+    border: 1px solid #fff;
+    color: black;
+    transition: all 0.4s ease;
+  }
+  &:hover img {
+    // transform: rotateZ(180deg);
+    // transition: all 0.4s ease;
+    filter: brightness(0);
+  }
+}
+.sign-loader {
+  animation: rotateImg 2s linear infinite;
+}
+@keyframes rotateImg {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.account-wrap {
+  background: #d4d3e6;
+}
+
+// .gs-form-wrap {
+//     margin-top: 45px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap:30px;
+// }
+
+.gs-form-control {
+  position: relative;
+  // width: 280px;
+  height: 47px;
+  border-radius: 5px;
+}
+.gs-form-control input {
+  width: 100%;
+  border: 0;
+  outline: none;
+  height: 100%;
+  padding: 10px 15px;
+  transition: 0.4s;
+  border: 1px solid #9ea4a9;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.gs-form-control input:valid + label {
+  top: -0.45rem;
+  left: 10px;
+  font-size: 0.9rem;
+  z-index: 100;
+  width: auto;
+  height: 0.9rem;
+  padding: 0px 10px;
+  color: #333;
+}
+
+input:not(:focus) {
+  color: #333;
+}
+input:focus {
+  // background: #fff;
+}
+
+.gs-form-control input:focus + label {
+  top: -0.45rem;
+  left: 10px;
+  font-size: 0.9rem;
+  z-index: 100;
+  width: auto;
+  height: 0.9rem;
+  padding: 0 10px;
+  color: #333333;
+}
+
+.gs-form-control input:focus ~ div.border-around {
+  border: 1px solid #8abffd;
+}
+
+.gs-form-control label {
+  position: absolute;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  width: 100%;
+  height: 100%;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: #333;
+  background-color: #fff;
+  padding: 10px;
+  pointer-events: none;
+  border-radius: 5px;
+}
+.gs-form-control div.border-around {
+  position: absolute;
+  border: 1px solid #9ea4a9;
+  height: 100%;
+  width: 100%;
+  padding-right: 25px;
+  top: 0;
+  pointer-events: none;
+  transition: 0.2s;
+  border-radius: 5px;
+}
+
+.gs-form {
+  & .strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+
+  & .strike > span {
+    position: relative;
+    display: inline-block;
+    color: #6174a4;
+    font-weight: 600;
+  }
+
+  & .strike > span:before,
+  & .strike > span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    /* Here is the modification */
+    border-top: 1px solid #c3cee9;
+    border-radius: 2px;
+  }
+
+  & .strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+
+  .strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+
+  & .sign-footer {
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+.field-icon {
+  float: right;
+  margin-top: -30px;
+  position: relative;
+  z-index: 2;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.floating-mobile {
+  height: 47px;
+  border: 1px solid #9ea4a9;
+  border-bottom-right-radius: 0;
+}
+.mobile-input {
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.gs-form-control input:focus ~ div.mobile-input {
+  border-radius: 0px 5px 5px 0px !important;
+}
+
+.gs-form-control .mobile-input:valid + label {
+  left: -65px;
+}
+
+.gs-form-control .mobile-input:focus + label {
+  left: -65px;
+}
+
+.custom-input-label input::placeholder {
+  color: #000;
+}
+
+.free-radio-one.active {
+  color: #645df6;
+}
+
+.free-radio-one.active img {
+  filter: brightness(0) saturate(100%) invert(33%) sepia(59%) saturate(3110%) hue-rotate(231deg)
+    brightness(99%) contrast(94%) !important;
+}
+
+.login-main-head {
+  font-size: 20px;
+}
+@media (max-width: 576px) {
+  .login-main-head {
+    font-size: 17px;
+  }
+  .login-btn {
+    width: 100%;
+  }
+}
+
+input::-ms-reveal {
+  display: none;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.google-signin-image:hover {
+  transform: scale(1.1);
+  transition: all ease 0.5s;
+}
+
+.google-signin-image {
+  transition: all ease 0.5s;
+}

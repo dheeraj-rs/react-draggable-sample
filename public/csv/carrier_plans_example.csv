@@ -1,0 +1,3 @@
+Carrier Plan Id,Country Id,State Id,City Id,Area Code,Is Enabled,Buy Rate,Buy Rate Effective On,Buy Rate Start Pulse,Buy Rate Next Pulse,Sell Rate,Sell Rate Effective On,Sell Rate Start Pulse,Sell Rate Next Pulse
+1,78,1,1,9204,1,0.40,2023-10-26,1,1,0.50,2023-10-27,1,11
+1,78,1,1,9204,1,0.40,2023-10-26,1,1,0.50,2023-10-27,1,11

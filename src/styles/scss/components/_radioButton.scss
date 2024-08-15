@@ -1,0 +1,49 @@
+
+   .radio-tick {
+    opacity: 0;
+    position: absolute;   
+}
+
+ .radio-tick, .radio-tick-label {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.radio-tick-label {
+    position: relative;
+}
+
+.radio-tick + .radio-tick-label:before {
+    content: '';
+    background: #fff;
+    border: 2px solid #AFB5BF;
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    margin-top:-3px;
+}
+
+
+.radio-tick + .radio-tick-label:before {
+    border-radius: 50%;
+}
+
+.radio-tick:checked + .radio-tick-label:before {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  color: #fff;
+  background: #645DF6;
+  border: 2px solid #645DF6;
+}
+
+.radio-tick:checked:checked+label{ 
+  color:#000 !important;
+  font-weight: 500;
+} 
+.radio-tick:checked:checked+label img{ 
+  filter: invert(42%) sepia(89%) saturate(3915%) hue-rotate(229deg) brightness(97%) contrast(99%);
+} 

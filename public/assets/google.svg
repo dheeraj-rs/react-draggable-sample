@@ -1,0 +1,26 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_d_16_258)">
+<rect x="12" y="6" width="40" height="40" rx="20" fill="white"/>
+</g>
+<g clip-path="url(#clip0_16_258)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M27.0946 26.5C27.0946 25.8829 27.1971 25.2913 27.3801 24.7364L24.1783 22.2915C23.5543 23.5584 23.2028 24.9861 23.2028 26.5C23.2028 28.0127 23.554 29.4394 24.177 30.7055L27.377 28.2559C27.1957 27.7035 27.0946 27.1141 27.0946 26.5Z" fill="#FBBC05"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.7163 20.8864C34.0569 20.8864 35.2677 21.3614 36.219 22.1386L38.9865 19.375C37.3001 17.9068 35.1379 17 32.7163 17C28.9567 17 25.7255 19.15 24.1783 22.2915L27.38 24.7364C28.1177 22.4971 30.2206 20.8864 32.7163 20.8864Z" fill="#EA4335"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M32.7163 32.1137C30.2208 32.1137 28.1179 30.503 27.3801 28.2637L24.1783 30.7081C25.7255 33.8501 28.9567 36.0001 32.7163 36.0001C35.0367 36.0001 37.2521 35.1761 38.9148 33.6324L35.8757 31.2829C35.0181 31.8231 33.9383 32.1137 32.7163 32.1137Z" fill="#34A853"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M41.7973 26.4999C41.7973 25.9385 41.7107 25.3339 41.581 24.7727H32.7163V28.4431H37.819C37.5638 29.6946 36.8694 30.6566 35.8757 31.2827L38.9148 33.6322C40.6613 32.0113 41.7973 29.5965 41.7973 26.4999Z" fill="#4285F4"/>
+</g>
+<defs>
+<filter id="filter0_d_16_258" x="0" y="0" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="6"/>
+<feGaussianBlur stdDeviation="6"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_16_258"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_16_258" result="shape"/>
+</filter>
+<clipPath id="clip0_16_258">
+<rect width="19" height="19" fill="white" transform="translate(23 17)"/>
+</clipPath>
+</defs>
+</svg>

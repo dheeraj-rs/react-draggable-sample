@@ -1,0 +1,119 @@
+.component__wrap__outer{
+    width:250px;
+}
+
+.connector__lines__two {
+    position: absolute;
+    right: -20px;
+    top: 73px;
+}
+
+.connector__lines__one {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.incomming__call__component__wrap {
+    margin-bottom: 33px;
+}
+
+.greetify__component__wrap {
+    margin-top: 100px;
+}
+
+.ivr__component__wrap {
+    position: absolute;
+    top: 65px;
+    left: 310px;
+}
+
+.ivr__a2__component__wrap {
+    top: 65px;
+    position: absolute;
+    left: 610px;
+}
+
+.connect__component__wrap {
+    left: 906px;
+    position: absolute;
+    top: 65px;
+}
+
+.hangup__component__wrap {
+    position: absolute;
+    top:65px;
+    left: 1200px;
+}
+
+.hangup__feedback__component__wrap {
+    position: absolute;
+    left: 1200px;
+    top: 144px;
+}
+
+.voicemail__feedback__component__wrap {
+    margin-top: 40px;
+}
+
+.email__feedback__component__wrap {
+    position: absolute;
+    left: 310px;
+    top: 460px;
+}
+
+.callerid__feedback__component__wrap {
+    position: absolute;
+    left: 610px;
+    top: 404px;
+}
+
+.shortcut__feedback__component__wrap {
+    position: absolute;
+    left: 905px;
+    top: 389px;
+}
+
+.get__value__component__wrap {
+    position: absolute;
+    left: 310px;
+    top: 590px;
+}
+
+.get__value__api__component__wrap {
+    position: absolute;
+    left: 1200px;
+    top: 327px;
+}
+
+.passthru__component__wrap {
+    left: 1200px;
+    position: absolute;
+    top: 556px;
+}
+
+.sms__api__component__wrap {
+    position: absolute;
+    left: 1500px;
+    top: 65px;
+}
+
+.queue__component__wrap {
+    position: absolute;
+    left: 1500px;
+    top: 255px;
+}
+
+.gotoflow__component__wrap {
+    position: absolute;
+    left: 1500px;
+    top: 490px;
+}
+
+
+
+
+
+
+

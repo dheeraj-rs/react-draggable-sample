@@ -1,0 +1,119 @@
+.bot-activity-bot-version-dropdown-btn::after,
+.bot-activity-bot-version-dropdown-btn::before {
+  display: none;
+}
+
+.bot-activity-main-tab-header {
+  margin-left: 10rem;
+}
+
+.bot-activity-main-tab-header li.active {
+  background-color: rgb(237, 236, 255);
+  color: #645DF6;
+}
+
+.bot-activity-main-tab-header li.active svg {
+  filter: invert(31%) sepia(62%) saturate(1442%) hue-rotate(219deg) brightness(113%) contrast(94%);
+}
+
+.article-table tr {
+  border-bottom: 0.5px solid #ddd;
+}
+
+.article-table tr:hover {
+  background: #F2F1FF !important;
+  border: 1px solid #A39EFF !important;
+  border-top: 1px solid #A39EFF !important;
+}
+
+.component-badge {
+  background-color: #e4e7ff;
+  font-size: 13px;
+  padding: 5px 9px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.outer-circle {
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  border-radius: 9rem;
+  border: 1.2rem solid palegreen;
+  border-left-color: #645DF6;
+  border-top-color: #FF7E36;
+  border-right-color: #8190B7;
+  border-bottom-color: #000000;
+}
+
+.inner-circle {
+  width: 8.5rem;
+  height: 8.5rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.feedback-guid li span:nth-child(1) {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ddd;
+}
+
+.feedback-guid li:nth-child(1) span:nth-child(1) {
+  background-color: #645DF6;
+}
+
+.feedback-guid li:nth-child(2) span:nth-child(1) {
+  background-color: #8190B7;
+}
+
+.feedback-guid li:nth-child(3) span:nth-child(1) {
+  background-color: #6F96FB;
+}
+
+.feedback-guid li:nth-child(4) span:nth-child(1) {
+  background-color: #F97B35;
+}
+
+.feedback-guid li:nth-child(5) span:nth-child(1) {
+  background-color: #010101;
+}
+
+.article-sidebar-btn,
+.feedback-sidebar-btn {
+  height: 40px;
+  width: 59px;
+}
+
+.article-back {
+  cursor: pointer;
+}
+
+.article-table tr:nth-child(2) {
+  background-color: #645DF6;
+}
+
+@media (min-width: 768px) {
+  .article-sidebar-btn,
+  .article-back,
+  .feedback-sidebar-btn,
+  .feedback-back {
+    display: none !important;
+  }
+}
+@media (max-width: 767px) {
+  .right-sidebar-main,
+  .center-main,
+  .feedback-sidebar {
+    display: none;
+  }
+  .bot-activity-main-tab-header {
+    margin-left: 0;
+  }
+  .article-sidebar {
+    display: none;
+  }
+}/*# sourceMappingURL=settings-bot-activity-updated.css.map */

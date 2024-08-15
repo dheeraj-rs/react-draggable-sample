@@ -1,0 +1,49 @@
+.publish__popup {
+    .btn-close {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+}
+
+.create__addon__popup {
+    .create__addon__popup__tab__header {
+        border:1px solid #C3CEE9;
+        border-radius: 5px;
+        overflow: hidden;
+        li {
+            flex-basis: 50%;
+            cursor: pointer;
+            &:nth-child(1) {
+                border-right:1px solid #C3CEE9;
+            }
+            &.active {
+                background-color: #645DF6;
+                color:#fff;
+            }
+        }
+    }
+    .credit__pack__content {
+        img {
+            position: absolute;
+            right:15px;
+            top:50%;
+            transform:translateY(-50%);
+        }
+    }
+    .validity__pack__content {
+        img {
+            position: absolute;
+            right:15px;
+            top:50%;
+            transform:translateY(-50%);
+        }
+        span {
+            position: absolute;
+            right:15px;
+            top:50%;
+            transform:translateY(-50%);
+        }
+    }
+    
+}

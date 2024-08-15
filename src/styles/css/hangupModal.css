@@ -1,0 +1,50 @@
+.hang-up-modal {
+  padding: 30px;
+}
+
+.hang-up-modal-outer {
+  max-width: 568px;
+  top: 125px;
+}
+
+.hang-up-modal-outer .modal-content {
+  border: none;
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.2);
+}
+
+.hang-up-radio-outer {
+  background-color: #EBF0F4;
+  border-radius: 6px;
+  cursor: pointer;
+  border: 1px solid #ebf0f4;
+}
+
+.hang-up-radio-outer.active {
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #000;
+}
+
+.hang-up-radio-outer input,
+.hang-up-radio-outer label {
+  display: none !important;
+}
+
+.hangup-template-btn:hover {
+  border: 1px solid #645DF6 !important;
+}
+
+.hangup-template-btn {
+  border: 1px solid transparent !important;
+}
+
+@media (min-width: 768px) {
+  .hang-up-radio-outer-one {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .hang-up-radio-outer-two {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+  }
+}/*# sourceMappingURL=hangupModal.css.map */

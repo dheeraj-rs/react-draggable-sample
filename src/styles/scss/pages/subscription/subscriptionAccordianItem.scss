@@ -1,0 +1,49 @@
+    
+.subscription__accordion-item {
+        border:none;
+        border-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        .accordion-body {
+            background-color: #fff;
+            border:none;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+            padding: 0;
+        }
+        .accordion-header {
+            border:none;
+            box-shadow:none;
+        }
+        .accordion-button {
+            box-shadow: none;
+            border:none;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            background-color: #E9F1FE !important;
+            &.collapsed {
+                border-radius: 5px;
+                background-color: #fff !important;
+            }
+    
+        }
+    
+        .accordion-collapse {
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        .header__left {
+            flex-basis: 50%;
+        }
+        .header__right {
+            flex-basis: 50%;
+            @media(max-width:700px){
+                padding-left: 41px;
+            }
+        }
+        .header_header_inner {
+            @media(max-width:700px){
+                flex-direction: column;
+            }
+        }
+    }

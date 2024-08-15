@@ -1,0 +1,79 @@
+.call-connected-screen-outer {
+    position:fixed;
+    max-width:332px;
+    width:100%;
+    right:20px;
+    bottom:20px;
+    .dailing-info-wrap {
+        background-color: rgba(255, 255, 255, 0.06);
+        border-radius: 50px;
+    }
+    .dailing-badge {
+        color:#45FFDE;
+        border:1px solid #45FFDE;
+        border-radius: 50px;
+    }
+    .call-drop-outer {
+        background-color: #FF1B1B;
+        width:45px;
+        height:45px;
+    }
+    .call-connected-btn-wrap {
+        width:240px;
+        margin: 0 auto;
+        gap:20px;
+    }
+    .call-connected-actions {
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color: #376384;
+        border:0;
+        &.check {
+            background-color: #0C2F4A;
+        }
+        &:hover {
+            background-color: #0C2F4A;
+        }
+    }
+    .next-call-button{
+        background-color: #00C0B4;
+        width:45px;
+        height:45px;
+        &:hover {
+            background-color: #0C2F4A;
+            .next-call-tooltip {
+                opacity: 1;
+                pointer-events: all;
+                transition: all ease 0.5s;
+            }
+        }
+    }
+    .next-call-tooltip {
+        width: 170px;
+        top: -59px;
+        left:50%;
+        transform:translateX(-50%);
+        opacity:0;
+        pointer-events: none;
+        transition: all ease 0.5s;
+        &::after {
+            position: absolute;
+            width:10px;
+            height:10px;
+            background-color: #fff;
+            content: "";
+            transform: rotate(45deg) translateX(-50%);
+            left:50%;
+            bottom: -7px;
+        }
+    }
+    .dp-text {
+        background-color: #00C0DA;
+        width:30.5px;
+        height:30.5px;
+        color:#004A54;
+    }
+}
+
+

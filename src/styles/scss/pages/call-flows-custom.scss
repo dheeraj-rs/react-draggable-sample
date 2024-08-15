@@ -1,0 +1,102 @@
+.bg-faded-blue {
+    background-color: #F2F7FF !important;
+    border-radius: 10px 10px 0 0 !important
+
+}
+
+.bg-hover-blue {
+    &:hover {
+        background-color: #EBF7FB !important;
+    }
+    .added-green {
+        img {
+            filter:none !important;
+        }
+    }
+}
+
+.bg-green {
+    background-color: #08C76B !important;
+}
+.icon-wrapper{
+    width:27px;
+    height:27px;
+    border-radius: 50%;
+    background-color: #93D8FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    &.incomming {
+        background-color: #E1C3FF !important;
+    }
+    &.hangup {
+        background-color: #FFB2B2 !important;
+    }
+}
+
+.call-shadow {
+    box-shadow: 0 0px 10px #1b323647 !important;
+    border-radius: 10px !important;
+    border: 1px solid #c9cedf;
+    &:hover {
+        border-color: #4da2fa;
+    }
+    ul {
+        border-bottom-left-radius: 10px !important;
+        border-bottom-right-radius: 10px !important;
+        &.dropdown-menu {
+            border-bottom-left-radius: 6px !important;
+            border-bottom-right-radius: 6px !important;
+        }
+    }
+    
+}
+
+body .added-green {
+    background-color: #97E7C1 !important;
+
+}
+
+.reload {
+    box-shadow: 0px 3px 7px 0px #00000030;
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #fff;
+    &:hover {
+        background-color: #645DF6;
+        img {
+            filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7462%) hue-rotate(137deg) brightness(93%) contrast(113%);
+        }
+    }
+}
+
+.call-header-outer {
+    margin-bottom: -13px;
+    position: relative;
+    //z-index: 99;
+    padding-left: 13px;
+    padding-right: 13px;
+}
+
+.call-padding {
+    padding-right: 24px !important;
+    padding-left: 24px !important;
+}
+
+.flow-preview-btn {
+    border:1px solid #9D98FF;
+    img {
+        filter: brightness(0) saturate(100%) invert(60%) sepia(25%) saturate(1152%) hue-rotate(203deg) brightness(101%) contrast(105%);
+    }
+    &:hover {
+        background-color: #9D98FF !important;
+    }
+}
+
+

@@ -1,0 +1,392 @@
+.main-body-inner {
+  //padding: 50px;
+  height: calc(100vh - 155px);
+  border-radius: 5px;
+  background-image: url('../../../../public/assets/call-flows-icons/dot-grid.svg');
+  background-repeat: repeat;
+  padding: 40px 26px 40px 26px;
+  background-color: #f3f4f7;
+  background-position: -10px;
+}
+.main-body-react-flow {
+  height: calc(100vh - 155px);
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.incoming-call-tab {
+  padding: 8px 16px;
+  background-color: #dfe4f6;
+  border: 1px solid #d6ddf7;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #345388;
+  font-weight: 500;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.addcomponent-button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  transition: all ease 0.5s;
+}
+
+.addcomponent-button:hover,
+.addcomponent-button:focus {
+  background-color: #645df6;
+  transition: all ease 0.5s;
+}
+
+.add-component-hours {
+  padding: 1.875rem 3.125rem;
+  background-color: #fff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+}
+
+.added-call {
+  box-shadow: 0 0.5rem 1rem #00000026;
+  border-radius: 0.5rem;
+}
+
+.added-call ul {
+  padding: 0 0 10px 0;
+  margin: 0;
+  list-style: none;
+}
+
+.added-call ul li {
+  cursor: pointer;
+  padding: 11px 10px;
+}
+
+.added-call ul li:hover {
+  background-color: #ebefff;
+}
+
+.added-call ul li:hover .add-btn {
+  background-color: #000;
+}
+
+.added-call ul li:hover .add-btn img {
+  filter: brightness(100);
+}
+
+.added-call ul li.active {
+  background-color: #ebefff;
+}
+
+.added-call ul li.active .add-btn {
+  background-color: #0fa779;
+}
+
+.added-call ul li.active .add-btn img {
+  filter: brightness(100);
+}
+
+.added-call ul li .add-btn {
+  background-color: #dfe4f6;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.added-call ul li .add-btn img {
+  width: 10px;
+}
+
+img.call-connector {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 101%;
+}
+
+.component-item-wrapper {
+  width: 100%;
+  max-width: 300px;
+}
+
+.greetify-component {
+  // margin-top: 81px;
+  margin-top: 96px;
+}
+
+.connector-1 {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  width: 185px;
+  /* height: 300px; */
+}
+
+.added-green {
+  background-color: #0fa779 !important;
+}
+
+.component-item-wrapper-outer {
+  gap: 100px;
+}
+.ivr-component {
+  margin-top: 6px;
+}
+
+.presskry-number {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  background-color: #cad6dc;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 26px;
+  margin-left: 10px;
+}
+
+.connector-2 {
+  position: absolute;
+  right: 100%;
+  top: 76px;
+}
+
+.connect-component {
+  margin-top: 25px;
+}
+.flow-connector {
+  position: absolute;
+  right: 300px;
+  top: 20px;
+}
+.flow-component {
+  top: 406px;
+  right: 40px;
+}
+
+.flow-component.flow-component-1 {
+  top: 290px;
+}
+
+.queue-connector {
+  position: absolute;
+  right: 100%;
+  top: 76px;
+}
+.queue-component {
+  margin-top: 100px;
+}
+
+.hang-up-only-component {
+  margin-top: 40px;
+}
+
+.hang-up-reply-component {
+  margin-top: 25px;
+}
+
+.component-single-select-dropdown ul {
+  border-top: 0;
+}
+
+.caller-id-component-dropdown {
+  flex-basis: calc(100% - 40px);
+}
+
+.connector-3 {
+  left: -30px;
+  position: absolute;
+  top: 25px;
+}
+
+.play-ivr-queue-component {
+  flex-basis: calc(100% - 65px);
+}
+
+// #queueModal. {
+//   margin-top: 0 !important;
+// }
+
+#queueModal .modal-dialog {
+  top: 80px;
+}
+
+// #getValueModal. {
+//   margin-top: 0 !important;
+// }
+
+#getValueModal .modal-dialog {
+  top: 80px;
+}
+
+// #passthroughModal. {
+//   margin-top: 0 !important;
+// }
+
+#passthroughModal .modal-dialog {
+  top: 80px;
+}
+.modal-footer button.disabled {
+  pointer-events: none !important;
+}
+.callflow-headericon {
+  width: 32px;
+  height: 32px;
+}
+
+.connect-modal-main-tab-two {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.snd-sms-departmetnt::after {
+  display: none;
+  position: relative;
+  height: 36px;
+}
+
+.snd-sms-departmetnt img {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 1285px) {
+  .ivr-modal-outer,
+  #callBackModal .modal-dialog {
+    top: 0 !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #queueModal .modal-dialog,
+  #connectModal .modal-dialog,
+  #ivrModal .modal-dialog,
+  #getValueModal .modal-dialog {
+    max-width: 98% !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .get-value-tab {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hang-up-component {
+    margin-top: 354px !important;
+  }
+
+  .rounded.bg-titan-water.p-3.mt-4.queue-blue-bg {
+    padding-top: 22px !important;
+    padding-bottom: 22px !important;
+  }
+}
+@media (max-width: 767px) {
+  .main-body-inner {
+    overflow: auto !important;
+  }
+  .main-body-react-flow {
+    overflow: auto !important;
+  }
+
+  .ivr-component {
+    margin-top: 81px !important;
+  }
+  .component-item-wrapper-outer {
+    gap: 0;
+  }
+  .connector-2 {
+    display: none;
+  }
+  .sms-arrow {
+    transform: rotate(90deg);
+  }
+  .modal {
+    padding: 0;
+  }
+  .connect-component-flew-main-form {
+    gap: 15px;
+    flex-direction: column;
+  }
+  .connect-component-flew-main-form-inner {
+    flex-basis: 100%;
+  }
+  .flow-rename input {
+    flex-basis: 100%;
+    width: auto;
+  }
+  .flow-rename button {
+    flex-basis: 37%;
+  }
+  .react-flow__panel.bottom {
+    bottom: 66px !important;
+  }
+}
+
+@media (max-width: 575px) {
+  .component-item-wrapper {
+    max-width: 250px;
+  }
+  .greetify-component {
+    margin-top: 55px;
+  }
+  .added-call ul li {
+    padding: 10px 10px;
+  }
+  .connector-1 {
+    width: 135px;
+  }
+  .flow-component {
+    right: 0;
+    top: 30px;
+  }
+  .flow-connector {
+    position: absolute;
+    right: 114px;
+    top: -27px;
+  }
+  .queue-component {
+    margin-top: 30px;
+  }
+  .queue-connector {
+    position: absolute;
+    right: 50%;
+    top: -25px;
+  }
+
+  .passthru-url-component {
+    margin-top: 30px;
+  }
+  .get-value-component {
+    margin-top: 30px;
+  }
+  .add-btn.input-add-svg {
+    width: 24px !important;
+  }
+  .queue-key-select {
+    flex-basis: 150px !important;
+  }
+}
+
+//ipad mini 5
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .main-body-inner,
+  .main-body-react-flow {
+    height: calc(100vh - 200px);
+  }
+}
+
+//iphone se
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation: portrait) {
+  .main-body-inner,
+  .main-body-react-flow {
+    height: calc(100vh - 234px);
+  }
+}

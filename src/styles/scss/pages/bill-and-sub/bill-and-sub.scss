@@ -1,0 +1,206 @@
+.subscription-white-bg-wrap {
+    height:100%;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+}
+
+.white-bg-wrapper-outer {
+    height:calc(100vh - 87px);
+    margin-top: 77px;
+    padding-left: 77px;
+    padding-right: 12px;
+}
+.subscription-tab {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.41);
+}
+
+.subscription-tab-header {
+    li {
+        width:130px;
+        height:35px;
+        &.active {
+            background-color: #DAE4FF;
+            color: #645DF6;
+        }
+    }
+}
+
+.subscription-back-btn-outer {
+    height:30px;
+    width:30px;
+}
+
+.sub-shadow {
+    box-shadow: 0px 3px 3px 0px rgba(64, 78, 94, 0.10), 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.current-plan-outer {
+    gap:104px;
+}
+
+.current-plan-items {
+    flex-basis: calc(33.333% - 52px);
+}
+
+.subscription-edit-billing-button {
+    border:1px solid #645DF6;
+    transition: all ease 0.5s;
+    &:hover {
+        background:#645DF6 !important;
+        color: #fff !important;
+        transition: all ease 0.5s;
+    }
+   &.active {
+        background:#645DF6 !important;
+        color: #fff !important;
+        transition: all ease 0.5s;
+    }
+}
+
+
+
+.virtual-number-progress-bar {
+    background: #645DF6;
+    background: linear-gradient(90deg, rgba(100,93,246,1) 19%, rgba(129,144,183,1) 20%);
+    height:5px;
+    border-radius: 2.5px;
+    max-width:80%;
+}
+.subscription-progress{
+    background: rgb(21 126 251);
+    background: linear-gradient(90deg, rgb(21 126 251) 19%, rgb(129 144 183 / 30%) 20%);
+    height:5px;
+    border-radius: 2.5px;
+    max-width:80%;
+}
+.plan-tab {
+    overflow: hidden;
+}
+
+.plan-tab button {
+    flex-basis: 50%;
+    border: none;
+    padding: 6px 10px;
+    &.active {
+        background: #000;
+        color: #fff;
+    }
+}
+
+.choose-plan-outer-header-desktop {
+    position: absolute;
+    left: 0;
+    top:-4px;
+}
+
+.plan-item {
+    border:1px solid #AFB5BF;
+}
+
+.upgradeModal-listing li {
+    flex-basis: 50%;
+}
+
+.modal-close-sub {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.btn-monthly{
+    background: #fff;
+    color: #000;
+}
+.btn-annualy{
+    background: #fff;
+    color: #000;
+}
+@media(max-width:1199px){
+    .billing-address-outer {
+        display: none;
+    }
+
+    .current-plan-outer {
+        gap:0px;
+        flex-wrap: wrap !important;
+    }
+    .current-plan-items {
+        flex-basis: 50%;
+    }
+    .ipad-view-address {
+        flex-basis: 100%;
+        display: block !important;
+    }
+
+    .current-plan-items:nth-child(1) {
+        padding-right:1.5rem;
+    }
+    .subscription-progress{
+        max-width:100%;
+    }
+}
+
+@media(max-width:991px){
+    .white-bg-wrapper-outer {
+        padding-left: 12px;
+    }
+    .wallet-balance-outer {
+        width:100% !important;
+    }
+    .anually-content {
+        padding-bottom: 35px;
+    }
+}
+
+
+@media(max-width:767px){
+
+
+
+    .virtual-number-progress-bar {
+        max-width: 100%;
+    }
+.subscription-progress{
+    max-width: 100%;
+}
+    .current-plan-items:nth-child(1) {
+        margin-top: 0;
+    }
+
+}
+
+@media(max-width:743px){
+    .current-plan-items {
+        flex-basis: 100%;
+        margin-top: 15px;
+    }
+
+    .ipad-view-address {
+        display: none !important;
+    }
+    .billing-address-outer {
+        display: block;
+        flex-basis: 100%;
+        margin-top:15px;
+    }
+
+    #BillingAddressModal,
+    #upgradeModal,
+    #DowngradeModal {
+        padding: 0 !important;
+    }
+
+}
+
+//admin styles
+.equal-pad-plan{
+    padding: 0em 8em;
+  }
+  @media(max-width:991.98px){
+    .equal-pad-plan{
+        padding: 0em 12px;
+      }
+  }
+  .scroll-plan {
+    height: calc(100vh - 178px);
+    overflow-x: hidden;
+    overflow-y: scroll;
+}

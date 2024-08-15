@@ -1,0 +1,27 @@
+.call-waiting-list-outer {
+  width: 100%;
+  box-shadow: 0px 4px 30px 0px rgba(44, 47, 114, 0.34);
+  position: fixed;
+  bottom: 20px;
+  right: 370px;
+  max-width: 355px;
+}
+.call-waiting-list-outer .call-wait-list-active::after {
+  position: absolute;
+  width: 7px;
+  height: 7px;
+  content: "";
+  left: -3px;
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+  background-color: #645DF6;
+}
+
+@media (max-width: 767px) {
+  .call-waiting-list-outer {
+    right: unset;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}/*# sourceMappingURL=call-waiting-list.css.map */

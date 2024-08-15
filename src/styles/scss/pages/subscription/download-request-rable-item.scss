@@ -1,0 +1,16 @@
+.downgrade__request__table__item {
+    border-bottom: 1px solid #c3cee9;
+    .review__button {
+        height:30px;
+        border:1px solid #645DF6;
+        color:#645DF6;
+        background-color: #fff;
+        transition: all ease 0.5s;
+        width:75px;
+        &:hover {
+            background-color:#645DF6;
+            color: #fff;
+            transition: all ease 0.5s;
+        }
+    }
+}

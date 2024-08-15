@@ -1,0 +1,74 @@
+$one: 31px;
+$two: 27px;
+$size: 20px;
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-wrap {
+    // margin: $one auto;
+    width: $one;
+    height: $one;
+    background: #fefcff;
+    border-radius: 50%;
+    border: 2px solid #cdcbd0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill {
+    width: $one;
+    height: $one;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+    clip: rect(0px, $one, $one, $size);
+}
+
+.circle-wrap .inside-circle {
+    width: $two;
+    height: $two;
+    border-radius: 50%;
+    background: #f7f6ff;
+    line-height: 18px;
+    text-align: center;
+    // margin-top: 14px;
+    // margin-left: 14px;
+    color: #333333;
+    position: absolute;
+    z-index: 100;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* color animation */
+
+/* 3rd progress bar */
+.mask .fill {
+    clip: rect(0px, $size, $one, 0px);
+    background-color: #645df6;
+}
+
+.mask.full,
+.circle .fill {
+    animation: fill ease-in-out 3s;
+    transform: rotate(135deg);
+}
+
+@keyframes fill {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(135deg);
+    }
+}

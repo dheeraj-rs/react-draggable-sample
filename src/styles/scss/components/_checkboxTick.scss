@@ -1,0 +1,152 @@
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 31px;
+  height: 16px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #c3c7d0;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: url('../../../../public/assets/close-toggle.svg');
+  height: 14px;
+  width: 14px;
+  left: 1px;
+  bottom: 1px;
+  background-color: white;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+}
+
+input:checked + .slider {
+  background: #645df6;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #645df6;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  content: url('../../../../public/assets/active-toggle.svg');
+
+  left: -9px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.label-toggle {
+  font-weight: 400;
+  font-size: 13px;
+  color: #333333;
+  margin-left: 10px;
+}
+
+// small check box
+.switch-small {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 15px;
+}
+
+.switch-small input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider-small {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #c3c7d0;
+  border-radius: 50px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.slider-small:before {
+  position: absolute;
+  content: url('../../../../public/assets/close-toggle.svg');
+  height: 12px;
+  width: 12px;
+  left: 2px;
+  bottom: 1.5px;
+  background-color: white;
+  transition: 0.4s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:checked + .slider-small {
+  background: #645df6;
+}
+
+input:focus + .slider-small {
+  box-shadow: 0 0 1px #645df6;
+}
+
+input:checked + .slider-small:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  content: url('../../../../public/assets/active-toggle.svg');
+
+  left: -9px;
+  position: absolute;
+}
+
+/* Rounded sliders */
+.slider-small.round {
+  border-radius: 34px;
+}
+
+.slider-small.round:before {
+  border-radius: 50%;
+}
+
+.label-toggle {
+  font-weight: 400;
+  font-size: 13px;
+  color: #333333;
+  margin-left: 10px;
+}

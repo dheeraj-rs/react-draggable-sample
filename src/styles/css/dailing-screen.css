@@ -1,0 +1,27 @@
+.dailing-screen-outer {
+  position: fixed;
+  max-width: 332px;
+  width: 100%;
+  right: 20px;
+  bottom: 20px;
+}
+.dailing-screen-outer .dailing-info-wrap {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 50px;
+}
+.dailing-screen-outer .dailing-badge {
+  color: #FFE500;
+  border: 1px solid #FFE500;
+  border-radius: 50px;
+}
+.dailing-screen-outer .call-drop-outer {
+  background-color: #FF1B1B;
+  width: 45px;
+  height: 45px;
+}
+.dailing-screen-outer .dp-text {
+  background-color: #00C0DA;
+  width: 30.5px;
+  height: 30.5px;
+  color: #004A54;
+}/*# sourceMappingURL=dailing-screen.css.map */

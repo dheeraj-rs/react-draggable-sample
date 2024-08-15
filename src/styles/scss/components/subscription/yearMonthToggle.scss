@@ -1,0 +1,18 @@
+.month_year_toggle_outer {
+    height:38px;
+    width:97px;
+    .toggle {
+        width:20px;
+        height:28px;
+        border-radius: 5px;
+        box-shadow: 0px 1px 4px 0px #00000040;
+        top:50%;
+        transform: translateY(-50%);
+        left:10px;
+        cursor:pointer;
+        transition: all ease 0.5s;
+        &.active {
+            left:calc(100% - 30px)
+        }
+    }
+}

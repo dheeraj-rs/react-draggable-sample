@@ -1,0 +1,34 @@
+/* component */
+
+.star-rating {
+   
+    display:flex;
+    flex-direction: row-reverse;
+    font-size:1.8em;
+    justify-content:space-around;
+    padding: 4px 8px;
+    text-align: center;
+    width: 7em;
+    border-radius: 44px;
+    background-color: #F4F4F4;
+  }
+  
+  .star-rating input {
+    display:none;
+  }
+  
+  .star-rating label {
+    color:#ccc;
+    cursor:pointer;
+  }
+  
+  .star-rating :checked ~ label {
+    color:$blue-active;
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color:$blue-active;;
+  }
+  
+  

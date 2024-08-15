@@ -1,0 +1,1020 @@
+//
+// This file contains all application-wide Sass variables.
+// You can also override Bootstrap's Sass default variables.
+//
+// Nearly all variables in Bootstrap are written with the `!default` flag.
+// This allows you to override the default values of those variables before
+// you import Bootstrap's source Sass files.
+//
+// Overriding the default variable values is the best way to customize your
+// CSS without writing _new_ styles. For example, you can change
+// `$body-color` instead of writing more CSS that override's
+// Bootstrap's CSS like so:
+//      `body { color: red; }`.
+//
+// Refer Bootstrap's variables file found at for the list of variables:
+//      `node_modules/bootstrap/scss/_variables.scss`
+//
+
+//colors
+$primary-color: #333333;
+$secondary-color: #555555;
+$dark-blue: #1e1e38;
+$red: #d21e1e;
+$faded-red: #ca4a46;
+$light-green: #00b27d;
+$white: #ffffff;
+$blue: #157efb;
+$blue-link: #4a6ada;
+$blue-active: #645df6;
+$blue-shade: #c3cee9;
+$blue-badge: #2d50c8;
+$blue-ucla-40: #5b6d98;
+$blue-ucla-40: #5b6d98;
+$light-blue: #e6e5ff;
+$blueberry: #364887;
+$body-bg: rgb(235, 236, 241);
+$border-gray: #afb5bf;
+$cyan-blue: #ebf0f4;
+$border-input: #afb5bf;
+$dark: #000000;
+$light-dark: #222222;
+$light-blue: #efebff;
+$light-grey: #d9d9d9;
+$light-yellow: #fff3db;
+$dark-yellow: #fec860;
+$yellow: #ffb82e;
+$yellow-shade: #ffe7b0;
+$gray-blue: #8190b7;
+$chat-blue: #ebefff;
+$contrast-blue: #6174a4;
+$contrast-blue30: #6174a430;
+$gray-medium: #7b7b7b;
+$mist-gray: #596781;
+$carbon-gray: #5e5e5e;
+$vampire-gray: #4d4d4d;
+$off-white: #ffffff1f;
+$tropical-blue: #d6dcf9;
+$widget-blue: #605e9d;
+$fb-blue: #6174a4;
+$whatsapp-green: #67ac55;
+$line: rgba(0, 0, 0, 0.14);
+$disable: #76787a;
+$light-blue2: #e9f1fe;
+$titan-white: #eef0f9;
+$hawkes-blue: #d7ddff;
+$slate-blue: #4b4a97;
+$moody-blue: #6e7fdb;
+$royal-blue: #446bf4;
+$green-light: #dff2e4;
+$green: #006c38;
+$s-green: #0fa779;
+$orange: #ff7e36;
+$green-white: #e7e8eb;
+$white-azure: #e1e3ee;
+$white-azurish: #d8e3ff;
+$white-chinese: #dceedb;
+$ghost-white: #f7f6ff;
+$ghost-white-alt: #f7faff;
+$blue-light: #7165ff;
+$pink: #e873ff;
+$pink-pale: #f9d6d6;
+$gray: #9ea4a9;
+$gray-400: #b2bcc8;
+$gray-bright: #ebecf1;
+$indigo-100: #ebeaff;
+$purple-100: #efebff;
+$green-100: #dcf8e7;
+$green-200: #def8d4;
+$green-500: #2a8e58;
+$green-700: #144a26;
+$green-torquoise: #9fd2c0;
+$green-munsell: #00b27d;
+$yellow-100: #fff6df;
+$yellow-600: #cd9b26;
+$yellow-bisque: #ffe9bd;
+$orange-100: #ffefe7;
+$orange-600: #af4e18;
+$success: $green-500;
+$warning: $yellow-100;
+$info: $orange-100;
+$red-lust: #e41c1c;
+$gainsboro: #dfdfdf;
+$lavender: #e7ecf9;
+$lavender-web: #e0e9fe;
+$roman-silver: #838da1;
+$blue-police: #3c4777;
+$dark-bronze: #745100;
+$greenish-grey: #e1eaf7;
+$light-orange-yellow: #ffddb5;
+$dark-grey: #454341;
+$light-hey-yellow: #e4d795;
+
+$success: $green-500;
+$info: $orange-600;
+$warning: #f7476e;
+$danger: #d21e1e;
+$light: #f6f8ff;
+$black: #000000;
+$silver-chalice: #acacac;
+$pale-peach: #ffe2ab;
+$charcoal-grey: #404040;
+$light-blue-white: #f6f9ff;
+$input-placeholder-color: #868686;
+
+$modal-backdrop-bg: rgba(97, 116, 164, 0.6);
+
+$input-placeholder-color: #868686;
+$disable-btn: #cfcfcf;
+$nebula: #d7dae8;
+
+$white-smoke: #f4f5f9;
+$link-water: #dddfee;
+$blue-chalk: #e8eaff;
+$blue-lotus: #5d5aec;
+$blue-dodger: #4b7efe;
+$blue-bot: #9e9af9;
+$blue-jordy: #8abffd;
+$lime-green: #24a803;
+$blue-purple: #523cd7;
+$soft-peach: #ebedf5;
+$green-mercury: #e8e8e8;
+$lavender-mist: #e7e9f2;
+$river-bed: #4a4a53;
+$porcelain: #eff1f4;
+$water: #eff2ff;
+$Chambray: #3e4f94;
+$blue-lily: #e0e9fe;
+$transparent: transparent;
+$bluish: #f7f8ff;
+$white-lilac: #f6f8fb;
+$gray-blue-b: #f6f7ff;
+$dark-blue-bb: #5d7387;
+$bor-dot-blue: #8190b7;
+$ash-blue-mix: #605e9f;
+$ash-blue-mix-opa-low: #7170aa;
+$ash-white: #ebefff;
+$sky-light-blue: #97e8fa;
+$sea-blue: #23d8ef;
+$blue-lotus-new: #645df6;
+$bor-gary: #c3cee9;
+$thin-gray: #f7f7ff;
+$bold-gray: #8196ca;
+$light-red: #f59b9e;
+$dark-red: #981d26;
+$leaf-green: #99d578;
+$leaf-dark-green: #207b25;
+$mid-gray: #d9dee6;
+$mid-dark-gray: #a0a6af;
+// --gs-dark-blue: #1E1E38;
+// --nav-active: #645DF6;
+// --gs-bg-white: #fff;
+// --gs--notification-badge: #2D50C8;
+//--gs-secondary-light-blue:#DFE4F6;
+$water: #eff2ff;
+$Chambray: #3e4f94;
+$blue-lily: #e0e9fe;
+$transparent: transparent;
+$bluish: #f7f8ff;
+$white-lilac: #f6f8fb;
+$gray-blue-b: #f6f7ff;
+$dark-blue-bb: #5d7387;
+$bor-dot-blue: #8190b7;
+$santa-grey: #9ca3af;
+$green-haze: #00a368;
+$ecru-white: #f9f3e7;
+$buttered-rum: #a7720c;
+$buttered-rum-400: #a16f0d;
+$light-water: #dfe3f3;
+$pale-green: #48d3cb;
+$pale-green-shade: #acd7ff;
+$dark-blue-shade: #54adff;
+$viole-shade: #767ae8;
+$ross-shade: #d876e8;
+$light-g: #d3f1c1;
+$bold-green: #a4a161;
+$border-blue: rgba(255, 255, 255, 0.12);
+$theme-border: #a5a9ad;
+$cultured-white: #f5f5f5;
+$light-orange: #ffe9e9;
+$blue-invisible: #f9faff;
+$ghost-white-light: #f8f8fd;
+$lavender-mist-light: #e5e9fd;
+$golden-glow: #ffdf95;
+$dark-pastel-blue: #7e9edc;
+$cloudy-blue: #aebddf;
+$border-white: #e9e9e9;
+$border-gray-white: #ccd0d6;
+$orange-back: #f0dccd;
+$notification-blue: #2d50c8;
+$sea-shell: #edeeff;
+$cloudy-blue-light: #b2bfd6;
+$dark-gray-blue: #2a344f;
+$border-light-gray: #dee2e63d;
+$light-orange: #ffe9e9;
+$blue-invisible: #f9faff;
+$ghost-white-light: #f8f8fd;
+$lavender-mist-light: #e5e9fd;
+$golden-glow: #ffdf95;
+$dark-pastel-blue: #7e9edc;
+$cloudy-blue: #aebddf;
+$border-white: #e9e9e9;
+$border-gray-white: #ccd0d6;
+$orange-back: #f0dccd;
+$notification-blue: #2d50c8;
+$sea-shell: #edeeff;
+$cloudy-blue-light: #b2bfd6;
+$dark-gray-blue: #2a344f;
+$border-light-gray: #dee2e63d;
+$aqua-haze: #f3f3f6;
+$light-bright-yellow: #ffc42d;
+$light-gray: #edefff;
+$pink-light-color: #c54fd9;
+$sandal-color: #ffe28a;
+$sandal-dark: #754c00;
+$purply-blue: #edecff;
+$mist-blue: #6a6a7e;
+$iceberg-blue: #daebff;
+$watsapp-green: #24a803;
+$purple-mimosa: #957aff;
+$purple-light: #f0efff;
+$tealish-light: #ebf1fb;
+$light-royal-blue: rgba(80, 71, 255, 0.5);
+$dark-gray-color: #e6e8f7;
+$sky-blue: #00c2ff;
+$pinkish-purple: #b42df4;
+$faded-red-light: #d04848;
+$deep-peach: #ffcfac;
+$purple-haze: #614577;
+$light-periwinkle: #cdc5ff;
+$blue-hosta: #69c3c9;
+$dusk: #4a5680;
+$light-blue-grey: #b8c4e2;
+$wild-blue-yonder: #8385bb;
+$blue-purple-light: #5441c6;
+$periwinkle-grey: #c5cde1;
+$light-blue-bg: #f1f1fe;
+$saffron-mango: #f9bb5e;
+$version-blue: #ebf5ff;
+$rock-blue: #a3b2c9;
+$aqua-pale: #c7d2ee;
+$mist-lavender: #dde6ff;
+$harp: #e7eaf2;
+$pale-lily-blue: #dbe9ff;
+$magnolia: #f4f3ff;
+$baby-purple: #b5b1ff;
+$platinum: #dee1f5;
+$geyser: #dddee9;
+$haiti: #281b41;
+$fire-red: #d21e1e;
+$pale-blue: #9cb0e6;
+$pale-orange: #dd560a;
+$light-orange-color: #f0dab0;
+$grey-goose: #cfcfcf;
+$naples-yellow: #ffde67;
+$amour: #ebedf9;
+$baby-blue: #b1c3ff;
+$cobalt-blue: #002ec8;
+$light-mint: #bdffd0;
+$la-sale-green: #008625;
+$darkboxgray: #eaedf3;
+$sandwisp: #fee2ab;
+$red-fox: #c25c13;
+$pink-lace: #ffdcef;
+$purple-flower: #b446db;
+$moonraker: #c2d7ff;
+$cerulean-blue: #3a48c6;
+$pale-mauve: #e9dcff;
+$barney: #8921ba;
+$denim-blue: #7bb0ff;
+$light-pale-gray: #f6f6fb;
+$ash-gray-bg: #745100;
+$medium-purple: #8755f1;
+$purple-heart: #6021e4;
+$dove-grey: #6e6e78;
+$warm-blue: #5d5aec;
+$raspberry-pink: #e85190;
+$deep-rose: #ce3374;
+$boring-green: #79b464;
+$lawn-green: #399519;
+$bamboo: #e0580c;
+$jasmine-purple: #bd21e4;
+$mustard-green: #aaad00;
+$valentine-red: #e16363;
+$brick: #bb3c13;
+$mint: #28b795;
+$iron: #d6d6d8;
+$lavender-web: #e6e8f6;
+$very-light-blue: #645df6;
+$sonic-silver: #76787a;
+$caramel: #ffdc97;
+$bright-gray: #e9eaf4;
+$badge-grey: #e1e4f1;
+
+$light-bright-yellow: #ffc42d;
+$light-gray: #edefff;
+$pink-light-color: #c54fd9;
+$sandal-color: #ffe2ad;
+$sandal-dark: #b55200;
+$purply-blue: #edecff;
+$mist-blue: #6a6a7e;
+$iceberg-blue: #daebff;
+$watsapp-green: #24a803;
+$purple-mimosa: #957aff;
+$purple-light: #f0efff;
+$tealish-light: #ebf1fb;
+$light-royal-blue: rgba(80, 71, 255, 0.5);
+$dark-gray-color: #e6e8f7;
+$sky-blue: #00c2ff;
+$pinkish-purple: #b42df4;
+$faded-red-light: #d04848;
+$deep-peach: #ffcfac;
+$purple-haze: #614577;
+$light-periwinkle: #cdc5ff;
+$blue-hosta: #69c3c9;
+$dusk: #4a5680;
+$light-blue-grey: #b8c4e2;
+$wild-blue-yonder: #8385bb;
+$blue-purple-light: #5441c6;
+$periwinkle-grey: #c5cde1;
+$light-blue-bg: #f1f1fe;
+$saffron-mango: #f9bb5e;
+$version-blue: #ebf5ff;
+$rock-blue: #a3b2c9;
+$aqua-pale: #c7d2ee;
+$mist-lavender: #dde6ff;
+$harp: #e7eaf2;
+$pale-lily-blue: #dbe9ff;
+$magnolia: #f4f3ff;
+$baby-purple: #b5b1ff;
+$platinum: #dee1f5;
+$geyser: #dddee9;
+$haiti: #281b41;
+$fire-red: #d21e1e;
+$pale-blue: #9cb0e6;
+$pale-orange: #dd560a;
+$light-orange-color: #f0dab0;
+$grey-goose: #cfcfcf;
+$naples-yellow: #ffde67;
+$amour: #ebedf9;
+$baby-blue: #b1c3ff;
+$cobalt-blue: #002ec8;
+$light-mint: #bdffd0;
+$la-sale-green: #008625;
+$darkboxgray: #eaedf3;
+$sandwisp: #fee2ab;
+$red-fox: #c25c13;
+$pink-lace: #ffdcef;
+$purple-flower: #b446db;
+$moonraker: #c2d7ff;
+$cerulean-blue: #3a48c6;
+$pale-mauve: #e9dcff;
+$barney: #8921ba;
+$denim-blue: #7bb0ff;
+$light-pale-gray: #f6f6fb;
+$ash-gray-bg: #745100;
+$medium-purple: #8755f1;
+$purple-heart: #6021e4;
+$dove-grey: #6e6e78;
+$warm-blue: #5d5aec;
+$raspberry-pink: #e85190;
+$deep-rose: #ce3374;
+$boring-green: #79b464;
+$lawn-green: #399519;
+$bamboo: #e0580c;
+$jasmine-purple: #bd21e4;
+$mustard-green: #aaad00;
+$valentine-red: #e16363;
+$brick: #bb3c13;
+$mint: #28b795;
+$iron: #d6d6d8;
+$light-gray-white: #e9ecf2;
+$box-gray: #e9edf9;
+$light-gray-color-bg: #fafafa;
+$gray-color-nude: #efeeff;
+$orange-light: #ffede2;
+$orange-bright: #ff5c00;
+$twilight: #4f5c7d;
+$platinum-lavender: #e1e4ed;
+$catskill-white: #f2f6ff;
+$green-white-blue: #e7eaf2;
+$zircon: #f5f8ff;
+$water-white: #ebf1fb;
+$soft-peach-light: #ecebff;
+$pattens-blue: #ebefff;
+$magnolia-smoke: #f5f4ff;
+$melrose: #bab7ff;
+$darkberry: #4c4893;
+$waikawa-grey: #6174a4;
+$mango-tango: #e56e00;
+$early-dawn: #fff7eb;
+$secondary-blue: #2d50c8;
+$off-green: #ebf5ff;
+$lighting-yellow: #ffb82e;
+$silver: #c9c9c9;
+$pattens-white: #ebefff;
+$seashell: #ebf0f4;
+$secondary-light-blue: #dfe4f6;
+$light-blue-border: #f7f9ff;
+$zircon-blue: #f4f7ff;
+$mercury-mist: #e2e5f1;
+$dark-gary-bg: #e8e8e8;
+$chat-green: #dcfffd;
+$icon-gray: #d6ebff;
+$box-blue: #e3e1ff;
+$box-dark-blue: #2d3e80;
+$light-blue-box-color: #d5ddff;
+$light-box-pink: #652470;
+$light-box-pink-bg: #f9d4ff;
+$gray-color-bg: #534127;
+$gray-light-gray-bg: #ffeed4;
+$cool-grey: #9ca3af;
+$blue-angel: #b6cfff;
+$crocus-purple: #8f8aff;
+$cadet-grey: #f4f3f9;
+$egg-sour: #fcf4e2;
+$golden-bell: #d68f0a;
+$cold-blue: #9e99ff;
+$desert-storm: #f6f7fc;
+$regent-grey: #8190b7;
+$blue-gray: #f5f6f8;
+$light-pnk-bg: #f1e9fe;
+$mariner: #2d50c8;
+$aqua-squeeze: #e9f1fe;
+$input-gray: #ebf0f4;
+$original-gray: #f6f6f6;
+$disable-grey: #cfcfcf;
+$dark-bg-gray: #e8ebf3;
+$dark-bg-green: #077e4c;
+$light-pale-orange: #f9edd6;
+$thin-green: #eef5f3;
+$teal-green: #e7f4eb;
+$thin-light-blue: #f6f7ff;
+$light-thin-white-gray: #e8e8e8;
+$transparent-gray: #cbcbcb;
+$white-gray-white: #757c8e;
+$white-blue: #f3f8ff;
+$cadet-blue: #afb5bf;
+$squeeze-lilac: #f5f7fa;
+$lavender-lily: #dbe9ff;
+$dark-green-dark: #0fa779;
+$selective-yellow: #ffb800;
+$mango-orange: #ff7e36;
+$titan-water: #ebefff;
+$papaya-whip: #ffeed3;
+$thin-blue-gray: #ecf0fb;
+$green-mercury-light: #deeadd;
+$deep-sea: #0c8561;
+$light-violet-color: #b7b6ff;
+$light-violet: #cfceea;
+$chat-blue-light-color: #dfecff;
+$very-light-gray: #f5f7f9;
+$chilli-pepper: #c01c1c;
+$light-pink: #fff0f0;
+$greenish-cyan: #e9faf4;
+$light-thin-green: #ade3d0;
+$light-violet-blue: #4b4893;
+$secondary-gray: #dfe4f6;
+$dark-blue-gray-color: #505e8f;
+$blue-light-call-flow: #e7eaf9;
+$sky-dark-blue: #157efb;
+$draft-orange: #ffe9bd;
+$draft-orange-text: #d27e00;
+$light-blue-publish: #d6dcf9;
+$gray-lightblue-color: #717fc7;
+$thin-gray-blue: #8190b7;
+$moonraker2: #cfd4ff;
+$jagged-ice: #cbe3ff;
+$gray-blue-white: #b5c6e1;
+$voice: #0094ff;
+$support: #f99500;
+$wild-blue: #8190b7;
+$dove-grey2: #6c6c6c;
+$periwinkle-grey2: #ccd0e5;
+$pattens-blue-100: #def3ff;
+$greenish-cyan-100: #d9ede7;
+$mercury-cyan: #dde8e5;
+$beau-blue: #cce6ff;
+$bisque: #f5dbb8;
+$pale-aqua: #c6dcf0;
+$lavender-mist: #d2d6e6;
+$dutch-white: #f4e4bb;
+$golden-ochre: #ffcf55;
+$alice-blue-two: #ebf7fb;
+$alice-blue-three: #edf5ff;
+$sea-foam-green: #9fdec0;
+$aero-blue: #c6e9ce;
+$granny-smith-apple: #89d991;
+$cool-mint: #d8f1ff;
+$light-sky-blue: #93d8ff;
+$misty-ros: #ffeaea;
+$Light-Salmon-Pink: #ffa5a5;
+
+$black-gray-light: #637194;
+$warm-blue-100: #335fce;
+$boulder: #757575;
+$blue-dark-gray: #607db5;
+$light-orange-yellow: #fbebe3;
+$light-red-color: #f9e7e9;
+$light-green-color: #e3f6ed;
+$thin-blue-light: #e5f4fc;
+$gray-black: #74798b;
+$antique-white: #fbebe3;
+$dawn-pink: #f9e7e9;
+$old-lace: #fff5e3;
+$bright-orange: #ff5c00;
+$fire-engine: #d21e1e;
+$lightGray4: #d2d7df;
+$light-orange-white: #fbefcb;
+$darker-blue: #4a6ada;
+$dawn-pink-100: #f8e8e8;
+$dawn-pink-200: #efdddd;
+$misty-rose: #fae8de;
+$dark-blue-black: #1e1e38;
+$gains-boro: #eed5d5;
+$side-gray: #f2f3f6;
+$text-gray: #6a7198;
+$sky-blue-dark: #7ca9ff;
+$orange-img-100: #ffe9d9;
+$dark-blue-light-sky: #dff0fc;
+$orange-gray: #e2e0ca;
+$mocha-brown: #5b4307;
+$golden-zest: #ffcd29;
+$mabel-blue: #e1f2ff;
+$off-green-1: #def9e6;
+$carousel-pink: #ffe2e1;
+$linen: #fffbef;
+$pastel-purple: #ebeaff;
+$pale-gray: #6777a0;
+$charcol-gray: #505050;
+$misty-silver: #e1e1e1;
+$frosty-azure: #e6f5ff;
+$uranian-blue: #bfe8ff;
+$lavender-mist: #e0e9fe;
+$alloy-orange: #c25c13;
+$peach: #fee2ab;
+$bottle-green: #036542;
+$shelduck-blue: #9fd2c0;
+$light-gray: #d6d6d6;
+$forest-green: #4dbb6f;
+$cobalt: #5d6bbb;
+$cerulean: #518ccc;
+$sky-azure: #41afca;
+$amethyst: #9a5db7;
+$sandstone: #b79e5d;
+$pearl-gray: #f5f8fa;
+$thin-yellow-color: #ffe2ab;
+$blanched-almond: #ffedcb;
+$for-contrast-blue: #6174a4;
+
+// ############## call flow component colors ########################
+$Voicemail-icon: #b4c2ff;
+$Voicemail-bg: #dde3ff;
+
+$Connect-icon: #a5e078;
+$Connect-bg: #daedcc;
+
+$Email-icon: #feb5ed;
+$Email-bg: #ffe7f9;
+
+$CallerID-icon: #bcb5ff;
+$CallerID-bg: #e2dfff;
+
+$Shortcut-icon: #92e1de;
+$Shortcut-bg: #cff5f4;
+
+$GetValue-icon: #dbe194;
+$GetValue-bg: #f1f4d0;
+
+$Passtrugh-icon: #ffbd97;
+$Passtrugh-bg: #ffe7da;
+
+$CallerList-icon: #a9d6d8;
+$CallerList-bg: #dfeded;
+
+$SMS-icon: #ffcb91;
+$SMS-bg: #ffe9c7;
+
+$Callback-icon: #ffa3c8;
+$Callback-bg: #ffe8f1;
+
+$GoToFlow-icon: #c1d7fd;
+$GoToFlow-bg: #e4eeff;
+
+$Queue-icon: #dac4ff;
+$Queue-bg: #f0e7ff;
+// ############## call flow component colors ########################
+
+$theme-colors: (
+  'primary': $primary-color,
+  'secondary': $secondary-color,
+  'danger': $red,
+  'dark': $dark,
+  'light': $light,
+  'light-blue': $light-blue,
+  'black': $black,
+  'white': $white,
+);
+$custom-colors: (
+  'secondary-color': $secondary-color,
+  'sonic-silver': $sonic-silver,
+  'very-light-blue': $very-light-blue,
+  'lavender-web': $lavender-web,
+  'blue': $blue,
+  'dark-blue': $dark-blue,
+  'border-gray': $border-gray,
+  'blue-active': $blue-active,
+  'blue-badge': $blue-badge,
+  'blue-ucla-40': $blue-ucla-40,
+  'blue-jordy': $blue-jordy,
+  'cyan-blue': $cyan-blue,
+  'border-input': $border-input,
+  'light-blue': $light-blue,
+  'light-grey': $light-grey,
+  'light-yellow': $light-yellow,
+  'dark-yellow': $dark-yellow,
+  'light-dark': $light-dark,
+  'yellow': $yellow,
+  'gray-blue': $gray-blue,
+  'chat-blue': $chat-blue,
+  'gray-medium': $gray-medium,
+  'mist-gray': $mist-gray,
+  'carbon-gray': $carbon-gray,
+  'contrast-blue': $contrast-blue,
+  'contrast-blue30': $contrast-blue30,
+  'off-white': $off-white,
+  'blueberry': $blueberry,
+  'tropical-blue': $tropical-blue,
+  'vampire-gray': $vampire-gray,
+  'widget-blue': $widget-blue,
+  'fb-blue': $fb-blue,
+  'whatsapp-green': $whatsapp-green,
+  'line': $line,
+  'disable': $disable,
+  'blue-shade': $blue-shade,
+  'light-blue2': $light-blue2,
+  'titan-white': $titan-white,
+  'hawkes-blue': $hawkes-blue,
+  'slate-blue': $slate-blue,
+  'moody-blue': $moody-blue,
+  'royal-blue': $royal-blue,
+  'green-light': $green-light,
+  'green': $green,
+  'orange': $orange,
+  'yellow-shade': $yellow-shade,
+  'green-white': $green-white,
+  'ghost-white': $ghost-white,
+  'white-azure': $white-azure,
+  'white-azurish': $white-azurish,
+  's-green': $s-green,
+  'blue-light': $blue-light,
+  'pink': $pink,
+  'pink-pale': $pink-pale,
+  'gray': $gray,
+  'gray-400': $gray-400,
+  'gray-bright': $gray-bright,
+  'indigo-100': $indigo-100,
+  'purple-100': $purple-100,
+  'green-100': $green-100,
+  'green-200': $green-200,
+  'green-500': $green-500,
+  'green-700': $green-700,
+  'green-torquoise': $green-torquoise,
+  'green-munsell': $green-munsell,
+  'yellow-100': $yellow-100,
+  'yellow-600': $yellow-600,
+  'yellow-bisque': $yellow-bisque,
+  'orange-100': $orange-100,
+  'orange-600': $orange-600,
+  'red-lust': $red-lust,
+  'disable-btn': $disable-btn,
+  'nebula': $nebula,
+  'white-smoke': $white-smoke,
+  'link-water': $link-water,
+  'blue-chalk': $blue-chalk,
+  'blue-lotus': $blue-lotus,
+  'blue-dodger': $blue-dodger,
+  'blue-bot': $blue-bot,
+  'lime-green': $lime-green,
+  'blue-purple': $blue-purple,
+  'soft-peach': $soft-peach,
+  'green-mercury': $green-mercury,
+  'gainsboro': $gainsboro,
+  'lavender': $lavender,
+  'red': $red,
+  'lavender-mist': $lavender-mist,
+  'river-bed': $river-bed,
+  'porcelain': $porcelain,
+  'faded-red': $faded-red,
+  'roman-silver': $roman-silver,
+  'white-chinese': $white-chinese,
+  'blue-police': $blue-police,
+  'water': $water,
+  'Chambray': $Chambray,
+  'blue-lily': $blue-lily,
+  'transparent': $transparent,
+  'bluish': $bluish,
+  'silver-chalice': $silver-chalice,
+  'pale-peach': $pale-peach,
+  'charcoal-grey': $charcoal-grey,
+  'white-lilac': $white-lilac,
+  'gray-blue-b': $gray-blue-b,
+  'dark-blue-bb': $dark-blue-bb,
+  'bor-dot-blue': $bor-dot-blue,
+  'ash-blue-mix': $ash-blue-mix,
+  'ash-blue-mix-opa-low': $ash-blue-mix-opa-low,
+  'ash-white': $ash-white,
+  'sky-light-blue': $sky-light-blue,
+  'sea-blue': $sea-blue,
+  'blue-lotus-new': $blue-lotus-new,
+  'bor-gary': $bor-gary,
+  'thin-gray': $thin-gray,
+  'bold-gray': $bold-gray,
+  'light-red': $light-red,
+  'dark-red': $dark-red,
+  'leaf-green': $leaf-green,
+  'leaf-dark-green': $leaf-dark-green,
+  'mid-gray': $mid-gray,
+  'mid-dark-gray': $mid-dark-gray,
+  'santa-grey': $santa-grey,
+  'green-haze': $green-haze,
+  'ecru-white': $ecru-white,
+  'buttered-rum': $buttered-rum,
+  'buttered-rum-400': $buttered-rum-400,
+  'pale-green': $pale-green,
+  'pale-green-shade': $pale-green-shade,
+  'viole-shade': $viole-shade,
+  'ross-shade': $ross-shade,
+  'dark-blue-shade': $dark-blue-shade,
+  'light-g': $light-g,
+  'bold-green': $bold-green,
+  'border-blue': $border-blue,
+  'dark-bronze': $dark-bronze,
+  'cultured-white': $cultured-white,
+  'light-water': $light-water,
+  'theme-border': $theme-border,
+  'light-orange': $light-orange,
+  'blue-invisible': $blue-invisible,
+  'ghost-white-light': $ghost-white-light,
+  'lavender-mist-light': $lavender-mist-light,
+  'golden-glow': $golden-glow,
+  'dark-pastel-blue': $dark-pastel-blue,
+  'cloudy-blue': $cloudy-blue,
+
+  'border-white': $border-white,
+  'border-gray-white': $border-gray-white,
+  'orange-back': $orange-back,
+  'notification-blue': $notification-blue,
+  'sea-shell': $sea-shell,
+  'cloudy-blue-light': $cloudy-blue-light,
+  'dark-gray-blue': $dark-gray-blue,
+  'border-light-gray': $border-light-gray,
+  'aqua-haze': $aqua-haze,
+  'light-bright-yellow': $light-bright-yellow,
+  'light-gray': $light-gray,
+  'pink-light-color': $pink-light-color,
+  'sandal-color': $sandal-color,
+  'sandal-dark': $sandal-dark,
+  'watsapp-green': $watsapp-green,
+
+  'purply-blue': $purply-blue,
+  'mist-blue': $mist-blue,
+  'iceberg-blue': $iceberg-blue,
+  'purple-mimosa': $purple-mimosa,
+  'purple-light': $purple-light,
+  'tealish-light': $tealish-light,
+  'light-royal-blue': $light-royal-blue,
+  'sky-blue': $sky-blue,
+  'pinkish-purple': $pinkish-purple,
+  'faded-red-light': $faded-red-light,
+  'deep-peach': $deep-peach,
+  'purple-haze': $purple-haze,
+  'light-periwinkle': $light-periwinkle,
+  'blue-hosta': $blue-hosta,
+  'dusk': $dusk,
+  'light-blue-grey': $light-blue-grey,
+  'wild-blue-yonder': $wild-blue-yonder,
+  'blue-purple-light': $blue-purple-light,
+  'dark-gray-color': $dark-gray-color,
+  'periwinkle-grey': $periwinkle-grey,
+  'light-blue-bg': $light-blue-bg,
+  'saffron-mango': $saffron-mango,
+  'version-blue': $version-blue,
+  'rock-blue': $rock-blue,
+  'aqua-pale': $aqua-pale,
+  'mist-lavender': $mist-lavender,
+  'harp': $harp,
+  'pale-lily-blue': $pale-lily-blue,
+  'magnolia': $magnolia,
+  'baby-purple': $baby-purple,
+  'platinum': $platinum,
+  'geyser': $geyser,
+  'haiti': $haiti,
+  'fire-red': $fire-red,
+  'pale-blue': $pale-blue,
+  'pale-orange': $pale-orange,
+  'light-orange-color': $light-orange,
+  'grey-goose': $grey-goose,
+  'naples-yellow': $naples-yellow,
+  'amour': $amour,
+  'baby-blue': $baby-blue,
+  'cobalt-blue': $cobalt-blue,
+  'light-mint': $light-mint,
+  'la-sale-green': $la-sale-green,
+  'darkboxgray': $darkboxgray,
+  'sandwisp': $sandwisp,
+  'red-fox': $red-fox,
+  'pink-lace': $pink-lace,
+  'purple-flower': $purple-flower,
+  'moonraker': $moonraker,
+  'cerulean-blue': $cerulean-blue,
+  'pale-mauve': $pale-mauve,
+  'barney': $barney,
+  'denim-blue': $denim-blue,
+  'light-pale-gray': $light-pale-gray,
+  'ash-gray-bg': $ash-gray-bg,
+  'medium-purple': $medium-purple,
+  'purple-heart': $purple-heart,
+  'dove-grey': $dove-grey,
+  'warm-blue': $warm-blue,
+  'raspberry-pink': $raspberry-pink,
+  'deep-rose': $deep-rose,
+  'boring-green': $boring-green,
+  'lawn-green': $lawn-green,
+  'bamboo': $bamboo,
+  'jasmine-purple': $jasmine-purple,
+  'mustard-green': $mustard-green,
+  'valentine-red': $valentine-red,
+  'brick': $brick,
+  'mint': $mint,
+  'iron': $iron,
+  'light-gray-white': $light-gray-white,
+  'box-gray': $box-gray,
+  'light-gray-color-bg': $light-gray-color-bg,
+  'gray-color-nude': $gray-color-nude,
+  'orange-light': $orange-light,
+  'orange-bright': $orange-bright,
+  'twilight': $twilight,
+  'platinum-lavender': $platinum-lavender,
+  'catskill-white': $catskill-white,
+  'green-white-blue': $green-white-blue,
+  'zircon': $zircon,
+  'water-white': $water-white,
+  'soft-peach-light': $soft-peach-light,
+  'pattens-blue': $pattens-blue,
+  'magnolia-smoke': $magnolia-smoke,
+  'melrose': $melrose,
+  'darkberry': $darkberry,
+  'waikawa-grey': $waikawa-grey,
+  'mango-tango': $mango-tango,
+  'early-dawn': $early-dawn,
+  'secondary-blue': $secondary-blue,
+  'off-green': $off-green,
+  'lighting-yellow': $lighting-yellow,
+  'silver': $silver,
+  'pattens-white': $pattens-white,
+  'seashell': $seashell,
+  'secondary-light-blue': $secondary-light-blue,
+  'light-blue-border': $light-blue-border,
+  'light-blue-white': $light-blue-white,
+  'zircon-blue': $zircon-blue,
+  'mercury-mist': $mercury-mist,
+  'dark-gary-bg': $dark-gary-bg,
+  'chat-green': $chat-green,
+  'icon-gray': $icon-gray,
+  'box-blue': $box-blue,
+  'box-dark-blue': $box-dark-blue,
+  'light-blue-box-color': $light-blue-box-color,
+  'light-box-pink': $light-box-pink,
+  'light-box-pink-bg': $light-box-pink-bg,
+  'gray-color-bg': $gray-color-bg,
+  'gray-light-gray-bg': $gray-light-gray-bg,
+  'cool-grey': $cool-grey,
+  'blue-angel': $blue-angel,
+  'crocus-purple': $crocus-purple,
+  'cadet-grey': $cadet-grey,
+  'egg-sour': $egg-sour,
+  'golden-bell': $golden-bell,
+  'cold-blue': $cold-blue,
+  'desert-storm': $desert-storm,
+  'regent-grey': $regent-grey,
+  'blue-gray': $blue-gray,
+  'light-pnk-bg': $light-pnk-bg,
+  'mariner': $mariner,
+  'aqua-squeeze': $aqua-squeeze,
+  'input-gray': $input-gray,
+  'original-gray': $original-gray,
+  'disable-grey': $disable-grey,
+  'dark-bg-gray': $dark-bg-gray,
+  'dark-bg-green': $dark-bg-green,
+  'light-pale-orange': $light-pale-orange,
+  'thin-green': $thin-green,
+  'teal-green': $teal-green,
+  'thin-light-blue': $thin-light-blue,
+  'light-thin-white-gray': $light-thin-white-gray,
+  'transparent-gray': $transparent-gray,
+  'white-gray-white': $white-gray-white,
+  'white-blue': $white-blue,
+  'cadet-blue': $cadet-blue,
+  'squeeze-lilac': $squeeze-lilac,
+  'lavender-lily': $lavender-lily,
+  'dark-green-dark': $dark-green-dark,
+  'selective-yellow': $selective-yellow,
+  'mango-orange': $mango-orange,
+  'titan-water': $titan-water,
+  'papaya-whip': $papaya-whip,
+  'thin-blue-gray': $thin-blue-gray,
+  'green-mercury-light': $green-mercury-light,
+  'deep-sea': $deep-sea,
+  'light-violet-color': $light-violet-color,
+  'light-violet': $light-violet,
+  'chat-blue-light-color': $chat-blue-light-color,
+  'very-light-gray': $very-light-gray,
+  'chilli-pepper': $chilli-pepper,
+  'light-pink': $light-pink,
+  'greenish-cyan': $greenish-cyan,
+  'light-thin-green': $light-thin-green,
+  'light-violet-blue': $light-violet-blue,
+  'secondary-gray': $secondary-gray,
+  'dark-blue-gray-color': $dark-blue-gray-color,
+  'sky-dark-blue': $sky-dark-blue,
+  'draft-orange': $draft-orange,
+  'draft-orange-text': $draft-orange-text,
+  'light-blue-publish': $light-blue-publish,
+  'gray-lightblue-color': $gray-lightblue-color,
+  'thin-gray-blue': $thin-gray-blue,
+  'moonraker2': $moonraker2,
+  'jagged-ice': $jagged-ice,
+  'gray-blue-white': $gray-blue-white,
+  'voice': $voice,
+  'support': $support,
+  'wild-blue': $wild-blue,
+  'dove-grey2': $dove-grey2,
+  'periwinkle-grey2': $periwinkle-grey2,
+  'pattens-blue-100': $pattens-blue-100,
+  'greenish-cyan-100': $greenish-cyan-100,
+  'mercury-cyan': $mercury-cyan,
+  'black-gray-light': $black-gray-light,
+  'warm-blue-100': $warm-blue-100,
+  'boulder': $boulder,
+  'blue-dark-gray': $blue-dark-gray,
+  'light-orange-yellow': $light-orange-yellow,
+  'light-red-color': $light-red-color,
+  'light-green-color': $light-green-color,
+  'thin-blue-light': $thin-blue-light,
+  'gray-black': $gray-black,
+  'antique-white': $antique-white,
+  'dawn-pink': $dawn-pink,
+  'old-lace': $old-lace,
+  'bright-orange': $bright-orange,
+  'fire-engine': $fire-engine,
+  'dawn-pink-100': $dawn-pink-100,
+  'dawn-pink-200': $dawn-pink-200,
+  'misty-rose': $misty-rose,
+  'light-orange-white': $light-orange-white,
+  'darker-blue': $darker-blue,
+  'dark-blue-black': $dark-blue-black,
+  'gains-boro': $gains-boro,
+  'side-gray': $side-gray,
+  'text-gray': $text-gray,
+  'sky-blue-dark': $sky-blue-dark,
+  'orange-img-100': $orange-img-100,
+  'dark-blue-light-sky': $dark-blue-light-sky,
+  'orange-gray': $orange-gray,
+  'mocha-brown': $mocha-brown,
+  'golden-zest': $golden-zest,
+  'mabel-blue': $mabel-blue,
+  'off-green-1': $off-green-1,
+  'carousel-pink': $carousel-pink,
+  'linen': $linen,
+  'pastel-purple': $pastel-purple,
+  'pale-gray': $pale-gray,
+  'charcol-gray': $charcol-gray,
+  'misty-silver': $misty-silver,
+  'frosty-azure': $frosty-azure,
+
+  'forest-green': $forest-green,
+  'cobalt': $cobalt,
+  'cerulean': $cerulean,
+  'sky-azure': $sky-azure,
+  'amethyst': $amethyst,
+  'sandstone': $sandstone,
+  'pearl-gray': $pearl-gray,
+  'thin-yellow-color': $thin-yellow-color,
+  'for-contrast-blue': $for-contrast-blue,
+);
+
+// Enable negative margin
+$enable-negative-margins: true;
+// Font Family
+$font-family-sans-serif: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue',
+  'Noto Sans', 'Liberation Sans', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+  'Segoe UI Symbol', 'Noto Color Emoji' 'Twemoji Mozilla', 'EmojiOne Color', 'Android Emoji';
+
+// Form
+$form-check-radio-checked-bg-image: url('../../../../public/svg/icons/radio-active.svg');
+$form-check-input-checked-bg-image: url('../../../../public/svg/icons/check-blue.svg/svg/icons/check-blue.svg');
+$form-check-input-checked-bg-image: url('../../../../public/svg/icons/check-blue.svg');
+//accordion
+//$accordion-button-icon:  url("/assets/arrow-down.svg");
+//$accordion-button-active-icon:  url("/assets/arrow-down.svg");

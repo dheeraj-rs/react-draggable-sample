@@ -1,0 +1,56 @@
+.custom-ivr-button {
+    width:100%;
+    border-radius: 6px;
+    color: #645DF6;
+    font-size: 13px;
+    padding: 10px;
+    text-align: left;
+    min-height: 38px;
+    line-height: 0;
+    border-color: #AFB5BF!important;
+}
+
+.custom-ivr-button-left {
+    position: absolute;
+    right:15px;
+    top:50%;
+    transform: translateY(-50%);
+    color: #645DF6;
+}
+
+.custom-ivr-dropdown-menu {
+    width:100%;
+}
+
+.custom-ivr-list-menu li {
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.custom-ivr-list-menu {
+    height: 122px;
+    overflow-y: scroll;
+}
+
+.custom-ivr-list-menu li.active,
+.custom-ivr-list-menu li:hover {
+    background-color:#EBF0F4;
+    color: #645DF6;
+}
+
+.custom-ivr-list-menu li span {
+    font-size: 12px;
+    color: #6174A4;
+}
+
+.button-disabled {
+    background: #CFCFCF !important;
+    pointer-events: none !important;
+    color:#76787A !important;
+}
+
+.text-disabled {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}

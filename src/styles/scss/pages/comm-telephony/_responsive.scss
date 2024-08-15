@@ -1,0 +1,294 @@
+// large mobile screens
+
+@media (max-width: 567px) {
+  .plan-btn-mob {
+    width: 100% !important;
+  }
+  .admin-settings{
+    padding: 10px 10px 10px 10px!important;
+  }
+  #downloadDocument{
+    width: 70%!important;
+  }
+  .subscription-tab-header li.active {
+    background-color: transparent!important;
+    color: #645df6;
+    stroke-width: 2px;
+    border-bottom: 3px solid var(--Primary-Blue, #645DF6);
+    border-radius: 0!important;
+}
+  .select-region {
+    min-width: 140px;
+}
+.payment-mob-pad{
+  padding: 0px 0px!important;
+}
+  .filter-inside-tab{
+    width: 100% !important;
+  }
+  .filter-inside-search{
+    width: 100% !important;
+  }
+  .caller-list-table{
+    padding-right: 2px!important;
+  }
+  .vendor-mobile-search{
+    padding-right: 8px;
+  }
+  .h-fit-role .scroll-wrap-role {
+    max-height: calc(100vh - 335px);
+    }
+  .scroll-custome-role {
+    max-height: calc(100vh - 380px);
+  }
+  .filter-col {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .vendor-update-select {
+    width: 100% !important;
+  }
+  #proceedBuy {
+    padding: 10px 20px !important;
+  }
+  .scroll-carrier, .scroll-widget-template {
+    max-height: none !important;
+  }
+  .component-select-dropdown {
+    height: calc(100vh - 320px);
+    width: 295px !important;
+  }
+  .flow-builder-left {
+    max-height: calc(100vh - 390px);
+  }
+  .vendor-search-wrap {
+    position: relative !important;
+    padding: 0px;
+  }
+  .vendor-result {
+    max-height: unset;
+  }
+  .vendor-search-wrap label {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  .scroll-landing {
+  }
+  .payment-wrap {
+    margin-left: 0px;
+  }
+  .new-ticket-mb {
+    border-radius: 5px !important;
+  }
+  .resolve-modal .nav-voice-tab.active,
+  .resolve-modal .nav-voice-tab.active img {
+    border-radius: 5px !important;
+  }
+  .scroll-holiday {
+    max-height: 0;
+  }
+
+  .inbox-voice-wrapper {
+    height: auto;
+  }
+}
+
+@media (max-width: 991px) {
+  .scroll-landing {
+    max-height: calc(100vh - 280px);
+  }
+  .select-carrier-plan{
+    width: 100%!important;
+  }
+  .call-flow-admin{
+    margin: 0 0em;
+  }
+  .vendor-search-wrap {
+    position: relative!important;
+    padding: 0px;
+}
+  .offcanvas-time {
+    width: auto !important;
+  }
+  .vendor-result {
+    max-height: unset;
+  }
+  .vendor-search-wrap label {
+    margin-top: 15px;
+    margin-bottom: 8px;
+  }
+  #proceedBuy {
+    padding: 10px 10px !important;
+  }
+  .roles-mobile-padding {
+    padding: 20px 15px !important;
+  }
+  .voice-btn {
+    min-width: auto !important;
+    padding: 5px 10px !important;
+  }
+  .scroll-roles-virtual {
+    padding: 0px 10px 10px 0px !important;
+  }
+  .btn-virtual-sel {
+    padding: 10px 10px !important;
+  }
+  .step-padding {
+    padding: 0 0px !important;
+  }
+}
+
+// 1280*960
+@media screen and (min-width: 1200px) and (max-width: 1279px) {
+  .carrier-pad {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .equal-pad {
+    padding: 0 5em;
+}
+#adminMainSec .chat-settings-box {
+  align-items: center;
+  min-height: 120px;
+}
+  .vendor-result {
+    max-height: unset;
+  }
+
+  .roles-box {
+    padding: 10px 5px !important;
+  }
+  .date-form-flows .form-group {
+    margin-top: 0px !important;
+  }
+}
+
+// 1280x720
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+  .carrier-pad {
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  .caller-list-table{
+    padding-left: 15px!important;
+    padding-right: 10px!important;
+  }
+  .all-caller-box{
+    padding-left: 13px!important;
+    padding-right: 10px!important;
+  }
+  .roles-box {
+    padding: 10px 5px !important;
+  }
+  .date-form-flows .form-group {
+    margin-top: 0px !important;
+  }
+  .campaign-right-outer {
+    padding: 15px 15px 15px 20px;
+}
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+  .equal-pad {
+    padding: 0 15px 20px!important;
+}
+.payment-icons-img img {
+  width: 28px;
+}
+.equal-pad {
+  padding: 0 5em;
+}
+#adminMainSec .chat-settings-box {
+align-items: center;
+min-height: 120px;
+}
+.scroll-wrap-general {
+  max-height: calc(100vh - 190px);
+}
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .payment-icons-img img {
+    width: 28px;
+  }
+}
+// ipad 6 mini
+@media screen and (min-width: 648px) and (max-width: 760px) {
+  .phone-number-virtual {
+    font-size: 11px !important;
+  }
+  .scroll-roles-virtual {
+    max-height: calc(100vh - 212px) !important;
+  }
+  .btn-virtual-sel {
+    padding: 10px 10px !important;
+  }
+  .roles-mobile-padding {
+    padding: 20px 10px 10px 15px !important;
+  }
+  .caller-list-table{
+    padding-left: 15px!important;
+    padding-right: 10px!important;
+  }
+  .all-caller-box{
+    padding-left: 13px!important;
+    padding-right: 10px!important;
+  }
+  .sample-flow {
+    font-size: 10px;
+  }
+  .step-padding {
+    padding: 0 0px !important;
+  }
+  .custom-policy-icons {
+    margin-top: 20px;
+  }
+  .dropdown-roles {
+    min-width: 350px !important;
+    
+  }
+  .scroll-wrap-general {
+    max-height: calc(100vh - 190px);
+}
+  .scroll-wrap-role {
+    max-height: calc(100vh - 318px);
+  }
+  .custome-role-top {
+    padding: 20px 10px 5px 20px !important;
+  }
+  .scroll-wrap-role {
+    padding: 0px 10px !important;
+    padding-bottom: 15px !important;
+  }
+  .filter-col {
+    display: flex;
+  }
+  .carrier-pad {
+    padding: 0 5px !important;
+  }
+  .vendor-left-mob {
+    justify-content: left !important;
+  }
+  .scroll-roles {
+    padding: 0px 5px 5px 5px !important;
+  }
+  .bot-settings-scroll {
+    height: auto;
+    overflow: auto;
+  }
+}
+@media screen and (min-width: 590px) and (max-width: 640px) {
+  .dropdown-roles {
+    min-width: 345px!important;
+    right: -12px!important;
+}
+}
+@media (max-width: 376px) {
+#selectedRole a{
+  padding: 8px!important;
+}
+}
+@media screen and (min-width: 992px) and (max-width: 1110px) {
+  .global-search-header-focus {
+    width: 365px;
+}
+}

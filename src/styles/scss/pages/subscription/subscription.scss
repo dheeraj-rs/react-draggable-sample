@@ -1,0 +1,88 @@
+.subscription-right-header {
+    @media(max-width:1199px){
+        flex-direction: column;
+        align-items: start !important;
+    }
+    .all_ststus_selectbox {
+        width:120px;
+        @media(max-width:600px){
+            width:calc(100% - 110px);
+        }
+        &.downgrade__request__all_ststus_selectbox {
+            @media(max-width:600px){
+                width:100%;
+            }
+        }
+    }
+    .create__plan_button {
+        height:38px;
+        @media(max-width:600px){
+            display: none !important;
+        }
+    }
+    .search_plan_input {
+        width:236px;
+        @media(max-width:1199px){
+            width:calc(100% - 362px);
+        }
+        @media(max-width:600px){
+            width:100%;
+        }
+    }
+    .header-right {
+        @media(max-width:1199px){
+            width: 100%;
+        }
+        @media(max-width:600px){
+            flex-direction: column;
+            align-items: start !important;
+        }
+        &.downgrade__request__header-right {
+            justify-content: space-between !important;
+        }
+    }
+    .year_month_select_wrap {
+        @media(max-width:600px){
+            width:100%;
+        }
+    }
+}
+.downgrade__request__table__outer {
+    @media(max-width:1199px){
+        overflow-x: scroll;
+    }
+    .downgrade__request__table {
+        @media(max-width:1199px){
+            width:1000px;
+        }
+    .downgrade__request__table__header {
+        border-bottom: 1px solid #c3cee9;
+        }
+    }
+}
+
+.addons__outer {
+    .addon__headder__input__wrapper {
+        @media(max-width:1199px){
+            justify-content: space-between;
+        }
+    }
+    .create__addon_modal__btn_outer {
+        @media(max-width:600px){
+            width:100% !important;
+        }
+        button {
+            @media(max-width:600px){
+                width:100% !important;
+            }
+        }
+    }
+}
+
+.button__mobile__same__outer {
+    button {
+        @media(max-width:600px){
+            flex-basis: 50% !important;
+        }
+    }
+}

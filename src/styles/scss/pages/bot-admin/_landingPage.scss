@@ -1,0 +1,22 @@
+
+
+.h-fit-2 {
+    height: calc(100vh - 14.07692rem)!important;
+}
+
+
+
+@media(max-width:991px){
+    .ps-66px {
+        padding-left: 0 !important;
+    }
+}
+
+@media(max-width:575px){
+    .w-300px {
+        width:100% !important;
+    }
+    .h-fit-2 {
+        // height:auto !important;
+    }
+}

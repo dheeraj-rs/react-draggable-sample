@@ -1,0 +1,164 @@
+//
+// This file contains very basic styles.
+//
+// Most likely you won't be needing to touch it,
+// as Bootstrap provides sane defaults.
+//
+
+body,
+html {
+  margin: 0;
+  // font-family: "Poppins";
+  font-size: 13px;
+  font-weight: 400;
+  color: $primary-color;
+  background-color: $body-bg;
+  -webkit-text-size-adjust: 100%;
+  overflow: hidden;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  font-family: 'Poppins', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Segoe UI', 'Apple Color Emoji',
+    'Twemoji Mozilla', 'Noto Color Emoji', 'EmojiOne Color', 'Android Emoji';
+}
+input,
+select {
+  height: toRem(38px);
+  // border: 1px solid $border-color;
+}
+.form-control,
+.form-select {
+  // border: 1px solid $border-color;
+  border-radius: toRem(6px);
+}
+input:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+textarea {
+  resize: none;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0.375rem;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a8a8a8;
+  outline: 0.0625rem solid #a8a8a8;
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+ul {
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    list-style: none;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #645df6;
+}
+
+.form-switch {
+  .form-check-input {
+    height: toRem(15px);
+    background-image: url('../../../../public/assets/switch-inactive.svg') !important;
+    background-color: $border-gray !important;
+    border-color: $border-gray !important;
+    &:checked {
+      background-image: url('../../../../public/assets/switch-active.svg') !important;
+      background-color: $blue-active !important;
+      border-color: $blue-active !important;
+    }
+  }
+}
+.form-check {
+  .form-check-input {
+    box-sizing: border-box;
+    width: toRem(17px);
+    height: toRem(17px);
+  }
+}
+.form-check-input:checked {
+  background-color: $blue-active;
+  border-color: transparent;
+}
+.input-check-wrapper {
+  .form-check-input {
+    &:checked {
+      background-image: url('../../../../public/assets/radio-button-check-active.svg');
+      border-color: transparent;
+    }
+  }
+}
+
+.nav-tabs {
+  border-bottom-color: $blue-shade;
+  .nav-link {
+    color: $primary-color;
+    font-weight: 500;
+    &:hover {
+      border-color: transparent;
+    }
+    &.active {
+      background-color: $white;
+      border-color: transparent;
+      border-bottom-color: $blue-active;
+      color: $blue-active;
+    }
+    &:focus-visible {
+      border-color: transparent;
+      outline: none;
+    }
+  }
+}
+
+.accordion-button::after {
+  align-self: flex-start;
+}
+
+.btn {
+  min-width: auto !important;
+}
+select {
+  cursor: pointer !important;
+}
+
+.dropdown-toggle {
+  &::after {
+    content: unset;
+  }
+}
+
+input {
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+}
+
+.nocaret {
+  &::after {
+    content: unset !important;
+  }
+}
+
+// ::-webkit-search-cancel-button {
+//     -webkit-appearance: none;
+//     appearance: none;
+//     display: none;
+// }
+
+:focus-visible::-moz-focus-inner {
+  border-color: transparent;
+  outline: none;
+}
+.nav-tabs::-webkit-scrollbar {
+  display: none;
+}

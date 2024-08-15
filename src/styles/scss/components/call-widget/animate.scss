@@ -1,0 +1,149 @@
+
+
+//start call screen
+.start-call-outer {
+    width:0px;
+    transition: all ease 0.1s;
+    padding: 0 !important;
+    overflow: hidden;
+    height: 0px;
+    pointer-events: none;
+}
+
+.start-call-component-wrap.animate .start-call-outer {
+    height: 268.75px;
+    overflow: visible;
+    padding: 1.5rem !important;
+    width:332px;
+    pointer-events: all;
+    transition: all ease 0.1s;
+}
+
+//dailing screen animation
+
+// .dailing-screen-outer {
+//     width:0px;
+//     transition: all ease 0.1s;
+//     padding: 0 !important;
+//     overflow: hidden;
+//     height: 0px;
+//     pointer-events: none;
+// }
+
+.dailing-screen-component-wrap.animate .dailing-screen-outer {
+    height: 153.5px;
+    overflow: auto;
+    padding: 1.5rem !important;
+    width:332px;
+    pointer-events: all;
+    transition: all ease 0.1s;
+}
+
+//call connected screen
+
+.call-connected-screen-outer-animate {
+    width:0px;
+    transition: all ease 0.1s;
+    padding: 0 !important;
+    overflow: hidden;
+    height: 0px;
+    pointer-events: none;
+}
+
+.call-connected-screen-component.animate .call-connected-screen-outer-animate {
+    height: 316px;
+    overflow: auto;
+    padding: 1.5rem !important;
+    width:332px;
+    pointer-events: all;
+    transition: all ease 0.1s;
+}
+
+//ask agent to transfer
+
+.ask-agent-to-connect-outer {
+    width:0px;
+    transition: all ease 0.1s;
+    padding: 0 !important;
+    overflow: hidden;
+    height: 0px;
+    pointer-events: none;
+}
+
+.ask-agent-screen-wrap.animate .ask-agent-to-connect-outer {
+    height: 303px;
+    overflow: auto;
+    padding: 1.5rem !important;
+    width:332px;
+    pointer-events: all;
+    transition: all ease 0.1s;
+}
+
+//multi caller
+
+
+.call-connected-screen-outer-multi-caller {
+    width:0px;
+    transition: all ease 0.1s;
+    padding: 0 !important;
+    overflow: hidden;
+    height: 0px;
+    pointer-events: none;
+}
+
+.multiple-caller-widget-wrapper.animate .call-connected-screen-outer-multi-caller {
+    height:325.75px;
+    overflow: auto;
+    padding: 1.5rem !important;
+    width:332px;
+    pointer-events: all;
+    transition: all ease 0.1s;
+}
+
+
+//call dot flashing
+.dot-flashing {
+    position: relative;
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #FFE500;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite linear alternate;
+    animation-delay: 0.5s;
+  }
+  .dot-flashing::before, .dot-flashing::after {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  }
+  .dot-flashing::before {
+    left: -5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #FFE500;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 0s;
+  }
+  .dot-flashing::after {
+    left: 5px;
+    width: 3px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: #FFE500;
+    color: #9880ff;
+    animation: dot-flashing 1s infinite alternate;
+    animation-delay: 1s;
+  }
+
+  @keyframes dot-flashing {
+    0% {
+      background-color: #FFE500;
+    }
+    50%, 100% {
+      background-color: rgba(152, 128, 255, 0.2);
+    }
+  }

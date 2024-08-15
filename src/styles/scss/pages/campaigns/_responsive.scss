@@ -1,0 +1,283 @@
+
+@media(max-width:1199px){
+  .predective-detail-table {
+    width:1200px;
+  }
+}
+
+@media (max-width: 1014px) {
+  .stepper-tab-wrap-outer {
+    overflow: hidden;
+    overflow-x: scroll;
+    justify-content: flex-start !important;
+  }
+}
+
+@media (min-width:992px){
+  .campaign-searchbar {
+    width:300px !important;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .voice-blast-wrapper {
+    padding-left: 10px;
+  }
+  .campaign-new-contact {
+    margin: 0 0em;
+  }
+  .add-api-compaign,
+  .topics-wrap {
+    margin: 0 0em;
+  }
+  .api-library {
+    margin: 0 0em;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .main-scroll-wrapper {
+    height: calc(100vh - 187px);
+  }
+ 
+  .compose-radio-outer li {
+    flex-basis: 47%;
+    margin-bottom: 10px;
+  }
+  .campaign-name-input {
+    width: 100% !important;
+  }
+  .field-boxes {
+    margin: 10px 10px;
+  }
+  .builder-wrap {
+    padding: 10px 10px !important;
+  }
+  .sync-progress {
+    left: 3%;
+    position: absolute;
+    top: 0;
+    width: 95%;
+    z-index: 100;
+}
+.campaigns-wrap .payment-active-btn {
+  position: relative;
+  right: -7px;
+  top: 0px;
+}
+.campaigns-wrap {
+  background: none;
+  box-shadow: none !important;
+  display: flex;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+  padding: 0 5px;
+}
+.campaigns-wrap .nav-link {
+  margin: 0 10px 15px 0!important;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  padding: 10px 20px;
+}
+
+.picmo__popupContainer {
+  left:89px !important;
+}
+
+}
+
+@media (max-width: 567px) {
+  .channel-voice {
+    text-align: center;
+    padding: 25px 15px!important;
+  }
+  .voice-image img{
+    margin-top: 26px;
+    margin-bottom: 26px;
+  }
+  .mob-phone-left{
+    padding-left: 34px;
+  }
+  .created-name{
+    display: flex;
+  }
+  .mob-widphone-left{
+  
+      padding-left: 29px;
+
+  }
+  .created-name{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .sync-btn {
+    height: 38px;
+    width: 45px;
+  }
+  .equal-pad-campaign {
+    padding: 0px 0px 15px 22px!important;
+}
+  .contact-tr th{
+    padding: 10px 5px!important;
+  }
+  .compose-radio-outer {
+    flex-wrap: wrap;
+  }
+  .compose-select ul{
+    width: 100%!important;
+  }
+  .custom-modal-close {
+    height: 25px;
+    padding: 8px;
+    right: 10px;
+    top: 13px;
+    width: 25px;
+}
+
+#campaignPreviewMob{
+  padding: 0px 0px 0px 5px!important;
+}
+  .cloud-img {
+ 
+    width: 48px;
+  
+  }
+  .campaign-right-outer {
+    padding: 22px 9px 15px 11px;
+}
+  .campaigns-wrap .nav-link {
+    padding: 10px 20px;
+    
+    min-width: max-content;
+    margin: 0px 10px 15px 0px!important
+ 
+  }
+  .remove-campaign{
+    margin-bottom: 15px!important;
+  }
+  .campaign-outer{
+    padding: 15px 5px 10px 8px!important;
+  }
+  .campaign-deal{
+    margin-bottom: 15px!important;
+  }
+  .search-width{
+    width: 100%;
+  }
+  .campaigns-wrap .payment-active-btn {
+    position: relative;
+    right: -7px;
+    top: 0px;
+  }
+
+  .campaigns-wrap {
+    background: none;
+    box-shadow: none !important;
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    padding: 0 5px;
+  }
+  .black-btn-mobile {
+    width: 100% !important;
+  }
+  .field-group-optional {
+    width: 100% !important;
+  }
+  .channel-right-box {
+    text-align: center;
+  }
+  .api-library-wrap {
+    padding: 10px 10px 15px 13px !important;
+  }
+  .builder-wrap {
+    padding: 15px 5px !important;
+  }
+  .overall-padding-mobile {
+    padding: 15px 10px 15px 13px !important;
+  }
+  .field-boxes {
+    margin: 10px 6px;
+  }
+  .api-library {
+    padding: 30px !important;
+    text-align: center;
+  }
+  .did-mob-btns {
+    width: 100%;
+  }
+  .did-btn {
+    width: 100%;
+  }
+  .campaign-new-contact {
+    margin: 0 0em;
+  }
+  .contact-detail-wrap {
+    text-align: center;
+  }
+  .updated-con {
+    margin-top: 10px;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
+
+
+// ipad 6 mini
+@media screen and (min-width: 648px) and (max-width: 768px) {
+  .offcanvas-pricing {
+    width: 720px!important;
+  }
+  .channel-right-box{
+    padding: 36px 30px!important;
+  }
+  .plan-btn-mob{
+    width: 75%;
+  }
+}
+@media screen and (min-width: 760px) and (max-width: 991px) {
+  .channel-right-box{
+    padding: 36px 30px!important;
+  }
+}
+
+
+@media screen and (min-width: 760px) and (max-width: 1025px) {
+  .sms-padding {
+    padding-left: 20px!important;
+    padding-right: 0px!important;
+  }
+
+}
+
+@media screen and (min-width: 991px) and (max-width: 1025px) {
+
+  .api-library {
+    margin: 0 5em;
+}
+.campaign-new-contact {
+  margin: 0 4em;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1300px) {
+
+  .campaign-new-contact {
+    margin: 0 4em;
+}
+.scroll-widget-template {
+  max-height: calc(100vh - 190px);
+}
+}
+@media screen and (min-width: 768px) {
+  
+      .template-status {
+          margin-left: 15px;
+      }
+  }

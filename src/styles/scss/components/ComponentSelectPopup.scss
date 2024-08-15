@@ -1,0 +1,43 @@
+.component-select-popup-items li {
+    flex-basis: 33.333%;
+    cursor:pointer;
+}
+
+.component-select-popup-items li img {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.component-tab-item {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    &.active {
+        color:#645DF6;
+        font-weight: 500;
+        font-size: 12px;
+        &::after {
+            height:2px;
+            width:100%;
+            bottom:0;
+            left:0%;
+            content:'';
+            position: absolute;
+            background-color: #645DF6;
+        }
+    }
+}
+
+.IvrComponentSelectPopup__close {
+    position: absolute;
+    right: 16px;
+}
+
+@media (max-width:575px){
+    .component-select-popup-items li {
+        flex-basis: 50%;
+    }
+}

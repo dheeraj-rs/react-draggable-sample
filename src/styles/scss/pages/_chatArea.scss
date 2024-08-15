@@ -1,0 +1,129 @@
+.chat-section {
+  height: calc(100vh - 330px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+
+  @media (max-width: 575.98px) {
+    height: calc(100vh - 364px);
+  }
+
+  @media (max-width: 820px) {
+    height: calc(100vh - 361px) !important;
+  }
+
+  &-chat-area {
+    & .time-break {
+      border-bottom: 1px solid rgba(112, 124, 151, 0.47);
+
+      span {
+        left: 50%;
+        top: -10px;
+        transform: translate(-50%, 0);
+      }
+    }
+    & .chat-right {
+      & .tick {
+        background: url(../../../../public/assets/dbl-tick-dark.svg) no-repeat center center;
+        background-position: 0px toRem(5px);
+      }
+    }
+  }
+}
+
+.chat-border {
+  border-radius: 0px toRem(10px) toRem(10px) toRem(10px);
+}
+.chat-right-wrap {
+  border-radius: toRem(10px) 0px toRem(10px) toRem(10px) !important;
+}
+.chat-border-left {
+  border-radius: toRem(10px) 0px toRem(10px) toRem(10px);
+}
+.chat-border-right {
+  border-radius: toRem(10px) toRem(10px) 0px toRem(10px);
+}
+.chat-control-box:focus-within {
+  border: 1px solid #ffa007;
+  box-shadow: 0 4px 23px 0 rgb(0 0 0 / 36%);
+  transition: 0.4s;
+}
+.chat-control-box {
+  box-shadow: 0px 4px 23px 0px rgba(0, 0, 0, 0.2);
+  border: 1px solid #c8d1d9;
+  bottom: 10px;
+
+  & .form-control {
+    &:focus {
+      background-color: #fdfdfd;
+      box-shadow: none;
+    }
+  }
+}
+
+.chat-wrapper {
+  height: calc(100vh - 165px);
+  border-bottom-right-radius: 0.5rem;
+  box-shadow: inset 0px 2px 4px #3333331a;
+  border-bottom-left-radius: 0.5rem;
+  @media (max-width: 575.98px) {
+    height: calc(100vh - 220px);
+  }
+  @media (max-width: 768px) {
+    height: calc(100vh - 218px);
+  }
+  @media (max-width: 820px) {
+    height: calc(100vh - 213px) !important;
+  }
+}
+.min-width-2 {
+  min-width: 2rem;
+}
+
+.add-label-btn {
+  padding: 4px 6px;
+  &:hover {
+    background: $blue-active;
+    padding: 4px 6px;
+    color: #fff;
+    border-radius: 50px;
+  }
+  &:active {
+    background: $blue-active;
+    padding: 4px 6px;
+    color: #fff;
+    border-radius: 50px;
+  }
+}
+
+.btn-agent {
+  border: 1px solid $cloudy-blue-light !important;
+  background: #fff;
+  &:hover {
+    border: 1px solid $blue-active !important;
+    background: $blue-active;
+  }
+  &:hover .icon-svg {
+    filter: brightness(100);
+  }
+  &.active .icon-svg {
+    border: 1px solid $blue-active;
+    background: $blue-active;
+    filter: brightness(100);
+  }
+}
+
+.user-btn {
+  // background: $light-blue;
+  @media (max-width: 575.98px) {
+    background: #fff;
+  }
+}
+#sendPrivateNoteBtn {
+  @media (max-width: 575.98px) {
+    min-width: 100% !important;
+  }
+}
+#assignAgentBtn {
+  @media (max-width: 575.98px) {
+  }
+}

@@ -1,0 +1,458 @@
+.dropdown-dial {
+  min-width: 200px !important;
+  //transform: translate(-55px, 39px) !important;
+  background: -webkit-linear-gradient(
+      151.42deg,
+      rgba(30, 30, 56, 0.79) 1.71%,
+      rgba(25, 25, 70, 0.79) 41.89%,
+      rgba(26, 26, 64, 0.79) 99.35%
+    ),
+    url(../../../../public/assets/dial-bg.svg) no-repeat center center / cover;
+
+  box-shadow: 0px 4px 4px rgba(26, 26, 64, 0.44);
+  border-radius: 0px 0px 6px 6px;
+  padding: 6px 0px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.dropdown-dial-right {
+  min-width: 200px !important;
+  // transform: translate(-36px, 39px) !important;
+  background: -webkit-linear-gradient(
+      151.42deg,
+      rgba(30, 30, 56, 0.79) 1.71%,
+      rgba(25, 25, 70, 0.79) 41.89%,
+      rgba(26, 26, 64, 0.79) 99.35%
+    ),
+    url(../../../../public/assets/dial-bg.svg) no-repeat center center / cover; // background: -webkit-linear-gradient(
+  //   151.42deg,
+  //   rgba(30, 30, 56, 0.79) 1.71%,
+  //   rgba(25, 25, 70, 0.79) 41.89%,
+  //   rgba(26, 26, 64, 0.79) 99.35%
+  // );
+  // background-image: url("../assets/dial-bg.svg");
+  box-shadow: 0px 4px 4px rgba(26, 26, 64, 0.44);
+  border-radius: 0px 0px 6px 6px;
+  padding: 6px 0px !important;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: translate(-38px, 39px) !important;
+  @media (max-width: 1280px) {
+    transform: translate(-21px, 39px) !important;
+  }
+}
+.digit-alpha {
+  font-size: 12px !important;
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  float: left;
+  border-radius: 50px;
+  width: 34px;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #8989b1;
+  border-radius: 50px;
+}
+.digi-ok-btn {
+  background-image: url(../../../../public/assets/ok-btn.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+}
+
+.key-input {
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.dial-row {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0px 5px;
+}
+
+.digit,
+.digit-web-right,
+.digit-mobile,
+.dig {
+  display: flex;
+  justify-content: center;
+  height: 34px;
+  float: left;
+  font-size: 15px;
+  cursor: pointer;
+  // background: linear-gradient(151.42deg, rgba(30, 30, 56, 0.79) 1.71%, rgba(25, 25, 70, 0.79) 41.89%, rgba(26, 26, 64, 0.79) 99.35%);
+
+  border-radius: 50px;
+  width: 34px;
+  align-items: center;
+  color: #fff;
+  border: 1px solid #8989b1;
+}
+.digit:hover,
+.digit-alpha:hover {
+  border: 1px solid #645df6;
+  color: #000;
+  background: white;
+  transition: 0.2s;
+}
+
+.sub {
+  font-size: 0.8rem;
+  color: grey;
+}
+
+.container-1 {
+  width: 250px;
+}
+
+#output {
+  font-size: 2rem;
+  height: 60px;
+  font-weight: bold;
+}
+
+#call {
+  display: inline-block;
+  padding: 4px 30px;
+  margin: 10px;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+}
+
+.botrow {
+  margin: 0 auto;
+  width: 280px;
+  clear: both;
+  text-align: center;
+}
+
+.digit:active,
+.dig:active,
+.digit-web-right:active,
+.digit-mobile:active {
+  background-color: #8989b1;
+}
+
+#call:hover {
+  background-color: #81c784;
+}
+
+.dig {
+  float: left;
+  padding: 10px 20px;
+  margin: 10px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.input-box:focus-visible {
+  outline: none;
+}
+//configuration mobile toggle
+.view-all-btn {
+  display: inline-flex;
+  align-items: center;
+  color: #643db1;
+  &:hover {
+    color: #4a4aff;
+  }
+}
+.less {
+  display: none;
+}
+
+.active {
+  .all {
+    display: none;
+  }
+  .less {
+    display: unset;
+  }
+}
+//mobile call configuration
+.getting-started {
+  &-list {
+    @media (max-width: toRem(767px)) {
+      padding: 0 toRem(17px);
+    }
+    [class^='conf'] {
+      &:nth-child(n) {
+        display: none;
+      }
+    }
+    &.active {
+      [class^='conf'] {
+        &:nth-child(n) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+//configuration did
+.conf-did {
+  animation: 3s ease 0s 1 normal none running fadeIn;
+  &-box {
+    background: #dfe1ea;
+    border-radius: 6px;
+    padding: 15px;
+    width: 100%;
+  }
+
+  &-label {
+    color: #555;
+  }
+  &-num {
+    background: #cccfdf;
+    border-radius: 6px;
+    padding: 5px;
+    color: #333;
+  }
+}
+
+//web call configuration
+
+.view-all-btn-web {
+  display: inline-flex;
+  align-items: center;
+  color: #643db1;
+  &:hover {
+    color: #4a4aff;
+  }
+}
+.less-web {
+  display: none;
+}
+
+.active {
+  .all-web {
+    display: none;
+  }
+  .less-web {
+    display: unset;
+  }
+}
+
+.getting-started-configure {
+  &-list {
+    @media (max-width: toRem(767px)) {
+      padding: 0 toRem(17px);
+    }
+    [class^='configure'] {
+      &:nth-child(n) {
+        display: none;
+      }
+    }
+    &.active {
+      [class^='configure'] {
+        &:nth-child(n) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+//configuration did web
+.configure-did {
+  animation: 3s ease 0s 1 normal none running fadeIn;
+  &-box {
+    background: #dfe1ea;
+    border-radius: 6px;
+    padding: 15px;
+    width: 100%;
+  }
+
+  &-label {
+    color: #555;
+  }
+  &-num {
+    background: #cccfdf;
+    border-radius: 6px;
+    padding: 5px;
+    color: #333;
+  }
+}
+
+//nav  call configuration
+
+.view-all-btn-nav {
+  display: inline-flex;
+  align-items: center;
+  color: #643db1;
+  &:hover {
+    color: #4a4aff;
+  }
+}
+.less-nav {
+  display: none;
+}
+
+.active {
+  .all-nav {
+    display: none;
+  }
+  .less-nav {
+    display: unset;
+  }
+}
+
+.getting-started-nav {
+  &-list {
+    @media (max-width: toRem(767px)) {
+      padding: 0 toRem(17px);
+    }
+    [class^='configure'] {
+      &:nth-child(n) {
+        display: none;
+      }
+    }
+    &.active {
+      [class^='configure'] {
+        &:nth-child(n) {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.config-routing-box {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  border: 1px solid rgba(112, 124, 151, 0.6);
+  border-radius: 6px;
+  padding: 15px;
+  margin-top: 10px;
+}
+.dropup .dropdown-call::after {
+  display: none !important;
+}
+
+.dropdown-menu-call {
+  margin: -203px 21px !important;
+  height: 200px;
+  width: 256px;
+  //background: #989DAE;
+  border-radius: 6px;
+  box-shadow: none !important;
+  background: -webkit-linear-gradient(
+      151.42deg,
+      rgba(30, 30, 56, 0.79) 1.71%,
+      rgba(25, 25, 70, 0.79) 41.89%,
+      rgba(26, 26, 64, 0.79) 99.35%
+    ),
+    url(../../../../public/assets/dial-bg.svg) no-repeat center center / cover;
+  // background: -webkit-linear-gradient(
+  //   151.42deg,
+  //   rgba(30, 30, 56, 0.79) 1.71%,
+  //   rgba(25, 25, 70, 0.79) 41.89%,
+  //   rgba(26, 26, 64, 0.79) 99.35%
+  // );
+  // background-image: url("../assets/dial-bg.svg");
+  border-radius: 6px;
+  box-shadow: 0px 4px 4px rgba(26, 26, 64, 0.44);
+  //background-image: url('../images/dial-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  @media (max-width: 1280px) {
+    transform: translate(-35px, 42px) !important;
+  }
+
+  & .call-timer {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  & .call-number {
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  & .call-end {
+    bottom: -15px;
+    position: absolute;
+  }
+}
+
+.dropdown-call:hover {
+  color: #fff;
+}
+.wen-menu {
+  min-width: 290px !important;
+}
+
+.btn-call-mob:active,
+.btn-call-web:active {
+  border: 1px solid transparent !important;
+}
+.btn-call-mob:hover,
+.btn-call-web:hover {
+  border: 1px solid transparent !important;
+}
+
+.bg-dial-pad {
+  background: rgba(255, 255, 255, 0.14);
+  mix-blend-mode: normal;
+}
+.number-input-group {
+  width: 90% !important;
+}
+
+.pad-dial-drop {
+  padding-left: 23px;
+  padding-right: 23px;
+  padding-top: 23px;
+}
+.ellipsis-call {
+  background-color: #8190b7;
+  border-radius: 50%;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
+.start-call {
+  bottom: 20px;
+  position: absolute;
+  right: 20px;
+  max-width: 350px;
+}
+#number-output-web:focus {
+  background: hsla(0, 0%, 100%, 0.14);
+  mix-blend-mode: normal;
+}
+.bg-fire-red:hover {
+  background: #ea1010 !important;
+}
+.comm-btn-call {
+  width: 86px;
+  height: 44px;
+  background: $blue-active;
+  &:hover {
+    background: #4842c2;
+  }
+}
+.dial-hover {
+  background: $blue-active;
+  &:hover {
+    background: #4842c2;
+  }
+}
+.dial-pad-white {
+  background: #fff;
+  &:hover {
+    background: #4842c2;
+  }
+  &:hover img {
+    filter: brightness(100);
+  }
+}

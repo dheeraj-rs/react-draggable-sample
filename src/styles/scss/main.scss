@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+//
+// The main scss file.
+//
+// The main file (usually labelled main.scss) should be the only Sass file
+// from the whole code base not to begin with an underscore.
+// This file should not contain anything but @import and comments.
+//
+
+// 1. Configuration and helpers
+@import "abstracts/functions/is-color";
+@import "abstracts/functions/strip-unit";
+@import "abstracts/functions/rem-conversion";
+@import "abstracts/variables";
+@import "abstracts/mixins/block";
+@import "abstracts/mixins/center";
+@import "abstracts/mixins/overlay";
+@import "abstracts/mixins/unselectable";
+@import "abstracts/utilities/utilities";
+
+// Mix colors from variables before bootstrap
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// 2. Vendors
+@import "bootstrap/scss/bootstrap.scss";
+
+// 3. Base stuff
+@import "base/base";
+@import "base/fonts";
+@import "base/typography";
+@import "base/helpers";
+
+// 4. Layout-related sections
+@import "layout/header";
+@import "layout/footer";
+
+// 5. Components
+@import 'components/button';
+@import 'components/checkbox';
+@import 'components/radioButton';
+@import 'components/floatingButton';
+@import 'components/calendarRadio';
+@import 'components/checkboxTick';
+@import 'components/radioButtonCircle';
+@import 'components/colorPicker';
+@import 'components/customScroll';
+@import 'components/dialPad';
+@import 'components/accordion';
+@import 'components/_gradientRadioButton';
+@import 'components/slider';
+
+
+// 6. Page-specific styles
+@import 'pages/home';
+@import 'pages/circleProgress'; //Breaking bootstrap progress bar
+@import 'pages/circleProgressBar';
+@import 'pages/sidebar';
+@import 'pages/chatArea';
+@import 'pages/timeline';
+@import 'pages/comm-telephony/home';
+@import 'pages/comm-telephony/responsive';
+@import 'pages/stepper';
+@import 'pages/audit-logs/home';
+@import 'pages/common';
+@import 'pages/responsive';
+@import 'pages/flow-builder/home';
+@import 'pages/roles';
+@import 'pages/flow-builder/responsive';
+@import 'pages/flow-builder/starRating';
+@import 'pages/bot-admin/landingPage';
+@import 'pages/bot-admin/bot-template'; 
+@import 'pages/functions/button-box-get-jwt';
+@import 'pages/flow-builder/settings/settings-settings';
+@import 'pages/flow-builder/settings/custom-radio-btn-astro';
+@import 'pages/call-flows/home';
+@import 'components/smsFeedbackModal';
+@import 'components/voiceMailModal';
+@import 'components/hoursModal';
+@import 'components/greetifyModal';
+@import 'components/connectModal';
+@import 'components/emailModal';
+@import 'pages/chat-widget//chat-widget';
+@import 'pages/call-flows/responsive';
+@import 'pages/login/home';
+@import 'pages/campaigns/home';
+@import 'pages/campaigns/responsive';
+@import 'pages/comm-voice-admin/home';
+@import 'pages/comm-voice-admin/responsive';
+@import 'pages/super-admin/home';
+@import 'pages/super-admin/responsive';
+
+
+
+

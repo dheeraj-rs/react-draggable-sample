@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/scss/components/call-widget/dailing-screen.scss","dailing-screen.css"],"names":[],"mappings":"AAAA;EACI,eAAA;EACA,gBAAA;EACA,WAAA;EACA,WAAA;EACA,YAAA;ACCJ;ADAI;EACI,2CAAA;EACA,mBAAA;ACER;ADAI;EACI,cAAA;EACA,yBAAA;EACA,mBAAA;ACER;ADAI;EACI,yBAAA;EACA,WAAA;EACA,YAAA;ACER;ADAI;EACI,yBAAA;EACA,aAAA;EACA,cAAA;EACA,cAAA;ACER","file":"dailing-screen.css"}

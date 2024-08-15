@@ -1,0 +1,247 @@
+.roles-step {
+    width: var(--roles-stepWidth);
+    background: #fff;
+    
+}
+.roles-step header {
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.roles-step .form-outer {
+    width: 100%;
+    overflow: hidden;
+}
+.roles-step .form-outer form {
+    display: flex;
+    width: calc(100% * var(--stepNumber));
+}
+.form-outer form .page {
+    width: calc(100% / var(--stepNumber));
+    transition: margin-left 0.3s ease-in-out;
+}
+.form-outer form .page .title {
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form-outer form .page .field {
+    width: var(--roles-stepWidth);
+    height: 45px;
+    margin: 45px 0;
+    display: flex;
+    position: relative;
+}
+form .page .field .label {
+    position: absolute;
+    top: -30px;
+    font-weight: 500;
+}
+
+
+form .page .field button {
+    width: 100%;
+    height: calc(100% + 5px);
+    border: none;
+    background: var(--secondary);
+    margin-top: -20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+}
+form .page .field button:hover {
+    background: #000;
+}
+form .page .btns button {
+    margin-top: -20px !important;
+}
+form .page .btns button.prev {
+    margin-right: 3px;
+    font-size: 17px;
+}
+form .page .btns button.next {
+    margin-left: 3px;
+}
+.roles-step .progressbarrole {
+    display: flex;
+    margin: 40px 0;
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+}
+.roles-step .progressbarrole .step {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.roles-step .progressbarrole .step p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 8px;
+}
+.progressbarrole .step .bullet {
+    height: 25px;
+    width: 25px;
+    border: 2px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    transition: 0.2s;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 25px;
+}
+.progressbarrole .step .bullet.active {
+    border-color: var(--primary);
+    background: var(--primary);
+}
+.progressbarrole .step .bullet span {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.progressbarrole .step .bullet.active span {
+    display: none;
+}
+.progressbarrole .step .bullet:before,
+.progressbarrole .step .bullet:after {
+    position: absolute;
+    content: "";
+    bottom: 11px;
+    right: -51px;
+    height: 3px;
+    width: 44px;
+    background: #262626;
+}
+.progressbarrole .step .bullet.active:after {
+    background: var(--primary);
+    transform: scaleX(0);
+    transform-origin: left;
+    animation: animate 0.3s linear forwards;
+}
+@keyframes animate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+.progressbarrole .step:last-child .bullet:before,
+.progressbarrole .step:last-child .bullet:after {
+    display: none;
+}
+.progressbarrole .step p.active {
+    color: var(--primary);
+    transition: 0.2s linear;
+}
+.progressbarrole .step .check {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    font-size: 15px;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+.progressbarrole .step .check.active {
+    display: block;
+    color: #fff;
+}
+
+@media screen and (max-width: 660px) {
+    :root {
+        --roles-stepWidth: 400px;
+    }
+    .progressbarrole .step p {
+        display: none;
+    }
+    .progressbarrole .step .bullet::after,
+    .progressbarrole .step .bullet::before {
+        display: none;
+    }
+    .progressbarrole .step .bullet {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .progressbarrole .step .check {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 15px;
+        transform: translate(-50%, -50%);
+        display: none;
+    }
+    // .step {
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+}
+@media screen and (max-width: 490px) {
+    :root {
+        --roles-stepWidth: 100%;
+    }
+    .roles-step {
+        box-sizing: border-box;
+        border-radius: 0;
+    }
+}
+
+.progress-line{
+    height: 1px;
+    background: #645df6;
+    width: 90px;
+}
+.step-num{
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+
+
+.nav-link .step .check-step {
+    font-size: 13px;
+    left:13px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+.nav-link.active .step .check-step {
+    display: block;
+    background:$blue-active;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    display: flex;
+    height: 27px;
+    justify-content: center;
+    width: 27px;
+    
+}
+.nav-link.active .step .step-num{
+    display: none!important;
+}
+.step-padding .nav-link.active{
+background: none;
+color: #333333;
+font-weight: 500;
+}
+.step-padding .nav-link{
+    color: #333333;
+}
+.step-padding .step-num{
+position:absolute;
+}
+.role-wrap p{
+    margin-left: 33px;
+}

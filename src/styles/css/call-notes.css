@@ -1,0 +1,21 @@
+.call-notes-outer {
+  max-width: 509px;
+  width: 100%;
+  box-shadow: 0px 4px 30px 0px rgba(44, 47, 114, 0.34);
+  position: fixed;
+  bottom: 20px;
+  right: 370px;
+}
+.call-notes-outer .profile-phone {
+  border: 1px solid #B4B9DF;
+  border-radius: 50px;
+}
+
+@media (max-width: 991px) {
+  .call-notes-outer {
+    right: unset;
+    width: 96%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}/*# sourceMappingURL=call-notes.css.map */

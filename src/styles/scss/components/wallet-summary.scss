@@ -1,0 +1,75 @@
+
+
+.wallet-summary-outer {
+    .wallet-balance-box {
+        min-height:105.25px;
+    }
+    .wallet-input-image {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 15px;
+    }
+
+    .add-fund-button {
+        height:38px;
+        width:84px;
+        background-color: #000;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all ease 0.5s;
+        border:0;
+         &:hover {
+            background-color: #645DF6;
+            transition: all ease 0.5s;
+         }
+    }
+
+    .add-fund-btn-outer {
+        padding-left: 10px;
+
+        @media(max-width:575px){
+            flex-basis: 100%;
+            padding-left: 0;
+            margin-top: 15px;
+        }
+        button {
+            @media(max-width:575px){
+                width:100%;
+            }
+        }
+    }
+
+    .wallet-input-outer {
+        flex-basis: calc(100% - 104px);
+        
+        @media(max-width:575px){
+            flex-basis: 100%;
+        }
+    }
+
+    .fund-form-outer {
+        padding-left: 100px !important;
+        max-width:700px;
+        
+        @media(max-width:1199px){
+            padding-left:40px !important;
+        }
+        @media(max-width:575px){
+            padding-left:0px !important;
+        }
+    }   
+    .balance-amount-outer {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .refresh-outer {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+}

@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg"><script xmlns="" id="youtube-hd-{4cf120ba-c67a-47a9-9c99-7ab813d08379}">var ythdlog = () =&gt; {};;var ythderror = () =&gt; {};</script>
+<g id="CaretDown">
+<path id="Vector" d="M11.375 5.76562L7 10.1406L2.625 5.76562" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+=======
+<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="CaretDown">
+<path id="Vector" d="M11.375 5.76562L7 10.1406L2.625 5.76562" stroke="#333333" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>
+>>>>>>> main

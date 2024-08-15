@@ -1,0 +1,61 @@
+.call-wait-dialpad-outer {
+    position:fixed;
+    max-width:332px;
+    width:100%;
+    right:20px;
+    bottom:20px;
+    .number-input {
+        height:40px;
+        width:100%;
+        border-radius: 6px;
+        border:0;
+    }
+    .dailpad-button {
+        width:32px;
+        height:32px;
+        border-radius: 5px;
+        position:absolute;
+        right:5px;
+        top:50%;
+        transform:translateY(-50%);
+        transition:all ease 0.5s;
+        background-color: #645DF6;
+        img {
+            filter: brightness(0) saturate(100%) invert(99%) sepia(1%) saturate(162%) hue-rotate(8deg) brightness(115%) contrast(100%);
+            transition:all ease 0.5s;
+        }
+    }
+    .call-option {
+        width:45px;
+        height:45px;
+        border-radius: 50%;
+        background-color: #376384;
+        &:hover {
+            opacity:1;
+        }
+    }
+    .call-option {
+        &:hover {
+            background-color: #0C2F4A;
+            transition:all ease 0.5s;
+        }
+    }
+    .dailing-info-wrap {
+        background-color: rgba(255, 255, 255, 0.06);
+        border-radius: 50px;
+    }
+    .dailing-badge {
+        color:#45FFDE;
+        border:1px solid #45FFDE;
+        border-radius: 50px;
+    }
+    .dp-text {
+        background-color: #00C0DA;
+        width:30.5px;
+        height:30.5px;
+        color:#004A54;
+    }
+}
+
+
+

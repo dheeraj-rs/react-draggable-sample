@@ -1,0 +1,12 @@
+.no-matching-records {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EBEFFF;
+    font-size: 14px;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

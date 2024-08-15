@@ -1,0 +1,33 @@
+.agent-merge-outer .dial-pad-icon {
+  right: 10px;
+  transform: translateY(-50%);
+  top: 50%;
+}
+.agent-merge-outer .agent-list-wrap .active .dp-text {
+  background-color: #D9BAFF;
+}
+.agent-merge-outer .dp-text {
+  background-color: #E4CFFF;
+  width: 30.5px;
+  height: 30.5px;
+  color: #471389;
+}
+.agent-merge-outer .agent-list.active {
+  background-color: #E9EAFF;
+}
+.agent-merge-outer .agent-list:hover {
+  background-color: #E9EAFF;
+}
+.agent-merge-outer .agent-list-wrap {
+  max-height: calc(100vh - 470px);
+}
+.agent-merge-outer .call-connected-actions {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #376384;
+  border: 0;
+}
+.agent-merge-outer .call-connected-actions:hover {
+  background-color: #0C2F4A;
+}/*# sourceMappingURL=agent-merge.css.map */

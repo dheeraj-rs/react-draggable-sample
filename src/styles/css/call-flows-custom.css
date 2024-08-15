@@ -1,0 +1,81 @@
+.bg-faded-blue {
+  background-color: #F2F7FF !important;
+}
+
+.bg-hover-blue:hover {
+  background-color: #EBF7FB !important;
+}
+
+.bg-hover-blue .added-green img {
+  filter: none !important;
+}
+
+.bg-green {
+  background-color: #08C76B !important;
+}
+
+.icon-wrapper {
+  width: 27px;
+  height: 27px;
+  border-radius: 50%;
+  background-color: #93D8FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper.incomming {
+  background-color: #E1C3FF !important;
+}
+
+.icon-wrapper.hangup {
+  background-color: #FFB2B2 !important;
+}
+
+.call-shadow {
+  box-shadow: 0 0px 10px rgba(27, 50, 54, 0.2784313725) !important;
+  border-radius: 10px !important;
+  /* overflow: hidden !important; */
+  border: 1px solid transparent;
+}
+
+.call-shadow:hover {
+  border-color: #4da2fa !important;
+}
+
+.added-green {
+  background-color: #97E7C1 !important;
+}
+
+.reload {
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.1882352941);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.reload:hover {
+  background-color: #645DF6;
+}
+
+.reload:hover img {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7462%) hue-rotate(137deg) brightness(93%) contrast(113%);
+}
+
+.call-header-outer {
+  margin-bottom: -13px;
+  position: relative;
+  z-index: 99;
+}
+
+.call-padding {
+  padding-right: 24px !important;
+  padding-left: 24px !important;
+}
+
+/*# sourceMappingURL=call-flows-custom.css.map */

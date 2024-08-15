@@ -1,0 +1,21 @@
+.feature_box_outer {
+  box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.41);
+}
+
+.feature_list_items {
+  background-color: #EBF0F4;
+}
+
+.feature_list_items.active {
+  background-color: #EBEFFF;
+}
+
+.feature_list_items_outer {
+  max-height: calc(100vh - 361px) !important;
+}
+
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+  .feature_list_items_outer {
+    max-height: calc(100vh - 250px) !important;
+  }
+}/*# sourceMappingURL=feature-list.css.map */

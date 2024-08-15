@@ -1,0 +1,28 @@
+.table-audit {
+    @media (max-width: 576px) {
+        overflow: unset;
+        thead {
+            display: none;
+        }
+        tbody {
+            tr {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                border-bottom: 1px solid $gray-400;
+                padding-block: toRem(10px);
+                td {
+                    border-color: transparent;
+                    &:nth-child(1) {
+                        width: 50%;
+                        // width: max-content;
+                    }
+                    &:nth-child(2) {
+                        // width: 50%;
+                        width: max-content;
+                    }
+                }
+            }
+        }
+    }
+}

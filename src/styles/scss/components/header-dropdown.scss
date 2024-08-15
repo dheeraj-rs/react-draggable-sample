@@ -1,0 +1,67 @@
+.header-profile-dropdown {
+    width:289px;
+    top:40px !important;
+    right:0 !important;
+    ul {
+        li {
+            padding-top: 10px;
+            padding-bottom: 10px;
+            cursor:pointer;
+             a {
+                color: #000;
+             }
+            // &:hover {
+            //     color:#645DF6;
+            //     img {
+            //         filter: brightness(0) saturate(100%) invert(29%) sepia(92%) saturate(1237%) hue-rotate(224deg) brightness(107%) contrast(93%);
+            //     }
+            //     a {
+            //         color:#645DF6;
+            //     }
+            // }
+            img {
+                filter: brightness(0) saturate(100%) invert(0%) sepia(4%) saturate(0%) hue-rotate(267deg) brightness(96%) contrast(103%);
+            }
+            &:nth-child(4) {
+                img {
+                    filter: brightness(0) saturate(100%) invert(18%) sepia(86%) saturate(3678%) hue-rotate(355deg) brightness(90%) contrast(83%);
+                }
+            }
+        }
+    }
+}
+
+.dropdown {
+    .header-profile-dropdown {
+        box-shadow:0 1px 11px rgba(0,0,0,.25)!important;
+    }
+}
+
+.social-icon-wrap {
+    position: relative;
+}
+
+.social-icon-wrap i.count {
+    background-color: #d21e1e;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: .9230769231rem;
+    font-style: normal;
+    height: 18px;
+    right: -6px;
+    line-height: 18px;
+    position: absolute;
+    text-align: center;
+    top: -6px;
+    width: 18px;
+}
+
+@media(max-width:575px){
+    .profile_Name {
+        display: none;
+    }
+    .header-right-sec {
+        gap: 28px !important;
+    }
+}

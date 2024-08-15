@@ -1,0 +1,49 @@
+input[type="color"]:first-child {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 6px;
+    background: none;
+    cursor: pointer;
+  }
+
+  input[type="color"]::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+
+  input[type="color"]::-webkit-color-swatch {
+    border: 1px solid rgba(50, 71, 111, 0.35);
+    border-radius: 6px;
+  }
+
+  input[type="color"]:nth-child(2) {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 6px;
+    outline: none;
+  }
+  input[type="color"]:nth-child(3) {
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-shadow: none;
+   border-radius: 6px;
+    outline: none;
+  }
+  input[type="color" i] {
+    border-radius: 50px;
+    border: none;
+    height: 26px;
+    width: 26px;
+    display: block;
+  }
+  .color-picker-value{
+   width: 70px;
+   height: 2rem !important;
+  }
+.color-picker-value:focus-visible{
+  outline: none;
+}

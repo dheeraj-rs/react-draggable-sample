@@ -1,0 +1,52 @@
+.create__plan__outer{
+    .create__plan__form__wrap{
+        padding-left: 40px;
+        padding-right: 40px;
+        @media(max-width:1199px){
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+    .rs__image {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .custom__gery__box {
+        border-top: 1px solid #C3CEE9;
+        border-bottom: 1px solid #C3CEE9;
+    }
+    .plus {
+        background-color: #EAE8FC;
+        position: absolute;
+        right:10px;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .minus {
+        background-color: #EAE8FC;
+        position: absolute;
+        left:10px;
+        top:50%;
+        transform: translateY(-50%);
+    }
+    .feature__list__outer {
+        padding-left:30px;
+        @media(max-width:1199px){
+            padding-left: 0px;
+        }
+    }
+    .feature__list__item {
+        background-color: #EBF0F4;
+        &.active {
+            background-color: #EBEFFF;
+        }
+    }
+    .feature__list {
+        max-height: 450px;
+    }
+    .feature_list_item_voicemail {
+        border:1px solid #A6AEBBC4;
+    }
+}

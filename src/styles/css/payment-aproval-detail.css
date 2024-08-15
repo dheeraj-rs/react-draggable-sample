@@ -1,0 +1,51 @@
+.back-arrow {
+  background-color: #E6E8F6;
+  width: 30px;
+  height: 30px;
+  transition: all ease 0.5s;
+}
+.back-arrow:hover {
+  background-color: #000;
+  transition: all ease 0.5s;
+}
+.back-arrow:hover img {
+  filter: invert(90%) sepia(100%) saturate(2%) hue-rotate(83deg) brightness(106%) contrast(101%);
+}
+
+.payment_reciept {
+  max-width: 428px;
+  overflow: hidden;
+  height: 50px;
+  border: 1px solid transparent;
+}
+.payment_reciept:hover {
+  border: 1px solid #fdbf4b;
+}
+.payment_reciept .reciept_icon {
+  width: 50px;
+  height: 50px;
+  background-color: #FFE2AB;
+  left: 0;
+  top: 0;
+}
+.payment_reciept .pdf-detail-outer {
+  padding-left: 70px;
+}
+@media (max-width: 575px) {
+  .payment_reciept span {
+    font-size: 10px !important;
+  }
+}
+
+.reject-btn {
+  border: 1px solid #D21E1E;
+  color: #D21E1E;
+  background-color: #fff !important;
+  height: 38px;
+  transition: all ease 0.5s;
+}
+.reject-btn:hover {
+  background-color: #D21E1E !important;
+  color: #fff !important;
+  transition: all ease 0.5s;
+}/*# sourceMappingURL=payment-aproval-detail.css.map */

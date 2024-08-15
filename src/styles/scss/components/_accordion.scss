@@ -1,0 +1,16 @@
+[aria-expanded='true'] .hideOnCollapse > * {
+  visibility: hidden !important;
+  display: none !important;
+  opacity: 0;
+  transition-duration: 200ms;
+  transition-property: opacity;
+}
+[aria-expanded='false'] .hideOnCollapse > * {
+  visibility: visible !important;
+  transition-property: height;
+  transition-duration: 200ms;
+}
+
+.accordion {
+  --bs-accordion-btn-icon: url('../../../../public/assets/drop-down.svg') !important;
+}

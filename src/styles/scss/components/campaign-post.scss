@@ -1,0 +1,45 @@
+.voice__post__outer {
+    .post__icon__outer {
+        width:30px;
+        height:30px;
+    }
+    .campaign__name__right__inner {
+        @media(min-width:1200px){
+            padding-left: 50px;
+        }
+    }
+    .voice__url__textarea {
+        max-width: 620px;
+    }
+    .voice__url__voice {
+        max-width: 620px;
+    }
+    .voice__url__play__icon__outer {
+        width:34px;
+        height:34px;
+    }
+    .saperator__line {
+        background-color: #00000026;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height:1px;
+    }
+    .retry__limit__input__number {
+        width:45px;
+    }
+    .retry__limit__input__text {
+        width:65px;
+    }
+    .sms__content__input__one {
+        width:70px;
+    }
+    .sms__content__input__two {
+        width:87px;
+    }
+    .sms__content__input__outer {
+        max-width: 755px;
+    }
+    .sms__content__input__three {
+        width:231px;
+    }
+}

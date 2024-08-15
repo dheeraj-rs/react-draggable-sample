@@ -1,0 +1,48 @@
+.tab-header li {
+  flex-basis: 25%;
+  text-align: center;
+  position: relative;
+}
+
+.tab-header li.active::after {
+  height: 2px;
+  width: 100%;
+  background-color: #645DF6;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+}
+
+.tab-header {
+  border-bottom: 1px solid #C3CEE9;
+}
+
+.flows-tab-label {
+  background-color: #F5F8FF;
+  border-radius: 3px;
+  border: 1px solid #B8CCFF;
+  height: 25px;
+  width: 36px;
+}
+
+.flows-tab-content li a {
+  white-space: break-spaces;
+}
+
+.button-component-condition:hover .dropdown-menu img,
+.button-component:hover .dropdown-menu img {
+  filter: none;
+}
+
+.tab-header li img {
+  filter: invert(17%) sepia(12%) saturate(6%) hue-rotate(335deg) brightness(98%) contrast(90%) !important;
+}
+
+.tab-header li.active img {
+  filter: invert(53%) sepia(72%) saturate(7025%) hue-rotate(232deg) brightness(101%) contrast(93%) !important;
+}
+
+.flows-tab-heas-label {
+  background-color: #DDE6FF;
+}/*# sourceMappingURL=component-properties.css.map */
